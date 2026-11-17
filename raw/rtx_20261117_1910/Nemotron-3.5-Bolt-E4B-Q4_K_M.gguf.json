@@ -1,1 +1,1 @@
-{"file":"Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf","repo":"nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB","gpu":"RTX3050","motor":"llama.cpp-gpu-rtx-remota (CUDA)","pp512":3394.90,"tg128":53.23}
+{"file":"Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf","repo":"nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB","gpu":"RTX3050","motor":"llama.cpp (CUDA RTX3050)","pp512":3394.90,"tg128":53.23}
