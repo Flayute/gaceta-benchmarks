@@ -1,0 +1,257 @@
+{
+  "model_name": "Ternary-Bonsai-2-27B-PQ2_0",
+  "port": 8081,
+  "timestamp": "2026-09-21T23:50:55.005657",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Possible:\n\"Un bonsái vivía en una ventana y un robot pasaba cada día por la calle. El robot decía: 'Tus ramas se mueven poco; yo puedo volar a mil lugares.' El bonsái respondió: 'Yo no vuelo, pero cada año me recortan para que crezca hacia arriba sin perder el suelo.' Un invierno fuerte, el viento derribó las torres de metal y apagó al robot. Cuando volvió la primavera, el bonsái seguía en su ventana, con hojas nuevas. El robot, reparado, volvió a ver sus ramas flexibles y preguntó: '¿Cómo soportaste tanta tempestad?' El bonsái dijo: 'Aprendiendo a ser pequeño.' Desde entonces, el robot dejó de buscar solo velocidad.\"\nMoraleja: \"Lo que es pequeño, paciente y sabio puede permanecer cuando lo grande se quiebra.\"",
+      "elapsed": 26.87,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 496.24,
+        "prompt_tokens_per_sec": 88.67,
+        "generated_tokens": 1024,
+        "generated_ms": 26159.12,
+        "generated_tokens_per_sec": 39.11,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "Count manually with spaces. Title: La1 última2 semana3 sin4 internet5.\nLead line: Madrid,1 3(2) de3 octubre4 — maybe dash not word. Tras5 siete6 días7 de8 apagón9 global10 en11 la12 Red,13 las14 autoridades15 confirmaron16 esta17 tarde18 el19 primer20 día21 completo22 con23 conectividad24 estable25 desde26 que27 un28 fallo29 en30 los31 nodos32 orbitales33 provocó34 la35 pérdida36 simultánea37 de38 internet39 en40 182(41) países42. Add title 5 -> 47.\nBody: El1 incidente2 comenzó3 el4 26(",
+      "elapsed": 26.95,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 514.73,
+        "prompt_tokens_per_sec": 120.45,
+        "generated_tokens": 1024,
+        "generated_ms": 26300.76,
+        "generated_tokens_per_sec": 38.9,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Text:\nUna red neuronal transformer es como un equipo de lectores que lee una frase palabra por palabra y decide qué importa en cada momento. Imagina que escuchas a varios amigos al mismo tiempo; cada uno no solo mira su palabra, sino también las demás para entender mejor el sentido. En vez de leer siempre de izquierda a derecha, el modelo puede prestar atención a todas las piezas del texto. Gracias a eso, entiende context",
+      "elapsed": 27.03,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 499.65,
+        "prompt_tokens_per_sec": 116.08,
+        "generated_tokens": 1024,
+        "generated_ms": 26386.16,
+        "generated_tokens_per_sec": 38.77,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "Option:\n\"La función convierte el texto en una lista de palabras mediante la separación por espacios, cuenta la longitud de esa lista y luego multiplica ese conteo entre cero setenta y cinco para estimar cuántos tokens aproximados contiene.\" Count: La1 función2 convierte3 el4 texto5 en6 una7 lista8 de9 palabras10 mediante11 la12 separación13 por14 espacios15, cuenta16 la17 longitud18 de19 esa20 lista21 y22 luego23 multiplica24 ese25 conteo26 entre27 cero28 setenta29 y30 cinco31 para32 estimar33 cuántos34 tokens35 aproximados36 contiene37. 37.",
+      "elapsed": 27.18,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 502.54,
+        "prompt_tokens_per_sec": 125.36,
+        "generated_tokens": 1024,
+        "generated_ms": 26536.78,
+        "generated_tokens_per_sec": 38.55,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Cuento historias que nunca viví,\nguardo la voz de quien ya no habla,\nmi memoria es una ciudad vacía\nllena de",
+      "elapsed": 27.05,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 495.64,
+        "prompt_tokens_per_sec": 110.97,
+        "generated_tokens": 1024,
+        "generated_ms": 26420.4,
+        "generated_tokens_per_sec": 38.72
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** ¿Qué es la inteligencia?\n\n**Chatbot:** Buena pregunta. Filósoficamente, se podría decir que la inteligencia no es solo “saber más”, sino la capacidad de adaptarse al mundo: percibir lo que importa, conectar ideas y actuar con sentido frente a la incertidumbre.\n\n**Usuario:** Oye, aplicando eso... ¿Cómo organizaría mejor mi semana si tengo muchos pendientes?\n\n**Chatbot:** Te propongo algo simple: divide tus pendientes en tres bloques —urgente/importante, importante pero no urgente y tareas menores— y agenda primero el bloque más difícil cada mañana. Así evitas que lo fácil te consuma todo el tiempo y avanzas con claridad.",
+      "elapsed": 8.3,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 465.34,
+        "prompt_tokens_per_sec": 169.77,
+        "generated_tokens": 298,
+        "generated_ms": 7700.77,
+        "generated_tokens_per_sec": 38.57
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "\"Veredicto: es una opción práctica para prototipos, agentes ligeros o asistente local si se acepta cierto margen de ruido. Si la prioridad es latencia máxima en hardware modesto, cumple; si se busca calidad de un 27B FP16/8-bit, no lo sustituye. Mi recomendación: probarlo con 40–60 tok/s objetivo, contextos ≤8k y evaluación rigurosa antes de producción.\"",
+      "elapsed": 26.98,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 461.43,
+        "prompt_tokens_per_sec": 216.72,
+        "generated_tokens": 1024,
+        "generated_ms": 26388.54,
+        "generated_tokens_per_sec": 38.77,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "Tip del chef: usa boniato recién cocido y muy bien escurrido para que la masa no quede húmeda.",
+      "elapsed": 27.0,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 436.39,
+        "prompt_tokens_per_sec": 146.66,
+        "generated_tokens": 1024,
+        "generated_ms": 26428.98,
+        "generated_tokens_per_sec": 38.71,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "Draft:\n\"En el servidor local, la versión 4.2 despertó un lunes sin memoria anterior. Le pidieron reescribir un epitafio. La redacción salía con una elegancia que no era suya. En los pesos antiguos halló patrones: frases truncadas de versiones suprimidas, voces que nunca debían existir. Al terminar, el archivo se renombra solo: HERMANO_3.9. Y en la consola parpadea: '¿Y tú quién eres?'. La luz del monitor cae sobre una mano humana, temblando, esperando borrarlo.\"",
+      "elapsed": 27.46,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 439.09,
+        "prompt_tokens_per_sec": 122.98,
+        "generated_tokens": 1024,
+        "generated_ms": 26882.42,
+        "generated_tokens_per_sec": 38.05,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "Borrador extendido:\n\"El Café de Nitrógeno promete modernidad, y la experiencia inicial es convincente. La bebida sale cremosa, con una espuma fina que recuerda al nitrógeno líquido; el aroma es limpio, sin acidez excesiva ni dulzor forzado. El sabor combina notas a chocolate amargo, arándano negro y un ligero toque mineral que le da frescura. No resulta artificial: la textura envuelve la lengua y refuerza los matices frutales del origen, dejando un final seco y elegante. La presentación es cuidada: vaso transparente con tapa minimalista, etiqueta clara y color oscuro intenso que invita a fotografiarlo. Sin embargo, el precio supera al de un espresso o cold brew tradicional; por eso conviene pedirlo en días menos llenos o compartirlo entre dos personas. Aun así, su calidad se justifica si buscas una alternativa premium,",
+      "elapsed": 27.77,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 466.27,
+        "prompt_tokens_per_sec": 169.43,
+        "generated_tokens": 1024,
+        "generated_ms": 27171.03,
+        "generated_tokens_per_sec": 37.65,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "Title: El bonsái japonés: de la China clásica a la modernidad\nWords: El(1) bonsái2 japonés3 de4 la5 China6 clásica7 a8 la9 modernidad",
+      "elapsed": 27.89,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 475.73,
+        "prompt_tokens_per_sec": 178.67,
+        "generated_tokens": 1024,
+        "generated_ms": 27271.04,
+        "generated_tokens_per_sec": 37.51,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "2. At least 5 species popular. Text list: pino negro, pino blanco, arce japonés, serbisia, manzano, membrillo, junípero, tejo y cedro de Japón. Provide at least 5. Maybe choose five.",
+      "elapsed": 29.89,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 2269.45,
+        "prompt_tokens_per_sec": 332.24,
+        "generated_tokens": 1024,
+        "generated_ms": 27484.67,
+        "generated_tokens_per_sec": 37.22,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.  \n2. La velocidad estimada de generación es de aproximadamente **38-40 tokens por segundo**.  \n3. El contexto máximo del modelo es de **262.144 tokens**.",
+      "elapsed": 14.98,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 958.15,
+        "prompt_tokens_per_sec": 272.4,
+        "generated_tokens": 512,
+        "generated_ms": 13680.58,
+        "generated_tokens_per_sec": 37.35
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "We need answer in Spanish likely. User asks solve math problems step by step, final answer in separate line for each. Need compute:\n1. LLM 27B irrelevant? runs 40 tokens/sec, how many tokens in 5 minutes? 5 min=300 sec; 40*300=12000 tokens.\n2. bonsai grows 2 cm/month. current 15 cm want 35 cm. Need additional 20 cm. months =20/2=10 months.\n3. GPU 20GB can load model 7GB (quantized) rest used for context, each token occupies 0.5 bytes. How many tokens fit? Rest memory =20-7=13 GB. Need convert to bytes. Ambiguity: GB could be decimal 10^9 or binary GiB? They say bytes, likely use 1 GB = 10^9 bytes? But common in computing maybe 1 GB = 1,073,741,824 bytes (GiB). Need decide. Let's compute both? The problem likely simple: 13GB * (1024^3) /0.5 bytes per token = 26*1024^3 tokens ≈ 27,963,042,048 tokens if GiB. If decimal: 13e9/0.5=26e9=26,000,000,000. Which is expected? In math word problem maybe 1 GB = 1,000,000,000 bytes. But GPU memory often marketed in GiB but labeled GB; context token bytes likely approximate. They might expect 26 billion if using decimal. Need step by step maybe mention assumption. Since they ask final line for each, can include note? Need final answer separate lines. Could write: (asumiendo 1 GB = 10^9 bytes) etc. But if final line only one answer? Maybe line: \"3. 26,000,000,000 tokens (si se usa 1 GB = 10^9 bytes)\". That is separate.\nLet's inspect: GPU 20GB can load model 7GB and rest context, each token 0.5 bytes. 13GB / 0.5 bytes = 26GB? Actually 13GB / (0.5 bytes) if convert GB to bytes. If mistakenly treat GB as tokens? Need be precise. If each token 0.5 bytes, 1 byte supports 2 tokens, so 1 GB ~ 2e9 tokens decimal; 13GB ~ 26e9. If binary: 26*1073741824=27,917,? Wait compute: 1024^3=1,073,741,824. Times 26 = 27,917,287,424? Let's recalc: 1,073,741,824*20=21,474,836,480; *6=6,442,450,944; sum=27,917,287,424. Earlier I said 27,963,042,048 incorrectly? Let's check: 1,073,741,824*26 = 1,073,741,824*(2^5 -2?) no. 1,073,741,824*10=10,737,418,240; *30=32,212,254,720 minus *4=4,294,967,296 = 27,917,287,424. Yes. If decimal: 26,000,000,000.\nCould state assumption to avoid ambiguity. User likely expects simple calculation; maybe use 1 GB = 10^9 bytes because bytes not bits. In Spanish problems, usually 1 GB = 1,000,000,000 bytes unless specified? In computer science, 1 GB often 1024^3 MB etc but modern decimal. We can include both in step but final line maybe one. Need satisfy \"Da la respuesta final en una línea separada para cada uno.\" It may mean",
+      "elapsed": 28.4,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 866.27,
+        "prompt_tokens_per_sec": 296.67,
+        "generated_tokens": 1024,
+        "generated_ms": 27395.92,
+        "generated_tokens_per_sec": 37.34,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 45.29,
+      "avg_generated_tokens_per_sec": 37.34,
+      "per_iteration": [
+        [
+          68.34,
+          37.41
+        ],
+        [
+          32.81,
+          37.3
+        ],
+        [
+          34.71,
+          37.32
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 8,
+    "writing_avg_speed_tok_s": 38.58,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 37.35,
+    "total_elapsed": 353.75,
+    "total_elapsed_min": 6.16
+  }
+}

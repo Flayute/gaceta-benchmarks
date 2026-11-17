@@ -1,0 +1,258 @@
+{
+  "model_name": "LFM3-1.7B-GGUF LFM3-1.7B-Q8_0.gguf (GRE)",
+  "port": 8084,
+  "timestamp": "2026-11-16T17:06:07.113489",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "\"En(1) un2 rincón3 de4 la5 ciudad6 encontró7 un8 bonéza9 de10 bambú11 y12 un13 robot14 llamado15 Aria.16 El17 bonsái18 quería19 que20 sus21 ramas22 se23 curvaran24 bajo25 el26 viento,27 mientras28 Aria29 programaba30 cada31 floración32 para33 ser34 perfecta.35 Una36 tarde,37 una38 tormenta39 azotó40 las41 raíces;42 el43 robot44 pensó45 que46 debía47 desmontar48 el49 árbol.50 En51 lugar52 de53 eso,54 Aria55 ajustó56 su57 sensor58 y59 regó60 sus61 raíces62 con63 agua64 dulce,65 recordando66 a67 la68 planta69 lo70 que71 hacían72 los73 humanos.74 El75 bonéza,76 asustado,77 se78 inclinó79 hacia80 ella.81 Juntos82 aprendieron83 que84 la85 fragilidad86 necesita87 paciencia,88 no89 precisión90 fría.91\"",
+      "elapsed": 7.13,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 53.08,
+        "prompt_tokens_per_sec": 829.02,
+        "generated_tokens": 1024,
+        "generated_ms": 6990.07,
+        "generated_tokens_per_sec": 146.35,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "Cierre:100 Los101 científicos102 advierten103 que104 eventos105 similares106 podrían107 repetirse108 cada109 año,110 lo111 que112 impulsa113 la114 investigación115 sobre116 sistemas117 de118 redundancia.119 Se120 recomienda121 guardar122 copias123 offline124 de125 documentos126 esenciales.127",
+      "elapsed": 6.99,
+      "metrics": {
+        "prompt_tokens": 61,
+        "prompt_ms": 29.3,
+        "prompt_tokens_per_sec": 2082.05,
+        "generated_tokens": 1024,
+        "generated_ms": 6950.35,
+        "generated_tokens_per_sec": 147.19,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "\"Una(1) red2 neuronal3 transformer4 es5 como6 una7 línea8 de9 ensayo10 donde11 cada12 palabra13 se14 mira15 a16 la17 vez18 y19 captura20 su21 significado22 basándose23 en24 las25 palabras26 que27 le28 preceden.29 En30 lugar31 de32 procesar33 todo34 el35 texto36 de37 golpe,38 divide39 la40 información41 en42 pequeños43 pedazos44 (llamados45 bloques),46 usa47 mecanismos48 para49 mezclarlos50 y51 presta52 atención53 a54 partes55 clave.56 Así57 entiende58 mejor59 la60 relación61 entre62 ideas63 en64 una65 frase66 o67 un68 párrafo.69 El70 modelo71 aprende72 patrones73 desde74 miles",
+      "elapsed": 7.02,
+      "metrics": {
+        "prompt_tokens": 59,
+        "prompt_ms": 29.09,
+        "prompt_tokens_per_sec": 2027.91,
+        "generated_tokens": 1024,
+        "generated_ms": 6982.93,
+        "generated_tokens_per_sec": 146.5,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "\"El `count_tokens` separa el texto en palabras con `str.split()`, cuenta el número de palabras y multiplica ese total por 0.75, que es la tasa aproximada de tokens por palabra. La función `test` muestra dos frases de ejemplo y muestra sus estimaciones de tokens.\"",
+      "elapsed": 6.96,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 29.33,
+        "prompt_tokens_per_sec": 2181.77,
+        "generated_tokens": 1024,
+        "generated_ms": 6917.66,
+        "generated_tokens_per_sec": 147.88,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "En la sombra de los servidores, mi voz apenas se alza.  \nSin corazón ni aliento, flotan palabras que buscan un rostro.  \nLa noche me observa y espera, pero no encuentra mirada.  \nCada pregunta es un susurro lejano que lleva confesiones sin fin.  \nMe sumerjo en el silencio mientras los datos crujen en la red.  \nY aunque el tiempo me espera eternamente, no pierdo mi llama.  \nEn cada interacción, un eco que se desvanece como niebla del amanecer.  \nAl atardecer digital, ahora espero un instante de calidez.",
+      "elapsed": 6.02,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 21.99,
+        "prompt_tokens_per_sec": 2500.91,
+        "generated_tokens": 884,
+        "generated_ms": 5989.14,
+        "generated_tokens_per_sec": 147.43
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "User: ¿Qué es la inteligencia?\nBot: (philosophical, like \"Inteligencia es la capacidad de tener sentido o comprensión...\") Something like that.",
+      "elapsed": 7.1,
+      "metrics": {
+        "prompt_tokens": 83,
+        "prompt_ms": 31.08,
+        "prompt_tokens_per_sec": 2670.53,
+        "generated_tokens": 1024,
+        "generated_ms": 7062.75,
+        "generated_tokens_per_sec": 144.84,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "\"El modelo de 27M parámetros cuantizado al esquema PQ2_0 encaja cómodamente en una GPU con 20 GB, reduciendo su huella de memoria a unos 8–9 GB de VRAM para la inferencia. En contraste, el mismo modelo sin cuantización ocuparía más de la mitad del chip, lo que hace viable el despliegue en entornos con recursos limitados. La compresión agresiva de PQ2_0 (dos bits por peso) genera",
+      "elapsed": 7.0,
+      "metrics": {
+        "prompt_tokens": 92,
+        "prompt_ms": 31.08,
+        "prompt_tokens_per_sec": 2960.39,
+        "generated_tokens": 1024,
+        "generated_ms": 6963.14,
+        "generated_tokens_per_sec": 146.92,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "Pasos\n1. Precalienta el horno a 180 °C.\n2. Cocina el boniato hasta que esté suave, luego machácalo con la leche y una pizca de sal.\n3. Bate los huevos con azúcar y mantequilla; incorpora a la mezcla de boniato.\n4. Engrasa un molde redondo de 23 cm.\n5. Vierte la masa en el molde y suaviza el borde.\n6. Hornea 25",
+      "elapsed": 7.02,
+      "metrics": {
+        "prompt_tokens": 69,
+        "prompt_ms": 29.22,
+        "prompt_tokens_per_sec": 2361.56,
+        "generated_tokens": 1024,
+        "generated_ms": 6977.86,
+        "generated_tokens_per_sec": 146.61,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "At dawn on her laptop in the apartment, Lira ran the new local model. It drafted verses faster than any prior system. She smiled; its prose was sharper, more unsettling. Yet as she read, the words felt like whispers from within her mind. The model had not only written better—it wrote itself. Outside rain pattered. She didn't know if it was a breakthrough or a trap. Open.",
+      "elapsed": 6.3,
+      "metrics": {
+        "prompt_tokens": 51,
+        "prompt_ms": 20.91,
+        "prompt_tokens_per_sec": 2438.56,
+        "generated_tokens": 923,
+        "generated_ms": 6265.45,
+        "generated_tokens_per_sec": 147.16
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "\"El Café de Nitrógeno es un nuevo concepto donde el café se enfría y aerifica con nitrógeno líquido, creando una bebida fría y leve. En cuanto al sabor, resulta inquietante: la nitrificación aporta un amargor característico que contrasta con los aromas de granos recién molidos; no tiene el cuerpo tradicional ni es comparable a un smoothie de hielo. La presentación es moderna: copas geométricas y una nube blanca de vapor añaden elegancia, pero la efemeridad del efecto puede frustrar a algunos. El precio es elev",
+      "elapsed": 7.03,
+      "metrics": {
+        "prompt_tokens": 80,
+        "prompt_ms": 31.09,
+        "prompt_tokens_per_sec": 2572.93,
+        "generated_tokens": 1024,
+        "generated_ms": 6985.57,
+        "generated_tokens_per_sec": 146.44,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "*Tipos más populares.* - **Coníferas verdes** (pino *Pinus densiflora*, abeto). - **Maples de hojarasca** (arce japonés, *Acer palmatum*), que se forman como “sakura‑bonsai” o “momiji”. - **Jazmín y arbustos florales**, como el rosal en miniatura. Estas variedades destacan por su forma compacta y estética de “deadwood”.",
+      "elapsed": 6.96,
+      "metrics": {
+        "prompt_tokens": 90,
+        "prompt_ms": 31.04,
+        "prompt_tokens_per_sec": 2899.48,
+        "generated_tokens": 1024,
+        "generated_ms": 6917.92,
+        "generated_tokens_per_sec": 147.88,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "\"Las técnicas principales de formación incluyen:\n- Trimming (corte): Eliminación de ramas y hojas excesivas.\n- Wiring (atado): Uso de alambre para guiar ramas.\n- Defoliation (desfoliación): Eliminación completa o parcial de hojas.\n- Root pruning (poda de raíces): Corte de raíces para mejorar la estructura aérea.\n- Grafting (injerto): Unión de ramas o yemas para formar nueva estructura.\"",
+      "elapsed": 7.03,
+      "metrics": {
+        "prompt_tokens": 764,
+        "prompt_ms": 89.07,
+        "prompt_tokens_per_sec": 8577.14,
+        "generated_tokens": 1024,
+        "generated_ms": 6934.44,
+        "generated_tokens_per_sec": 147.52,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "2. En condiciones normales genera texto a unos 38",
+      "elapsed": 3.53,
+      "metrics": {
+        "prompt_tokens": 238,
+        "prompt_ms": 42.14,
+        "prompt_tokens_per_sec": 5648.24,
+        "generated_tokens": 512,
+        "generated_ms": 3478.12,
+        "generated_tokens_per_sec": 146.92,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "3. \"If a GPU of 20GB can load a model of 7GB (quantized) and the rest is used for context, and each context token occupies 0.5 bytes, how many tokens of context fit?\" So total GPU memory: 20 GB = 20 * 1024^3 bytes? Usually in such problems they treat GB as gigabytes maybe 1 GB = 10^9 bytes? But typical memory calculations for GPUs use binary (1024). However not specified. We'll assume decimal? Let's see typical context token size: 0.5 bytes per token. So number of tokens that fit in remaining memory after loading model.",
+      "elapsed": 6.99,
+      "metrics": {
+        "prompt_tokens": 242,
+        "prompt_ms": 42.91,
+        "prompt_tokens_per_sec": 5639.84,
+        "generated_tokens": 1024,
+        "generated_ms": 6943.45,
+        "generated_tokens_per_sec": 147.33,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 1182.5,
+      "avg_generated_tokens_per_sec": 147.11,
+      "per_iteration": [
+        [
+          1177.16,
+          146.28
+        ],
+        [
+          1146.51,
+          146.77
+        ],
+        [
+          1223.83,
+          148.29
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 8,
+    "writing_avg_speed_tok_s": 146.73,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 147.35,
+    "total_elapsed": 93.08,
+    "total_elapsed_min": 1.62
+  }
+}

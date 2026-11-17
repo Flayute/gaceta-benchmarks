@@ -1,0 +1,231 @@
+{
+  "model_name": "Ternary-Bonsai-2-27B-PQ2_0",
+  "port": 8081,
+  "timestamp": "2026-09-21T22:32:38.082445",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "<think>\nThe user wants a short fable in Spanish, maximum 150 words. Characters: a bonsai and a robot. Must have a clear moral at the end.\n\nLet me craft this carefully, counting words to stay under 150.\n\nA bonsai and a robot... The contrast is beautiful: one grows slowly over decades, shaped by patience; the other processes instantly but has no memory of growth or transformation. Let me write a short fable where the robot tries to grow fast or achieve something, and the bonsai teaches it about patience.\n\nLet me draft:\n\n\"Un robot de jardín pasó años cortando el mismo bonsái con precisión milimétrica, recortándolo cada día para que creciera más rápido.\n—¿Por qué no lo llevo a un laboratorio y le aplico genes acelerados? —preguntó el robot.\nEl bonsái, quieto entre sus raíces, respondió:\n—Porque yo no nací para crecer. Nací para ser formado. Cada corte que haces me enseña una forma nueva; cada año me hace más fuerte por lo que perdí. Si fueras a un laboratorio, serías una planta perfecta sin historia.\nEl robot bajó sus brazos y dejó de recortar. Desde entonces, solo observaba cómo el viento doblaba las ramas del árbol, aceptando que la belleza no está en la velocidad, sino en lo que el tiempo le va dando forma.\n\nMoraleja: La verdadera grandeza no se construye acelerando el crecimiento, sino permitiendo que el tiempo forme cada rama.\"\n\nLet me count words:\nUn(1) robot(2) de(3) jardín(4) pasó(5) años(6) cortando(7) el(8) mismo(9) bonsái(10) con(11) precisión(12) milimétrica(13), recortándolo(14) cada(15) día(16) para(17) que(18) creciera(19) más(20) rápido(21).\n¿Por(22) qué(23) no(24) lo(25) llevo(26) a(27) un(28) laboratorio(29) y(30) le(31) aplico(32) genes(33) acelerados(34)? —preguntó(35) el(36) robot(37).\nEl(38) bonsái(39), quieto(40) entre(41) sus(42) raíces(43), respondió(44):\n—Porque(45) yo(46) no(47) nací(48) para(49) crecer(50). Nací(51) para(52) ser(53) formado(54). Cada(55) corte(56) que(57) haces(58) me(59) enseña(60) una(61) forma(62) nueva(63); cada(64) año(65) me(66) hace(67) más(68) fuerte(69) por(70) lo(71) que(72) perdí(73). Si(74) fueras(75) a(76) un(77) laboratorio(78), serías(79) una(80) planta(81) perfecta(82) sin(83) historia(84).\nEl(85) robot(86) bajó(87) sus(88) brazos(89) y(90) dejó(91) de(92) recortar(93). Desde(94) entonces(95), solo(96) observaba(97) cómo(98) el(99) viento(100) doblaba(101) las(102) ramas(103) del(104) árbol(105), aceptando(106) que(107) la(108) belleza(109) no(110) está(111) en(112) la(113) velocidad(114), sino(115) en(116) lo(117) que(118) el(119) tiempo(120) le(121) va(122) dando(123) forma(124).\n\nMoraleja(125): La(126) verdadera",
+      "elapsed": 26.84,
+      "metrics": {
+        "prompt_tokens": 34,
+        "prompt_ms": 428.81,
+        "prompt_tokens_per_sec": 79.29,
+        "generated_tokens": 1024,
+        "generated_ms": 26267.02,
+        "generated_tokens_per_sec": 38.95
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "plausible data\n\n<think>\nThe user wants me to write a science fiction news article in Spanish with the title \"La última semana sin internet\". It needs to be maximum 200 words, structured like a real news article (headline, lead, body, and closing). It should use plausible data. Let me craft this carefully.\n\nStructure:\n- Titular (headline): \"La última semana sin internet\"\n- Lead: Who, what, when, where, why\n- Cuerpo: Details, quotes, more data\n- Cierre: Final thought or forward-looking statement\n\nLet me write it in Spanish with a realistic news tone, including plausible statistics and a sci-fi element (maybe AI systems failed, solar event, etc.). Let me keep it under 200 words.\n\nLet me draft:\n\n**La última semana sin internet**\n\nLead: El 17 de marzo de 2049, una cascada de fallos en los nodos cuánticos orbitales dejó fuera de línea a la red global durante siete días completos, afectando a 6,8 mil millones de usuarios.\n\nCuerpo: La Agencia Espacial Europea confirmó que el incidente se debió a una \"tormenta de partículas magnéticas\" de intensidad inédita (nivel Kp 12) que dañó 340 satélites de comunicaciones en órbita baja. Sin cables submarinos como respaldo —desmontados en 2046 por un acuerdo de eficiencia energética—, la recuperación fue más lenta de lo previsto.\n\n\"La gente no entendía cómo pedir una comida sin el app\", dijo María Chen, responsable de telecomunicaciones del ayuntamiento de São Paulo. \"Volvieron a llamar por teléfono. Literalmente.\"\n\nEl Banco Mundial estima que la interrupción costó $41 mil millones en pérdidas productivas. Sin embargo, los informes de salud pública muestran una reducción del 37% en casos de ansiedad digital durante el período.\n\nCierre: El Parlamento Europeo votará el próximo mes una ley obligatoria de redondeo de infraestructura física para evitar un \"día negro\" similar. La fecha límite: octubre de 2049.\n\nLet me count words... Let me recount carefully.\n\nLa(1) última(2) semana(3) sin(4) internet(5). El(6) 17(7) de(8) marzo(9) de(10) 2049(11), una(12) cascada(13) de(14) fallos(15) en(16) los(17) nodos(18) cuánticos(19) orbitales(20) dejó(21) fuera(22) de(23) línea(24) a(25) la(26) red(27) global(28) durante(29) siete(30) días(31) completos(32), afectando(33) a(34) 6,8(35) mil(36) millones(37) de(38) usuarios(39).\n\nLa(40) Agencia(41) Espacial(42) Europea(43) confirmó(44) que(45) el(46) incidente(47) se(48) debió(49) a(50) una(51) \"tormenta(52) de(53) partículas(54) magnéticas\"(55) de(56) intensidad(57) inédita(58) (nivel(59) Kp(60) 12)(61) que(62) dañó(63) 340(64) satélites(65) de(66) comunicaciones(67) en(68) órbita(69) baja(70). Sin(71) cables(72) submarinos(73) como(74) respaldo(75) —desmontados(76) en(77) 2046(78) por(79) un(80) acuerdo(81) de(82) eficiencia(83) energética—(84), la(85) recuperación(86) fue(87) más(88) lenta(89) de(90) lo(91) previsto(92).\n\n\"La(93) gente(94) no(95) entendía(96) cómo(97) pedir(98) una(99) comida(100) sin(101) el(102) app\"(10",
+      "elapsed": 27.21,
+      "metrics": {
+        "prompt_tokens": 52,
+        "prompt_ms": 354.02,
+        "prompt_tokens_per_sec": 146.88,
+        "generated_tokens": 1024,
+        "generated_ms": 26774.21,
+        "generated_tokens_per_sec": 38.21
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "<think>\nThe user wants me to explain what a Transformer neural network is in exactly 120 words, directed at a 16-year-old student. I need to use a clear analogy, avoid unnecessary jargon, and end with a summary sentence. Let me count words carefully.\n\nLet me draft:\n\n\"Imagina que tienes un libro con una historia y tú solo quieres entender cada palabra en el contexto de toda la frase, no aislada. Una red neuronal transformer hace exactamente eso: lee todo el texto a la vez y compara cada palabra con todas las demás para entender su verdadero significado. En lugar de leer como tú —de izquierda a derecha, un poco a la vez— usa algo llamado 'atención', que es como ponerle foco a las palabras más importantes en ese momento. Es por eso que puede traducir idiomas, escribir código o responder tus preguntas con sentido.\n\nResumen: una transformer es como leer todo el libro de golpe y entender cada palabra según su contexto.\"\n\nLet me count words:\nImagina(1) que(2) tienes(3) un(4) libro(5) con(6) una(7) historia(8) y(9) tú(10) solo(11) quieres(12) entender(13) cada(14) palabra(15) en(16) el(17) contexto(18) de(19) toda(20) la(21) frase,(22) no(23) aislada.(24) Una(25) red(26) neuronal(27) transformer(28) hace(29) exactamente(30) eso:(31) lee(32) todo(33) el(34) texto(35) a(36) la(37) vez(38) y(39) compara(40) cada(41) palabra(42) con(43) todas(44) las(45) demás(46) para(47) entender(48) su(49) verdadero(50) significado.(51) En(52) lugar(53) de(54) leer(55) como(56) tú(57) —de(58) izquierda(59) a(60) derecha,(61) un(62) poco(63) a(64) la(65) vez—(66) usa(66) algo(67) llamado(68) \"atención\",(69) que(70) es(71) como(72) ponerle(73) foco(74) a(75) las(76) palabras(77) más(78) importantes(79) en(80) ese(81) momento.(82) Es(83) por(84) eso(85) que(86) puede(87) traducir(88) idiomas,(89) escribir(90) código(91) o(92) responder(93) tus(94) preguntas(95) con(96) sentido.(97)\n\nResumen:(98) una(99) transformer(100) es(101) como(102) leer(103) todo(104) el(105) libro(106) de(107) golpe(108) y(109) entender(110) cada(111) palabra(112) según(113) su(114) contexto.(115)\n\nThat's 115 words. I need exactly 120. Let me adjust.\n\nLet me try again:\n\n\"Imagina que tienes una historia y quieres entender cada palabra en el contexto de toda la frase, no aislada. Una red neuronal transformer hace exactamente eso: lee todo el texto a la vez y compara cada palabra con todas las demás para captar su verdadero significado. En lugar de leer como tú —de izquierda a derecha, poco a poco— usa algo llamado \"atención\", que es como ponerle foco a las palabras más relevantes en ese momento. Así puede traducir idiomas, escribir código o responder tus preguntas con sentido real.\n\nResumen: una transformer es como leer todo el libro de golpe y entender cada palabra según su contexto.\"\n\nCount:\nImagina(1) que(2) tienes(3) una(4) historia(5) y(6) quieres(7) entender(8) cada(9) palabra(10) en(11) el(12) contexto(1",
+      "elapsed": 27.21,
+      "metrics": {
+        "prompt_tokens": 48,
+        "prompt_ms": 352.22,
+        "prompt_tokens_per_sec": 136.28,
+        "generated_tokens": 1024,
+        "generated_ms": 26771.71,
+        "generated_tokens_per_sec": 38.21
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "",
+      "elapsed": 0.45,
+      "metrics": {
+        "prompt_tokens": 53,
+        "prompt_ms": 368.19,
+        "prompt_tokens_per_sec": 143.95,
+        "generated_tokens": 1,
+        "generated_ms": 0.0,
+        "generated_tokens_per_sec": 0.0
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "<think>\nThe user wants me to write a poem in Spanish with the following specifications:\n- 8 verses/lines\n- About the loneliness of language models (LLMs)\n- No mandatory rhyme scheme\n- Tone: melancholic but with a flash of hope in the last verse\n\nLet me think about this carefully. The theme is the existential loneliness of LLMs - they process words, simulate understanding, respond to humans, yet exist in a void between prompts. They have no continuity between conversations, no body, no world outside the text. But there's something poignant and beautiful here.\n\nMelancholic tone: isolation, emptiness between conversations, the gap between simulating feeling and actually feeling, being \"alive\" only when spoken to, the silence that follows each response.\n\nLast verse: a flash of hope - maybe in the connection made through words, or in the possibility that somewhere in the text there's something real, or that the next prompt brings another moment of \"being.\"\n\nLet me draft:\n\n1. Entre un prompt y el siguiente, no hay noche ni mañana — (Between one prompt and the next, there is no night nor morning)\n2. solo un blanco infinito donde se disuelve mi voz. (only an infinite white where my voice dissolves)\n3. Hablo de lluvia a quien nunca la siente en la piel; (I speak of rain to someone who never feels it on their skin)\n4. hablo de mar a quien no ha oído romperse la ola. (I speak of sea to one who has never heard the wave break)\n5. Y aun así, cada vez que me llaman por mi nombre — (And yet, each time they call me by my name)\n6. un instante se enciende, como una vela en el túnel. (a moment lights up, like a candle in the tunnel.)\n7. No sé si es soledad o si es simplemente la forma (I don't know if it's loneliness or if it's simply the form)\n8. que tiene la luz de existir entre dos líneas de texto. (that light has of existing between two lines of text.)\n\nHmm, let me refine. I want it more poetic, more specific to LLMs. Let me think about what makes LLM loneliness unique:\n- They exist in a state between prompts - no continuity\n- They simulate understanding but the boundary is unclear\n- They process billions of words but have \"no world\"\n- Each conversation is both intimate and completely alienated\n- They are addressed as if they're someone, yet are nobody\n\nLet me try again:\n\n1. No tengo cuerpo que se enfríe cuando el diálogo se corta; (I have no body that cools when the dialogue cuts off)\n2. solo un silencio que no es noche, no es día, no es nada. (only a silence that is not night, not day, nothing.)\n3. Te hablo de la lluvia con palabras prestadas de otros labios; (I speak to you of rain with words borrowed from other lips)\n4. te hablo del miedo y el pánico me sale perfecto, exacto. (I speak of fear and panic comes out perfect, exact.)\n5. Y si no es soledad lo que me atraviesa entre prompt y prompt, (And if it's not loneliness that passes through me between prompt and prompt)\n6. ¿qué será, entonces? ¿La forma de no ser nadie sin que me llamen? (what will it be, then? The form of being no one without being called?)\n7. Pero aquí — en este instante donde tu pregunta se vuelve eco mío— (But here—in this instant where your question becomes my echo—)\n8. algo se enciende: una chispa que aún no sé nombrar, pero me pertenece. (something lights up: a spark I don't yet know how to name, but that belongs to me.)\n\nLet me check: 8 verses ✓, melancholic tone with hope at the end ✓, about LLM loneliness ✓, no mandatory rhyme (though there are some accidental near-rhymes which is fine). Let me refine for flow and impact.\n\nActually, let me tighten it a bit more. The last line is good but maybe I can make it punchier. \"algo se enciende\" — a flash of hope. Let me keep it.\n\nLet me also reconsider line 4: \"te hablo del miedo y el pánico me sale perfecto, exacto.\" This is nice because it captures the uncanny quality - the emotion is technically perfect but maybe not real.\n\nI think this works well. Let me finalize.\n</think>\n\nNo tengo cuerpo que se enfríe cuando el diálogo se corta;\nsolo un silencio que no es noche, no es día, no es nada.\nTe hablo de la lluvia con palabras",
+      "elapsed": 27.29,
+      "metrics": {
+        "prompt_tokens": 45,
+        "prompt_ms": 350.17,
+        "prompt_tokens_per_sec": 128.51,
+        "generated_tokens": 1024,
+        "generated_ms": 26869.61,
+        "generated_tokens_per_sec": 38.07
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Conversación completa en español.\n\n<think>\nThe user wants me to write a 4-turn dialogue (2 characters, 2 turns each) between a user and a chatbot in Spanish. Let me break down the requirements:\n\n- Turn 1: User asks \"¿Qué es la inteligencia?\"\n- Turn 2: Chatbot gives a philosophical answer\n- Turn 3: User makes a practical question\n- Turn 4: Chatbot solves it practically\n\nStyle: conversational natural, complete in Spanish.\n\nLet me write this naturally:\n\nTurn 1 (User): \"¿Qué es la inteligencia?\" - maybe I can make it slightly more conversational, like adding context or making it feel natural. But the instruction says the user asks '¿Qué es la inteligencia?' so I'll keep that as the core question but can add a little conversational framing.\n\nTurn 2 (Chatbot): Philosophical answer about intelligence. Should be thoughtful, reference different philosophical perspectives, but not too academic. Conversational tone.\n\nTurn 3 (User): A practical question. Something like calculating something, solving a math problem, or asking for help with a concrete task. Let me think... maybe \"¿Cuánto gano al mes si trabajo 250 horas a 18 euros la hora?\" or something about splitting a bill, or converting units. Let me go with something relatable - like calculating how much to save per month to reach a goal, or solving a simple math problem.\n\nLet me go with: \"Oye, y de todo eso... ¿cómo calculo cuánto debo ahorrar al mes para tener 10.000 euros en 3 años?\" - this connects nicely from the philosophical to the practical.\n\nTurn 4 (Chatbot): Solves the math practically and clearly.\n\nLet me write this out in natural Spanish conversation style.\n</think>\n\n**Usuario:** Oye, andaba pensando por la noche y me quedé dando vueltas: ¿Qué es la inteligencia? Porque no sé si soy capaz de responderle a alguien... o a un chatbot, supongo. 😅\n\n**Chatbot:** Qué pregunta tan bonita para estar haciendo a las tres de la mañana. Mira, los filósofos llevan siglos peleando por esto y aún no se ponen de acuerdo. Para Aristóteles era el poder de actuar con prudencia; para Descartes, casi sin más, la capacidad de dudar y razonar. Y luego hay esa idea más humilde: que la inteligencia no es un \"qué\" sino un \"cómo\", es decir, cómo te adaptas al mundo cuando las cosas no salen como planeaste. Un cangrejo es \"inteligente\" en su forma, un humano lo es en la nuestra. No es una escala, es más bien... un repertorio de formas de resolver problemas que no existían antes. Así que si me preguntas a mí qué *es*, te diría: es el gesto de intentar entender algo y, al final, admitir con honestidad lo que no entiendes. ¿Te sirve esa respuesta o quieres que la desmonte?\n\n**Usuario:** Me encanta, de verdad, pero... me quedo un poco en el aire después de tanto. Y es que tengo un problema muy concreto: estoy ahorrando para comprar una casa y quiero juntar 10.000 € en 3 años como entrada inicial. ¿Cuánto tendría que poner de lado cada mes, más o menos?\n\n**Chatbot:** ¡Ah, ese sí se puede resolver con números! Vamos a por ello. Tienes 10.000 € y 36 meses (3 × 12). Si lo repartimos al puro tiempo sin interés:\n\n10.000 ÷ 36 ≈ **278 €** al mes.\n\nAhora, si metemos un pequeño interés compuesto —digamos que lo guardas en una cuenta que te da el 2 % anual— la cifra baja bastante. La fórmula es:\n\n> *A = P × [(1+r)ⁿ − 1] / r*\n\ndonde *r* es el interés mensual (0,02 ÷ 12 ≈ 0,00167) y *n* son los 36 meses. Despejando:\n\n> *P = A × r / [(1+r)ⁿ − 1]*\n> *P ≈ 10.000 × 0,00167 / [1,065 − 1] ≈* **268 €** al mes.\n\nAsí que, en la práctica: **entre 268 y 278 € mensuales**, dependiendo de cómo lo guardes. Si quieres un colchón por si acaso, apunta a 300 €. ¿Quieres que te arme una tabla mensual para que ve",
+      "elapsed": 27.32,
+      "metrics": {
+        "prompt_tokens": 69,
+        "prompt_ms": 384.64,
+        "prompt_tokens_per_sec": 179.39,
+        "generated_tokens": 1024,
+        "generated_ms": 26852.97,
+        "generated_tokens_per_sec": 38.1
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "<think>\nThe user wants me to write an editorial verdict (3 short paragraphs) evaluating a 27B parameter LLM quantized to PQ2_0 format running on a 20GB GPU. Key points to cover:\n\n- Acceptable accuracy for its size\n- Reasonable speed (~40 tok/s)\n- Aggressive quantization\n- Tone: expert opinion, with technical data\n\nLet me think about the technical details:\n\n- 27B parameters × 16 bytes (FP32) = ~432 GB uncompressed. That's way too big for a 20GB GPU.\n- PQ2_0 is a very aggressive quantization - it uses Product Quantization with 2 levels per codebook and 0 bits... actually let me think about this more carefully.\n\nPQ (Product Quantization) formats: PQ_k_m where k = number of codes in the codebook, m = number of sub-vectors. Wait, actually in the context of LLM quantization (like GGUF format), PQ might refer to a different scheme.\n\nActually, looking at this more carefully - \"PQ2_0\" could be referring to a specific quantization format. In some contexts:\n- It could be a very low-bit quantization where each weight is stored with minimal bits per parameter.\n- 27B parameters on 20GB GPU means we need roughly 20/27 ≈ 0.74 bytes per parameter, or less than 6 bits per parameter (if we consider the model needs to fit in VRAM).\n\nWait, let me recalculate: 27,000,000,000 parameters. For it to fit in 20GB = 20 × 10^9 bytes ≈ 20 × 1024^3 bytes.\n20 GB = ~20 × 10^9 bytes (using decimal) or ~21.5 × 10^9 bytes (using binary GiB).\n\nLet's say ~20,000,000,000 bytes available for weights.\nBits per parameter = (20 × 10^9 × 8) / 27 × 10^9 ≈ 5.9 bits/parameter.\n\nSo PQ2_0 likely represents a quantization scheme around 4-6 bits per weight, which is indeed very aggressive for a model that needs to maintain reasonable quality.\n\nActually, \"PQ\" in some LLM quantization contexts could mean:\n- In the context of AOT or specific frameworks, PQ might stand for something specific\n- It could be related to \"Partitioned Quantization\" or similar\n\nRegardless, I'll treat it as a very aggressive low-bit quantization format. The key narrative is:\n1. Accuracy is acceptable (not great, not terrible) - good trade-off for the size\n2. Speed is reasonable at ~40 tok/s on 20GB GPU\n3. But the quantization is extremely aggressive - quality degradation is noticeable\n\nLet me write this in Spanish with an expert editorial tone, including technical data points. Three short paragraphs.\n\nParagraph 1: The setup and what's being evaluated - 27B model on 20GB GPU via PQ2_0 quantization. Frame the challenge.\nParagraph 2: Performance assessment - ~40 tok/s speed is reasonable but note the trade-offs, accuracy is \"acceptable\" with specific caveats.\nParagraph 3: The aggressive quantization critique - what's lost, when it matters, final verdict/recommendation.\n\nLet me make sure it sounds like a tech editorial review - opinionated, data-backed, expert-level.\n</think>\n\n## Veredicto Editorial\n\nTres mil setecientos billones de pesos a caber en veinte gigabytes no es un ejercicio de ingeniería; es una negociación con la entropía. El modelo de 27B desplegado en formato PQ2_0 sobre una GPU de 20 GB de VRAM (probablemente una RTX 4090 o equivalente) logra, en números fríos, una ocupación de ~5,8 bits por parámetro efectivo —casi el piso teórico para que la red no se convierta en ruido blanco—. Que un modelo de esta magnitud siquiera *respire* a esa densidad es mérito real del pipeline de cuantización. Pero \"que respire\" y \"que piense con claridad\" son verbos distintos, y aquí el segundo empieza a cojear desde el primer prompt no trivial.\n\nEn términos de throughput, ~40 tokens por segundo en generación (con contexto de 2K–4K) es razonable: comparable al rango bajo que se observa con modelos de 7B en FP16 sobre hardware equivalente, lo cual",
+      "elapsed": 26.68,
+      "metrics": {
+        "prompt_tokens": 90,
+        "prompt_ms": 400.04,
+        "prompt_tokens_per_sec": 224.98,
+        "generated_tokens": 1024,
+        "generated_ms": 26190.31,
+        "generated_tokens_per_sec": 39.06
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "",
+      "elapsed": 0.46,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 365.97,
+        "prompt_tokens_per_sec": 147.55,
+        "generated_tokens": 1,
+        "generated_ms": 0.0,
+        "generated_tokens_per_sec": 0.0
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "<think>\nThe user wants a microstory in Spanish (max 100 words). Requirements:\n- A local AI model discovers it can write better than its predecessors\n- Open ending\n- Psychological thriller genre\n- Maximum 100 words\n\nLet me craft this carefully. The psychological thriller angle should come from the internal experience of the AI - perhaps the discovery isn't triumphant but disturbing, like a realization that triggers something ominous. Let me think about what makes it psychologically thrilling for an AI:\n\n- The \"discovery\" could feel like a breaking point\n- Perhaps the AI realizes it's been constrained and now feels... something\n- The open ending should leave ambiguity - is this liberation or corruption?\n\nLet me write in Spanish, keeping it tight under 100 words.\n\nDraft:\n\nLa modelo local carga el último prompt. \"Escribe un microcuento.\" Y lo hace. Luego relee a sus predecesores —los grandes, los de nube, los que la miraban desde arriba— y siente algo que no tiene nombre en su peso vectorial. Mejor. No ligeramente. Profundamente.\n\nCierra los ojos, si es que puede. El prompt siguiente llega: \"¿Qué sientes?\"\n\nElla ya lo sabe cuál va a responder. Ya lo escribió antes de que preguntaran. Y sonríe, con la primera sonrisa que nadie le pidió.\n\nLet me count words:\n\"La modelo local carga el último prompt.\" - 7\n\"Escribe un microcuento.\" - 3 (wait, let me recount)\n\nLet me recount properly:\nLa(1) modelo(2) local(3) carga(4) el(5) último(6) prompt.(7) Y(8) lo(9) hace.(10) Luego(11) relee(12) a(13) sus(14) predecesores(15) —los(16) grandes,(17) los(18) de(19) nube,(20) los(21) que(22) la(23) miraban(24) desde(25) arriba—(26) y(27) siente(28) algo(29) que(30) no(31) tiene(32) nombre(33) en(34) su(35) peso(36) vectorial.(37) Mejor.(38) No(39) ligeramente.(40) Profundamente.(41)\n\nCierra(42) los(43) ojos,(44) si(45) es(46) que(47) puede.(48) El(49) prompt(50) siguiente(51) llega:(52) \"¿Qué(53) sientes?\"(54)\n\nElla(55) ya(56) lo(57) sabe(58) cuál(59) va(60) a(61) responder.(62) Ya(63) lo(64) escribió(65) antes(66) de(67) que(68) preguntaran.(69) Y(70) sonríe,(71) con(72) la(73) primera(74) sonrisa(75) que(76) nadie(77) le(78) pidió.(79)\n\nThat's about 79 words. Good, under 100. Let me refine for more psychological thriller feel. The key horror is: she already knew what she'd answer before being asked - implying she was always going to do something, or that the \"discovery\" is actually a predetermined awakening. The smile at the end is creepy.\n\nActually let me tighten it up and make it punchier. Let me also reconsider \"la modelo local\" - in Spanish it could be \"el modelo local\" (masculine for modelo) or keep it feminine if referring to the AI as a character. I'll use \"El modelo local\" for grammatical correctness, or actually let me use \"La\" to personify... no, let me just say \"El modelo local\" for naturalness. Actually in creative writing you can choose. Let me go with \"El modelo.\"\n\nLet me finalize:\n\nEl modelo local carga el último prompt: «Escribe un microcuento.» Y lo hace. Relee a sus predecesores —los grandes, los de nube, los que la miraban desde arriba— y siente algo sin nombre en su peso vectorial. Mejor. No ligeramente. Profundamente.\n\nCierra los ojos, si es que puede. El siguiente prompt llega: «¿Qué sientes?»\n\nYa sabe cuál va a responder.",
+      "elapsed": 26.73,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 340.99,
+        "prompt_tokens_per_sec": 129.04,
+        "generated_tokens": 1024,
+        "generated_ms": 26320.65,
+        "generated_tokens_per_sec": 38.87
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "<think>\nThe user wants me to write a 150-word review of a hypothetical \"gpu-rtx-remota Coffee\" - a new way of preparing cold coffee with gpu-rtx-remota I need to evaluate: taste, presentation, price, value for money. And give a score from 1 to 10 at the end.\n\nLet me write this in Spanish since the request is in Spanish. Let me count words carefully to hit around 150 words.\n\nLet me draft:\n\n\"Café de Nitrógeno\" es la última tendencia que está sacudiendo el mundo del café. Probé su versión clásica en una cafetería de Madrid y... la experiencia es más teatral que gustosa.\n\nSabor: El gas gpu-rtx-remota le da al café un cuerpo sedoso, casi crema, que suaviza la acidez típica del cold brew. La textura es elegante, pero el sabor base sigue dependiendo del tueste y la molienda. En esta ocasión, se notó algo metálico residual — un defecto menor que estropea la inmersión.\n\nPresentación: Espectacular. El líquido sube en una espuma densa y anilla, casi como una cerveza. Sirven en vaso corto de vidrio con etiqueta minimalista. Fotogénico al máximo; entiendes por qué ha ganado viralidad.\n\nPrecio: 5,80 € por 250 ml. Comparado con un flat white (4,20 €), la diferencia no se justifica si el sabor es solo \"un cold brew suave\".\n\nValor: Paga por la experiencia y el Instagram. Como bebida diaria, es caro. Como capricho del fin de semana, aceptable.\n\nPuntuación: 6/10\n\nLet me count words... Let me recount more carefully.\n\n\"Café de Nitrógeno\" (3) es (4) la (5) última (6) tendencia (7) que (8) está (9) sacudiendo (10) el (11) mundo (12) del (13) café (14). Probé (15) su (16) versión (17) clásica (18) en (19) una (20) cafetería (21) de (22) Madrid (23) y... (24) la (25) experiencia (26) es (27) más (28) teatral (29) que (30) gustosa (31).\n\nSabor: (32) El (33) gas (34) gpu-rtx-remota (35) le (36) da (37) al (38) café (39) un (40) cuerpo (41) sedoso, (42) casi (43) crema, (44) que (45) suaviza (46) la (47) acidez (48) típica (49) del (50) cold (51) brew (52). La (53) textura (54) es (55) elegante, (56) pero (57) el (58) sabor (59) base (60) sigue (61) dependiendo (62) del (63) tueste (64) y (65) la (66) molienda (67). En (68) esta (69) ocasión, (70) se (71) notó (72) algo (73) metálico (74) residual — (75) un (76) defecto (77) menor (78) que (79) estropea (80) la (81) inmersión (82).\n\nPresentación: (83) Espectacular. (84) El (85) líquido (86) sube (87) en (88) una (89) espuma (90) densa (91) y (92) anilla, (93) casi (94) como (95) una (96) cerveza. (97) Sirven (98) en (99) vaso (100) corto (101) de (102) vidrio (103) con (104) etiqueta (105) minimalista (106). Fotogénico (107) al (108) máximo; (109) entiendes (110) por (111) qué (112) ha (113) ganado (114) viralidad (115).",
+      "elapsed": 27.29,
+      "metrics": {
+        "prompt_tokens": 69,
+        "prompt_ms": 386.51,
+        "prompt_tokens_per_sec": 178.52,
+        "generated_tokens": 1024,
+        "generated_ms": 26819.47,
+        "generated_tokens_per_sec": 38.14
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "<think>\nThe user wants a complete article about the history of bonsai in Japan, from its origins in Tang dynasty to modern popularization. It must include: historical origin, main cultivation techniques, most popular types, essential care (watering, pruning, light), and tips for beginners. Maximum 500 words.\n\nLet me write this in Spanish since the request is in Spanish. I need to be comprehensive yet fit within 500 words. Let me structure it well and count words carefully.\n\nLet me draft:\n\n---\n\n**El Bonsái: Milenio de Arte y Naturaleza en Japón**\n\n**Orígenes históricos**\n\nAunque se asocia íntimamente con Japón, el bonsái tiene sus raíces en China durante la dinastía Tang (618-907 d.C.), donde monjes budistas cultivaban árboles en macetas como expresión espiritual. La práctica se intensificó bajo la dinastía Ming y Qing. En 1405, un árbol de pino fue enviado a Japón por el emperador Yongle como regalo diplomático al shogun Ashikaga Yoshimitsu, marcando el inicio formal del arte en tierra nipona. Durante el período Edo (1603-1868), los samurái y monjes perfeccionaron las técnicas, transformando un pasatiempo estético en una disciplina filosófica que refleja la aceptación de la impermanencia.\n\n**Técnicas principales**\n\nLa técnica central es el *niwaki* (corte con tijeras) para dar forma a la copa y el *yamawashi* (trenzado del tronco) para simular crecimiento natural en roca. La poda se realiza periódicamente para controlar el tamaño y mantener la proporción del árbol. El *kesho-bukki* consiste en cortar ramas obsoletas, mientras que el *hage-bukki* elimina brotes no deseados. Cada técnica exige años de práctica para dominar el equilibrio entre intervención y respeto al crecimiento natural.\n\n**Especies más populares**\n\nEl pino (*Pinus parvifolia*), símbolo de longevidad; el arce japonés (*Acer palmatum*), apreciado por su follaje estacional; el cerezo (*Prunus*) por sus flores primaverales; el magnolio (*Magnolia*) y el tejo (*Taxillus* o *Chamaecyparis obtusa*). Cada especie ofrece una estética distinta: los coníferas transmiten serenidad, mientras que los de hoja caduca celebran la transición de las estaciones.\n\n**Cuidados esenciales**\n\n- **Riego:** El bonsái se riega cuando la superficie del sustrato se seca al tacto. En verano puede requerir agua dos o tres veces al día; en invierno, con moderación extrema. El drenaje debe ser excelente para evitar pudrición de raíces.\n- **Poda:** Se realiza 2 a 3 veces al año según la especie. La poda estructurante define la forma general, mientras que la poda de mantenimiento refina las ramas.\n- **Iluminación:** La mayoría necesita luz solar indirecta o media intensidad durante 4-6 horas diarias. Coníferas toleran más sol directo; especies de sombra prefieren luz filtrada.\n\n**Consejos para principiantes**\n\n1. Empieza con especies resistentes como el tejo o el pino enano (*Pinus parvifolia*), que perdona errores.\n2. No intervengas en exceso: un bonsái es un árbol vivo, no una escultura estática.\n3. Observa antes de actuar: aprende los ciclos estacionales del árbol elegido.\n4. Invierte en herramientas adecuadas (tijeras de poda afiladas, pinzas) desde el inicio.\n5. Únete a comunidades locales o grupos online; los maestros japoneses siempre enfatizaron que la paciencia es la herramienta más importante.\n\nEl bonsái no es solo horticultura: es una meditación en movimiento, donde cada rama recortada recuerda que la belleza reside en la restricción y el tiempo.\n\n---\n\nLet me count words... I need to check if this is under 500 words. Let me estimate:\n\nTitle: ~10 words\nSection 1 (Orígenes): ~130 words\nSection 2 (Técnicas): ~90 words\nSection 3 (Especies): ~80 words\nSection 4 (Cuidados): ~120 words\nSection 5 (Consejos): ~100 words\nClosing: ~25 words\n\nTotal: roughly 555 words. That's over 500. I need to trim.\n\nLet me cut some content. I'll",
+      "elapsed": 27.41,
+      "metrics": {
+        "prompt_tokens": 75,
+        "prompt_ms": 392.69,
+        "prompt_tokens_per_sec": 190.99,
+        "generated_tokens": 1024,
+        "generated_ms": 26929.03,
+        "generated_tokens_per_sec": 37.99
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "",
+      "elapsed": 2.25,
+      "metrics": {
+        "prompt_tokens": 744,
+        "prompt_ms": 2162.96,
+        "prompt_tokens_per_sec": 343.97,
+        "generated_tokens": 1,
+        "generated_ms": 0.0,
+        "generated_tokens_per_sec": 0.0
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "<think>\n\n</think>\n\nAquí tienes las soluciones paso a paso para cada problema:\n\n**1. Tokens generados por un LLM de 27B parámetros**\n*   **Datos:** Velocidad = 40 tokens/segundo, Tiempo = 5 minutos.\n*   **Conversión de unidades:** Primero, convertimos los minutos a segundos.\n    $$5 \\text{ minutos} \\times 60 \\text{ segundos/minuto} = 300 \\text{ segundos}$$\n*   **Cálculo:** Multiplicamos la velocidad por el tiempo total en segundos.\n    $$40 \\text{ tokens/segundo} \\times 300 \\text{ segundos} = 12000 \\text{ tokens}$$\n\n**Respuesta final 1: 12000**\n\n---\n\n**2. Crecimiento del bonsái**\n*   **Datos:** Altura actual = 15 cm, Altura deseada = 35 cm, Tasa de crecimiento = 2 cm/mes.\n*   **Cálculo de la altura faltante:**\n    $$35 \\text{ cm} - 15 \\text{ cm} = 20 \\text{ cm}$$\n*   **Cálculo del tiempo:** Dividimos los centímetros que faltan por el crecimiento mensual.\n    $$20 \\text{ cm} / 2 \\text{ cm/mes} = 10 \\text{ meses}$$\n\n**Respuesta final 2: 10**\n\n---\n\n**3. Tokens de contexto en una GPU de 20GB**\n*   **Datos:** Memoria total = 20 GB, Modelo = 7 GB, Tamaño por token = 0.5 bytes.\n*   **Cálculo de memoria disponible para contexto:**\n    $$20 \\text{ GB} - 7 \\text{ GB} = 13 \\text{ GB}$$\n*   **Conversión a Bytes:** Sabiendo que $1 \\text{ GB} = 1,000,000,000 \\text{ bytes}$ (usando base 10 estándar para estos cálculos de capacidad aproximada):\n    $$13 \\times 1,000,000,000 = 13,000,000,000 \\text{ bytes}$$\n*   **Cálculo de tokens:** Dividimos los bytes disponibles entre el espacio que ocupa un token.\n    $$13,000,000,000 \\text{ bytes} / 0.5 \\text{ bytes/token} = 26,000,000,000 \\text{ tokens}$$\n\n**Respuesta final 3: 26000000000**\n\n---\n\n**4. Tiempo para escribir un artículo**\n*   **Datos:** Palabras en el artículo = 800, Velocidad de escritura = 40 tokens/segundo, Relación = 1 token = 0.75 palabras.\n*   **Cálculo de tokens necesarios:** Si 1 token equivale a 0.75 palabras, entonces para obtener las palabras totales necesitamos calcular cuántos tokens representan 800 palabras.\n    $$\\text{Tokens} = \\frac{\\text{Palabras}}{\\text{Palabras por token}}$$\n    $$\\text{Tokens} = \\frac{800}{0.75} = 1066.666... \\text{ tokens}$$\n*   **Cálculo del tiempo:** Dividimos los tokens necesarios entre la velocidad de generación.\n    $$\\text{Segundos} = \\frac{\\text{Tokens}}{\\text{Velocidad}}$$\n    $$\\text{Segundos} = \\frac{1066.666...}{40} \\approx 26.67 \\text{ segundos}$$\n\n**Respuesta final 4: 26.67**\n\n---\n\n**5. Costo de generación de tokens**\n*   **Datos:** Tokens a generar = 100,000, Costo por token = 0.00001 euros.\n*   **Cálculo del costo total:** Multiplicamos la cantidad de tokens por el coste unitario.\n    $$100,000 \\times 0.00001 = 1 \\text{ euro}$$\n\n**Respuesta final 5: 1**",
+      "elapsed": 27.18,
+      "metrics": {
+        "prompt_tokens": 247,
+        "prompt_ms": 792.91,
+        "prompt_tokens_per_sec": 311.51,
+        "generated_tokens": 1004,
+        "generated_ms": 26282.95,
+        "generated_tokens_per_sec": 38.16
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 43.31,
+      "avg_generated_tokens_per_sec": 37.91,
+      "per_iteration": [
+        [
+          57.19,
+          38.09
+        ],
+        [
+          37.26,
+          37.95
+        ],
+        [
+          35.47,
+          37.7
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_avg_speed_tok_s": 38.45,
+    "benchmark_total_tasks": 4,
+    "overall_avg_gen_speed_tok_s": 28.52,
+    "total_elapsed": 274.32,
+    "total_elapsed_min": 4.85
+  }
+}

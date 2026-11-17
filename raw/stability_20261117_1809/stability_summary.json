@@ -1,0 +1,85 @@
+{
+ "file": "ccore_Qwen3.5-4B-GLB-3D-Coder_Qwen3.5-4B-GLB-3D-Coder-Q8_0.gguf",
+ "gpu": "GRE",
+ "n": 12,
+ "completed": 12,
+ "hangs": 0,
+ "errors": 0,
+ "first_tps": 65.3,
+ "last_tps": 60.7,
+ "degradation_pct": 2.3,
+ "per_request": [
+  {
+   "i": 1,
+   "ok": true,
+   "tps": 65.3,
+   "sec": 1.0
+  },
+  {
+   "i": 2,
+   "ok": true,
+   "tps": 62.1,
+   "sec": 1.0
+  },
+  {
+   "i": 3,
+   "ok": true,
+   "tps": 60.8,
+   "sec": 1.1
+  },
+  {
+   "i": 4,
+   "ok": true,
+   "tps": 61.8,
+   "sec": 1.0
+  },
+  {
+   "i": 5,
+   "ok": true,
+   "tps": 62.3,
+   "sec": 1.0
+  },
+  {
+   "i": 6,
+   "ok": true,
+   "tps": 63.0,
+   "sec": 1.0
+  },
+  {
+   "i": 7,
+   "ok": true,
+   "tps": 62.0,
+   "sec": 1.0
+  },
+  {
+   "i": 8,
+   "ok": true,
+   "tps": 61.7,
+   "sec": 1.0
+  },
+  {
+   "i": 9,
+   "ok": true,
+   "tps": 61.9,
+   "sec": 1.0
+  },
+  {
+   "i": 10,
+   "ok": true,
+   "tps": 62.0,
+   "sec": 1.0
+  },
+  {
+   "i": 11,
+   "ok": true,
+   "tps": 61.3,
+   "sec": 1.0
+  },
+  {
+   "i": 12,
+   "ok": true,
+   "tps": 60.7,
+   "sec": 1.1
+  }
+ ]
+}

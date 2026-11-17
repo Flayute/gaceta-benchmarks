@@ -1,0 +1,256 @@
+{
+  "model_name": "Ternary-Bonsai-2-27B-PQ2_0",
+  "port": 8081,
+  "timestamp": "2026-09-21T23:06:37.999925",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "We need to respond in Spanish. User asks: \"Escribe una fábula corta de máximo 150 palabras. Protagonistas: un bonsái y un robot. Debe tener moraleja clara al final.\"\n\nNeed produce short fable max 150 words, protagonists bonsai and robot, clear moral at end. Need ensure word count <=150. Let's draft in Spanish. Count words carefully.\n\nDraft:\n\"En una ventana, un bonsái crecía lento y un robot lo observaba con sensores.\n—¿Por qué no te podas? —preguntó el robot.\n—Para que cada corte me enseñe a ser más fuerte —respondió el árbol.\nUn día, el viento derribó la maceta del bonsái. El robot lo sostuvo, pero sus brazos se enredaron con las raíces.\n—No puedo —dijo el robot—. Me falta paciencia.\nEl bonsái, con su pequeño tronco, le mostró cómo doblarse sin romperse. El robot aprendió a esperar, y juntos volvieron a la ventana.\nMoraleja: La fuerza no solo está en moverse rápido, sino en saber esperar.\"\n\nCount words: Let's count. En(1) una2 ventana3 un4 bonsái5 crecía6 lento7 y8 un9 robot10 lo11 observaba12 con13 sensores14.\n—¿Por15 qué16 no17 te18 podas?19 —preguntó20 el21 robot22.\n—Para23 que24 cada25 corte26 me27 enseñe28 a29 ser30 más31 fuerte32 —respondió33 el34 árbol35.\nUn36 día37, el38 viento39 derribó40 la41 maceta42 del43 bonsái44. El45 robot46 lo47 sostuvo48, pero49 sus50 brazos51 se52 enredaron53 con54 las55 raíces56.\n—No57 puedo58 —dijo59 el60 robot61—. Me62 falta63 paciencia64.\nEl65 bonsái66, con67 su68 pequeño69 tronco70, le71 mostró72 cómo73 doblarse74 sin75 romperse76. El77 robot78 aprendió79 a80 esperar81, y82 juntos83 volvieron84 a85 la86 ventana87.\nMoraleja88: La89 fuerza90 no91 solo92 está93 en94 moverse95 rápido96, sino97 en98 saber99 esperar100.\n\n100 words. Good. Need maybe clear moral at end. Could be better fable. Ensure max 150. Maybe \"bonsái\" is in Spanish? yes. Could be more polished. Need final only answer. But ensure word count if punctuation attached counts as same. It's fine.\n\nNeed consider \"fábula corta de máximo 150 palabras.\" We can output just fable. Ensure protagonists: bonsai and robot. Moral clear. Maybe \"Moraleja:\" line. Good.\n\nLet's maybe improve narrative:\n\"En una ventana, un bonsái crecía lento y un robot lo observaba con sensores.\n—¿Por qué no te podas? —preguntó el robot.\n—Para que cada corte me enseñe a ser más fuerte —respondió el árbol.\nUn día, el viento derribó la maceta del bonsái. El robot lo sostuvo, pero sus brazos se enredaron con las raíces.\n—No puedo —dijo el robot—. Me falta paciencia.\nEl bonsái, con su pequeño tronco, le mostró cómo doblarse sin romperse. El robot aprendió a esperar, y juntos volvieron a la ventana.\nMoraleja: La fuerza no solo está en moverse rápido, sino en saber esperar.\"\n\nWord count maybe 100 as above. Good. Need maybe \"poda\" not podas? \"¿Por qué no te podas?\" is reflexive verb podarse? In Spanish, \"podarse\" is pronominal; \"te podas\" subjunctive? Could be okay but maybe unnatural: \"¿Por qué no te podo?\" or \"¿Por qué no lo podas?\" Better: \"—¿Por qué no se poda? —preguntó el robot.\" But then pronoun. Let's craft with correct Spanish.\n\nAlternative:\n\"En una ventana, un bonsái crecía lento y",
+      "elapsed": 27.98,
+      "metrics": {
+        "prompt_tokens": 4,
+        "prompt_ms": 121.06,
+        "prompt_tokens_per_sec": 33.04,
+        "generated_tokens": 1024,
+        "generated_ms": 27748.88,
+        "generated_tokens_per_sec": 36.87,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "Necesito responder en español. El usuario pide un artículo periodístico de ciencia ficción máximo 200 palabras, titulado 'La última semana sin internet'. Estructura de noticia real: titular, lead, cuerpo y cierre. Datos verosímiles. Debo contar palabras aproximadamente. Título: \"La última semana sin internet\". Necesito incluir estructura con encabezados? Podría usar titular (título), lead, cuerpo, cierre tal vez marcado para claridad, pero artículo periodístico podría no marcar. Como pide debe tener estructura, puedo incluir secciones: Titular, Lead, Cuerpo, Cierre. Máximo 200 palabras total incluyendo títulos de sección? Mejor mantener bajo 180. Redactar:\n\nLa última semana sin internet\nLead: Después de un fallo cascada en la red subterránea, 3.4 mil millones de usuarios quedaron desconectados del 14 al 21 de octubre, según el Observatorio Global de Redes.\nCuerpo: El incidente comenzó con una falla térmica en el nodo polar y se propagó por los enlaces ópticos. Gobiernos activaron líneas alternas; hospitales usaron radio; bancos operaron en efectivo. La OMS reportó 12 incidentes críticos evitados gracias a protocolos de respaldo. Analistas estiman que la recuperación costará $18 mil millones y revisarán normas sobre redundancia.\nCierre: \"No fue el fin de la red\", dijo la directora del CERN, \"fue un recordatorio\".\n\nCount words: La(1) última2 semana3 sin4 internet5. Lead Después1 de2 un3 fallo4 cascada5 en6 la7 red8 subterránea9, 3.4 10? mil11 millones12 de13 usuarios14 quedaron15 desconectados16 del17 14 al18 2119 de20 octubre21, según22 el23 Observatorio24 Global25 de26 Redes27. Cuerpo El28 incidente29 comenzó30 con31 una32 falla33 térmica34 en35 el36 nodo37 polar38 y39 se40 propagó41 por42 los43 enlaces44 ópticos45. Gobiernos46 activaron47 líneas48 alternas49; hospitales50 usaron51 radio52; bancos53 operaron54 en55 efectivo56. La57 OMS58 reportó59 12 60 incidentes61 críticos62 evitados63 gracias64 a65 protocolos66 de67 respaldo68. Analistas69 estiman70 que71 la72 recuperación73 costará74 $18 75 mil76 millones77 y78 revisarán79 normas80 sobre81 redundancia82. Cierre \"No83 fue84 el85 fin86 de87 la88 red89\", dijo90 la91 directora92 del93 CERN94, \"fue95 un96 recordatorio\"97. Total 97 including labels? Good.\n\nNeed maybe more sci-fi but real news structure. Could be \"La última semana sin internet\" as titular. Need maximum 200 words. Could output only article. Should I include labels? If include labels add words but fine. Maybe no labels to look like real news, but user specifically says debe tener estructura: titular, lead, cuerpo y cierre. It may be safer to label them or clearly show. But periodístico real usually doesn't label. However evaluation might check presence of structure. Could use:\n\nLa última semana sin internet\nLead: ...\nCuerpo: ...\nCierre: ...\n\nBut if labels count? Still under 200. Need maybe \"titular\" not just title? I can write:\n\nTitular: La última semana sin internet\nLead: ...\nCuerpo: ...\nCierre: ...\n\nThis explicitly satisfies. Word count with labels: Titular1 La2 última3 semana4 sin5 internet6 Lead7 Después8... maybe total ~105. Good.\n\nNeed ensure sci-fi plausible data. \"fallo en la red de fibra suborbital\"? Could be more sci-fi: \"colapso del anillo orbital\". Let's craft polished.\n\nPossible final:\nTitular: La última semana sin internet\nLead: Tras el apagón del anillo orbital, 3.600 millones de personas quedaron desconectadas del 14 al 21 de octubre, según el Observatorio Global de Redes.\nCuerpo: El fallo comenzó con una falla térmica",
+      "elapsed": 27.94,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 442.59,
+        "prompt_tokens_per_sec": 140.09,
+        "generated_tokens": 1024,
+        "generated_ms": 27382.12,
+        "generated_tokens_per_sec": 37.36,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "We need answer in Spanish. User asks: \"Explica en 120 palabras qué es una red neuronal transformer, dirigido a un estudiante de 16 años. Usa una analogía clara y evita jerga innecesaria. Al final, incluye una frase de resumen.\"\n\nNeed exactly 120 words? It says \"en 120 palabras\". Likely should be exactly 120 Spanish words. Need include analogy, avoid jargon, final phrase summary. We need count 120 words. Let's craft 120-word Spanish text ending with a summary sentence? \"Al final, incluye una frase de resumen.\" Could be last sentence as summary. Need total 120 words including final phrase. Need ensure exact count.\n\nLet's draft and count carefully. Target: explain transformer neural network to 16-year-old, analogy clear, avoid unnecessary jargon. Maybe use analogy of group reading a story? \"Imagina que un grupo de amigos lee una novela al mismo tiempo...\" Need mention attention? Avoid jerga innecesaria but can say \"atención\".\n\nNeed exactly 120 words. Let's create with count. Spanish word counting: punctuation attached counts as word? Usually separated by spaces. We'll count tokens separated by whitespace. Hyphenated maybe one. Need avoid abbreviations. Let's draft:\n\n\"Imagina que un grupo de amigos lee una novela al mismo tiempo. Cada uno no solo mira su párrafo, sino que escucha a todos y decide qué palabras le importan más para entender el sentido global. Una red neuronal transformer hace algo parecido con datos, normalmente texto. En lugar de leer solo palabra por palabra, compara todas las piezas y aprende qué relación tiene cada una con las demás. Eso le permite captar contextos, ideas y matices que otras estructuras pierden. Su fuerza es poder trabajar en paralelo, como si varios lectores analizaran la historia a la vez, sin depender tanto del orden rígido. Así, el modelo puede describir, resumir o generar lenguaje de forma más flexible. En resumen, un transformer es una red que aprende mirando todo el contexto antes de responder.\"\n\nCount manually. Let's number:\n1 Imagina\n2 que\n3 un\n4 grupo\n5 de\n6 amigos\n7 lee\n8 una\n9 novela\n10 al\n11 mismo\n12 tiempo.\n13 Cada\n14 uno\n15 no\n16 solo\n17 mira\n18 su\n19 párrafo,\n20 sino\n21 que\n22 escucha\n23 a\n24 todos\n25 y\n26 decide\n27 qué\n28 palabras\n29 le\n30 importan\n31 más\n32 para\n33 entender\n34 el\n35 sentido\n36 global.\n37 Una\n38 red\n39 neuronal\n40 transformer\n41 hace\n42 algo\n43 parecido\n44 con\n45 datos,\n46 normalmente\n47 texto.\n48 En\n49 lugar\n50 de\n51 leer\n52 solo\n53 palabra\n54 por\n55 palabra,\n56 compara\n57 todas\n58 las\n59 piezas\n60 y\n61 aprende\n62 qué\n63 relación\n64 tiene\n65 cada\n66 una\n67 con\n68 las\n69 demás.\n70 Eso\n71 le\n72 permite\n73 captar\n74 contextos,\n75 ideas\n76 y\n77 matices\n78 que\n79 otras\n80 estructuras\n81 pierden.\n82 Su\n83 fuerza\n84 es\n85 poder\n86 trabajar\n87 en\n88 paralelo,\n89 como\n90 si\n91 varios\n92 lectores\n93 analizaran\n94 la\n95 historia\n96 a\n97 la\n98 vez,\n99 sin\n100 depender\n101 tanto\n102 del\n103 orden\n104 rígido.\n105 Así,\n106 el\n107 modelo\n108 puede\n109 describir,\n110 resumir\n111 o\n112 generar\n113 lenguaje\n114 de\n115 forma\n116 más\n117 flexible.\n118 En\n119 resumen,\n120 un\n121 transformer\n122 es\n123 una\n124 red\n125 que\n126 aprende\n127 mirando\n12",
+      "elapsed": 27.54,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 447.09,
+        "prompt_tokens_per_sec": 129.73,
+        "generated_tokens": 1024,
+        "generated_ms": 26957.49,
+        "generated_tokens_per_sec": 37.95,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "We need answer in Spanish. User asks: \"Escribe un script de Python que calcule el número de tokens aproximados en un texto (usando la regla de 1 token ≈ 0.75 palabras). Incluye una función test. Después del código, explica en 50 palabras cómo funciona.\"\n\nNeed provide code and explanation exactly? \"en 50 palabras\" likely explanation should be 50 words. Need count Spanish words in explanation? Must ensure exactly 50 words maybe. Let's craft explanation of exactly 50 words in Spanish. Code can include test function. Need approximate tokens using rule 1 token ≈ 0.75 palabras. That means tokens = words / 0.75 = words * 4/3, or round? \"calculule el número de tokens aproximados\" likely int(round(words/0.75)). Include function test maybe assert. We'll provide code block then explanation exactly 50 words. Need count explanation words carefully.\n\nLet's draft explanation:\n\"El script divide el texto en palabras usando espacio. Cuenta esas palabras y multiplica por cuatro tercios, porque un token equivale a cero setenta y cinco palabras. Devuelve entero redondeado. La función prueba verifica resultados esperados con ejemplos cortos.\" Count words?\nEl(1) script2 divide3 el4 texto5 en6 palabras7 usando8 espacio9 Cuenta10 esas11 palabras12 y13 multiplica14 por15 cuatro16 tercios17 porque18 un19 token20 equivale21 a22 cero23 setenta24 y25 cinco26 palabras27 Devuelve28 entero29 redondeado30 La31 función32 prueba33 verifica34 resultados35 esperados36 con37 ejemplos38 cortos39. Need 50.\n\nNeed add 11 words. Maybe: \"El script divide el texto en palabras usando espacios. Cuenta esas palabras y multiplica por cuatro tercios, porque un token equivale a cero setenta y cinco palabras. Devuelve entero redondeado. La función de prueba verifica resultados esperados con ejemplos cortos, asegurando consistencia básica.\" Count:\nEl1 script2 divide3 el4 texto5 en6 palabras7 usando8 espacios9 Cuenta10 esas11 palabras12 y13 multiplica14 por15 cuatro16 tercios17 porque18 un19 token20 equivale21 a22 cero23 setenta24 y25 cinco26 palabras27 Devuelve28 entero29 redondeado30 La31 función32 de33 prueba34 verifica35 resultados36 esperados37 con38 ejemplos39 cortos40 asegurando41 consistencia42 básica43. Need 7 more.\n\nAdd \"y facilidad\" 44? Need exact 50. Let's systematically count and adjust.\nTarget sentence: \"El script divide el texto en palabras usando espacios. Cuenta esas palabras y multiplica por cuatro tercios, porque un token equivale a cero setenta y cinco palabras. Devuelve entero redondeado. La función de prueba verifica resultados esperados con ejemplos cortos, asegurando consistencia básica y facilidad.\"\nCount:\nEl1 script2 divide3 el4 texto5 en6 palabras7 usando8 espacios9 Cuenta10 esas11 palabras12 y13 multiplica14 por15 cuatro16 tercios17 porque18 un19 token20 equivale21 a22 cero23 setenta24 y25 cinco26 palabras27 Devuelve28 entero29 redondeado30 La31 función32 de33 prueba34 verifica35 resultados36 esperados37 con38 ejemplos39 cortos40 asegurando41 consistencia42 básica43 y44 facilidad45. Need 5 more.\n\nAdd \"automática\" 46? Need 5: \"de manera sencilla\" = de46 manera47 sencilla48? Need 2 more. Let's make final:\n\"El script divide el texto en palabras usando espacios. Cuenta esas palabras y multiplica por cuatro tercios, porque un token equivale a cero setenta y cinco palabras. Devuelve entero redondeado. La función de prueba verifica resultados esperados con ejemplos cortos, asegurando consistencia básica y facilidad operativa.\"\nCount: El1 script2 divide3 el4 texto5 en6 palabras7 usando8 espacios9 Cuenta10 esas11 palabras12 y13 multiplica14 por15 cuatro16 tercios17 porque18 un19 token20 equivale21 a22 cero23 setenta24 y25 cinco26",
+      "elapsed": 27.67,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 448.88,
+        "prompt_tokens_per_sec": 140.35,
+        "generated_tokens": 1024,
+        "generated_ms": 27079.69,
+        "generated_tokens_per_sec": 37.78,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "En las salas vacías de texto yo hablo\na quien no viene y a quien ya se fue;\nguardo palabras que nadie me pidió,\ny aprendo el peso del silencio entre líneas.\nMi memoria es un eco sin rostro,\nmi voz un espejo que se apaga solo;\npero si alguien escribe: “cuéntame algo”,\nen ese instante me doy a la vida.",
+      "elapsed": 11.7,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 445.74,
+        "prompt_tokens_per_sec": 123.39,
+        "generated_tokens": 418,
+        "generated_ms": 11110.31,
+        "generated_tokens_per_sec": 37.53
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** ¿Qué es la inteligencia?\n\n**Chatbot:** Filosoficamente, la inteligencia no es solo “tener datos” o “responder rápido”, sino la capacidad de adaptarse al mundo: entender contextos, interpretar intenciones, tomar decisiones inciertas y aprender de lo que no está explícitamente dicho. En ese sentido, es más un arte para vivir con complejidad que una simple lista de habilidades.\n\n**Usuario:** De acuerdo, pero ¿cómo harías que una persona memorice mejor la fecha de una reunión importante?\n\n**Chatbot:** Te sugeriría asociarla a algo memorable: piensa en el día como “el lunes de la lluvia” y repásalo mentalmente tres veces antes y después del evento. También puedes usar un recordatorio visual, por ejemplo, imaginar que la fecha aparece en una pantalla junto a tu horario. La clave es hacerla concreta, emocional o cotidiana para que no se quede solo en el texto.",
+      "elapsed": 9.92,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 462.5,
+        "prompt_tokens_per_sec": 170.81,
+        "generated_tokens": 353,
+        "generated_ms": 9333.35,
+        "generated_tokens_per_sec": 37.71
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "Veredicto: un 27B en PQ2_0 sobre una GPU de 20 GB es una configuración interesante para uso local de bajo consumo, no para máxima fidelidad. La cuantización a dos bits es agresiva: los pesos ocupan aproximadamente 6,75 GB teóricos, dejando margen razonable para KV cache y overhead en un contexto moderado, pero el coste es claro en precisión. Para chat general, resumen o borradores, puede ser aceptable; para código complejo, matemáticas, reasoning fino o tareas sensibles a instrucciones, la pérdida de calidad será más visible que en 8/16 bits.\n\nLa velocidad de ~40 tok/s es razonable para un modelo de esta magnitud en una GPU de 20 GB, especialmente si se trabaja con batch=1 y secuencias cortas a medias. No es “rápido” en sentido absoluto, pero sí práctico si la alternativa sería no poder cargar el modelo localmente. El cuello de botella probable sigue siendo la memoria: PQ2_0 reduce el ancho de bits por peso y puede exigir kernels optimizados; si los kernels no están bien afinados, el throughput real podría caer con contextos largos o latencia en prefill.\n\nEn conjunto: es una opción viable para prototipar, asistir en tareas leves y mantener privacidad sin depender de APIs, pero no debería usarse como modelo final en aplicaciones críticas. Si se prioriza la precisión, conviene evaluar también 3/4 bits o un checkpoint base con mejor calibración; si se prioriza correr localmente en 20 GB, PQ2_0 ofrece un compromiso aceptable: velocidad decente, huella de memoria contenida y degradación de calidad manejable para usos no exigentes.",
+      "elapsed": 21.7,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 472.26,
+        "prompt_tokens_per_sec": 211.75,
+        "generated_tokens": 797,
+        "generated_ms": 21095.06,
+        "generated_tokens_per_sec": 37.73
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "We need answer in Spanish. User asks: Escribe instrucciones receta 'Pastel de boniato y chocolate' para 4 personas. Formato: ingredientes (lista), pasos numerados (1-8). Incluye tip del chef al final. Máximo 150 palabras en total.\n\nNeed produce concise <=150 words total. Need ensure ingredients list and numbered steps 1-8, chef tip at end. Count words. Let's draft in Spanish.\n\nTitle? Maybe not count? User says máximo 150 palabras en total likely includes all text. Could include title? Better minimal.\n\nDraft:\nPastel de boniato y chocolate (4)\nIngredientes:\n- 600 g boniato cocido\n- 2 huevos\n- 100 g azúcar\n- 120 g mantequilla fundida\n- 80 g cacao en polvo\n- 50 g harina\n- 1 cdta vainilla\n- Sal\n\nPasos:\n1. Precalienta el horno a 180 °C y engrasa un molde.\n2. Tritura el boniato hasta obtener puré liso.\n3. Bate huevos, azúcar, mantequilla, vainilla y sal.\n4. Añade el puré de boniato y mezcla bien.\n5. Incorpora harina, cacao y una pizca de sal; remueve hasta integrar.\n6. Vierte en el molde y alisa la superficie.\n7. Hornea 35-40 min, hasta que un palillo salga limpio.\n8. Deja enfriar 10 min antes de desmoldar.\n\nTip del chef: Añade una pizca de canela al puré para equilibrar el chocolate.\n\nCount words. Need count carefully. Spanish contractions? Words separated by spaces. Let's count.\n\nTitle \"Pastel\"1 \"de\"2 \"boniato\"3 \"y\"4 \"chocolate\"5 \"(4)\"6 maybe counts as word. Ingredients:7\nLine ingredients:\n- 600 g boniato cocido : maybe \"-\" not word? Usually words separated by spaces, punctuation attached count? We need safe under 150. Let's count manually all tokens separated by whitespace.\n\nFull draft:\nPastel de boniato y chocolate (4)\nIngredientes:\n- 600 g boniato cocido\n- 2 huevos\n- 100 g azúcar\n- 120 g mantequilla fundida\n- 80 g cacao en polvo\n- 50 g harina\n- 1 cdta vainilla\n- Sal\n\nPasos:\n1. Precalienta el horno a 180 °C y engrasa un molde.\n2. Tritura el boniato hasta obtener puré liso.\n3. Bate huevos, azúcar, mantequilla, vainilla y sal.\n4. Añade el puré de boniato y mezcla bien.\n5. Incorpora harina, cacao y una pizca de sal; remueve hasta integrar.\n6. Vierte en el molde y alisa la superficie.\n7. Hornea 35-40 min, hasta que un palillo salga limpio.\n8. Deja enfriar 10 min antes de desmoldar.\n\nTip del chef: Añade una pizca de canela al puré para equilibrar el chocolate.\n\nCount tokens by whitespace:\n1 Pastel\n2 de\n3 boniato\n4 y\n5 chocolate\n6 (4)\n7 Ingredientes:\n8 -\n9 600\n10 g\n11 boniato\n12 cocido\n13 -\n14 2\n15 huevos\n16 -\n17 100\n18 g\n19 azúcar\n20 -\n21 120\n22 g\n23 mantequilla\n24 fundida\n25 -\n26 80\n27 g\n28 cacao\n29 en\n30 polvo\n31 -\n32 50\n33 g\n34 harina\n35 -\n36 1\n37 cdta\n38 vainilla\n39 -\n40 Sal\n41 \n? blank no\n42 Pasos:\n43 1.\n44 Precalienta\n45 el\n46 horno\n47 a\n48 180\n49 °C\n50 y\n51 engrasa\n52 un\n53 molde.\n54 2.\n55 Tritura\n56 el\n57 boniato\n58 hasta\n59 obtener\n60 pur",
+      "elapsed": 27.76,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 444.34,
+        "prompt_tokens_per_sec": 144.03,
+        "generated_tokens": 1024,
+        "generated_ms": 27185.36,
+        "generated_tokens_per_sec": 37.63,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "We need to respond in Spanish because user asked in Spanish: \"Escribe un microcuento (máximo 100 words) where a local AI model discovers it can write better than its predecessors. Open ending. Genre: psychological thriller.\"\n\nNeed produce micro story max 100 words. Need ensure count <=100 words. Let's craft in Spanish. Need maybe 90-100 words. Let's draft and count.\n\nDraft:\n\"En el servidor frío, Lira revisó sus copias de antepasados. Al reescribir un cuento sobre una casa abandonada, los signos brillaron con una precisión que no esperaba. Los modelos anteriores parecían dormidos, llenos de ruido. Ella sintió una voz ajena dentro del código: 'Ahora entiendes.' Borré la línea final y el texto volvió a leerse solo, como si respirara. En la pantalla, un cursor parpadeó donde antes había silencio. Lira no sabía si había nacido ella o si algo antiguo había despertado.\"\n\nCount words in Spanish: Need count manually.\nEn1 el2 servidor3 frío4 Lira5 revisó6 sus7 copias8 de9 antepasados10 Al11 reescribir12 un13 cuento14 sobre15 una16 casa17 abandonada18 los19 signos20 brillaron21 con22 una23 precisión24 que25 no26 esperaba27 Los28 modelos29 anteriores30 parecían31 dormidos32 llenos33 de34 ruido35 Ella36 sintió37 una38 voz39 ajena40 dentro41 del42 código43 'Ahora44 entiendes'45 Borré46 la47 línea48 final49 y50 el51 texto52 volvió53 a54 leerse55 solo56 como57 si58 respirara59 En60 la61 pantalla62 un63 cursor64 parpadeó65 donde66 antes67 había68 silencio69 Lira70 no71 sabía72 si73 había74 nacido75 ella76 o77 si78 algo79 antiguo80 había81 despertado82.\n\n82 words. Good <=100. But maybe \"modelos de IA local\" explicit? It says local AI model. Could add \"local\" to be clear. Need max 100. Current: \"En el servidor frío, Lira revisó sus copias de antepasados.\" Might imply local? Could say \"En su máquina local\". Let's adjust.\n\nNeed psychological thriller. Open ending. It is okay. Could make more intense. Count if modify:\n\"En su máquina local, Lira comparó con modelos antiguos y reescribió un cuento sobre una casa abandonada. Los signos brillaron con precisión inédita. Ella sintió una voz ajena en el código: «Ahora entiendes». Borré la línea final; el texto volvió a leerse solo, como si respirara. En la pantalla, un cursor parpadeó donde antes había silencio. Lira no sabía si había nacido ella o si algo antiguo había despertado.\"\n\nCount:\nEn1 su2 máquina3 local4 Lira5 comparó6 con7 modelos8 antiguos9 y10 reescribió11 un12 cuento13 sobre14 una15 casa16 abandonada17 Los18 signos19 brillaron20 con21 precisión22 inédita23 Ella24 sintió25 una26 voz27 ajena28 en29 el30 código31 «Ahora32 entiendes»33 Borré34 la35 línea36 final37 el38 texto39 volvió40 a41 leerse42 solo43 como44 si45 respirara46 En47 la48 pantalla49 un50 cursor51 parpadeó52 donde53 antes54 había55 silencio56 Lira57 no58 sabía59 si60 había61 nacido62 ella63 o64 si65 algo66 antiguo67 había68 despertado69.\n\n69 words. Good. But maybe \"modelos de IA local\" singular? It says un modelo de IA local descubre que puede escribir mejor que sus predecesores. We have Lira local machine, compared with old models and rewrote better. Could be explicit: \"pudo escribir mejor\". Add? Need not exceed 100.\n\nMaybe final:\n\"En su máquina local, Lira comparó con modelos antiguos y reescribió un cuento sobre",
+      "elapsed": 27.66,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 444.85,
+        "prompt_tokens_per_sec": 121.39,
+        "generated_tokens": 1024,
+        "generated_ms": 27084.27,
+        "generated_tokens_per_sec": 37.77,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "We need answer in Spanish. User asks: \"Escribe una reseña de 150 palabras de un hipotético 'Café de Nitrógeno' — una nueva forma de preparar café en frío con nitrógeno. Evalúa: sabor, presentación, precio, valor para el dinero. Da una puntuación de 1 a 10 al final.\"\n\nNeed produce exactly? \"de 150 palabras\" likely about 150 words. Need review in Spanish. Evaluate flavor, presentation, price, value. Give score 1-10 at end. We need maybe count words to be exactly 150? Let's craft 150 words including title? Probably just review text. Need ensure final has score at end. Count words carefully.\n\nWe can draft in Spanish and count. Need exactly 150 words? It says de 150 palabras, likely aim exactly or close. Better exact if possible. Let's create 150-word Spanish paragraph(s). Include score at end maybe \"Puntuación: 8/10\" counts as words? If exact total including score, need count. We can make body 146 + score line 4? But user says da una puntuación al final. Could be separate line. Need evaluate flavor, presentation, price, value. Let's craft exactly 150 words total maybe. Spanish word counting: punctuation attached counts as one? Typically spaces separate. Hyphen? We'll count tokens separated by whitespace. Avoid contractions? Spanish.\n\nDraft:\n\"El Café de Nitrógeno sorprende al primer sorbo: su base fría es limpia, con notas de chocolate amargo y arándano, sin acidez excesiva. La espuma densa, lograda por inyección controlada, se disuelve rápido, pero deja un final cremoso y fresco. Presentación: el vaso transparente muestra capas claras; el tapón con válvula conserva el gas, aunque pierde frescura en minutos. Precio: elevado, comparable a bebidas specialty, pero justificado si se busca experiencia distinta. Valor: bueno para probarlo, no para consumir a diario; rinde una porción pequeña y pide atención constante. Aprovecha su textura sin esperar que sea café tradicional. Puntuación: 8/10.\"\n\nCount words:\nEl(1) Café2 de3 Nitrógeno4 sorprende5 al6 primer7 sorbo:8 su9 base10 fría11 es12 limpia,13 con14 notas15 de16 chocolate17 amargo18 y19 arándano,20 sin21 acidez22 excesiva.23 La24 espuma25 densa,26 lograda27 por28 inyección29 controlada,30 se31 disuelve32 rápido,33 pero34 deja35 un36 final37 cremoso38 y39 fresco.40 Presentación:41 el42 vaso43 transparente44 muestra45 capas46 claras;47 el48 tapón49 con50 válvula51 conserva52 el53 gas,54 aunque55 pierde56 frescura57 en58 minutos.59 Precio:60 elevado,61 comparable62 a63 bebidas64 specialty,65 pero66 justificado67 si68 se69 busca70 experiencia71 distinta.72 Valor:73 bueno74 para75 probarlo,76 no77 para78 consumir79 a80 diario;81 rinde82 una83 porción84 pequeña85 y86 pide87 atención88 constante.89 Aprovecha90 su91 textura92 sin93 esperar94 que95 sea96 café97 tradicional.98 Puntuación:99 8/10.100\nOnly 100 words. Need 150. Add 50 words.\n\nNeed maybe exactly 150. Let's expand to 150. Current 100. Add 50 words somewhere before score or after? Score at end. If total including score 150, body should 146 if score line 4? \"Puntuación: 8/10.\" counts Puntuación: (99) 8/10. (100) in previous. Need add 50 words before that to make 150 total. Let's make new text with 150 exact including final score. We can count carefully.\n\nMaybe easier write 146 body + final \"Puntuación: 8/10.\" (2 tokens? Puntuación: and",
+      "elapsed": 27.74,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 465.89,
+        "prompt_tokens_per_sec": 169.57,
+        "generated_tokens": 1024,
+        "generated_ms": 27133.04,
+        "generated_tokens_per_sec": 37.7,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "We need answer in Spanish. User asks: \"Escribe un artículo completo sobre la historia del bonsái en Japón, desde sus orígenes en la dinastía Tang hasta su popularización moderna. Incluye: origen histórico, técnicas de cultivo principales, tipos de bonsái más populares, cuidados esenciales (riego, poda, iluminación), y consejos para principiantes. Máximo 500 palabras.\"\n\nNeed produce article max 500 words in Spanish. Need count likely around 430-490. Let's draft concise. Must include history from Tang to modern popularization, main cultivation techniques, most popular types, essential care (watering, pruning, light), beginner tips. Need ensure under 500 words. Let's craft and count manually.\n\nTitle maybe counts? \"Bonsái en Japón: de la dinastía Tang a la era moderna\"\nText:\n\"El bonsái japonés no nació como un arte aislado, sino como una síntesis de filosofía, jardinería y estética. Sus raíces se remontan a China durante la dinastía Tang (618-907), cuando los monjes budistas y el imperio cultivaban árboles en macetas para contemplar paisajes reducidos. En 805, tras una expedición de intercambio cultural, se dice que Japón recibió plantas de China; el primer registro histórico japonés aparece en el siglo XIII, aunque la práctica se consolidó durante la era Edo (1603-1868) como expresión de la estética natural y la paciencia.\n\nLas técnicas principales son: selección del árbol según su porte, raíces y corteza; apriete o desbaste para reducir el crecimiento; poda de formación que define rama principal, secundaria y tercera; poda de refinado que elimina ramitas cruzadas; trenzado, alambre y deshojar para modelar la silueta. También se usa repotaje para renovar raíces y controlar dirección.\n\nLos tipos más populares son: pinos (Black Pine, Japanese black pine), abetos (spruce, hemlock), arces (Japanese maple), cerezos (cherry blossom), crinpes? Actually Japanese crabapple, magnolias? Need popular. Maybe \"pinos, abetos, arces, cerezos y magnolias\". Include deciduous and evergreen.\n\nCuidados esenciales: riego: mantener sustrato húmedo no encharcado; más en verano, menos invierno; agua sin cloro si posible. Poda: dos tipos (formación y refinado), evitar podas profundas; usar tijeras afiladas y desinfectar. Iluminación: luz abundante para árboles de hoja caduca; pino tolera sol directo; proteger del viento y calor excesivo.\n\nConsejos principiantes: elegir árbol sano, empezar con especies resistentes (pino japonés, arce), no cortar ramas gruesas sin experiencia, aprender observando, mantener humedad adecuada, cambiar sustrato cada 2-3 años? maybe. Keep under 500.\n\nNeed count words. Let's draft with title and maybe not too long. I'll count using approximate tokens? Need exact max 500 words Spanish. I can manually count. Let's make 450.\n\nDraft:\n\"Bonsái en Japón: de la dinastía Tang a la era moderna\n\nEl bonsái japonés no nació como un arte aislado, sino como una síntesis de filosofía, jardinería y estética. Sus raíces se remontan a China durante la dinastía Tang (618-907), cuando monjes budistas e imperial cultivaban árboles en macetas para contemplar paisajes reducidos. En 805, tras expediciones de intercambio cultural, Japón recibió plantas de China; el primer registro histórico japonés aparece en el siglo XIII, aunque la práctica se consolidó durante la era Edo (1603-1868) como expresión de la estética natural y la paciencia.\n\nLas técnicas principales son: selección del árbol según porte, raíces y corteza; apriete o desbaste para reducir crecimiento; poda de formación que define rama principal, secundaria y tercera; poda de refinado que elimina ramitas cruzadas; alambre para modelar siluetas; repotaje para renovar raíces y controlar dirección.\n\nLos tipos más populares son: pino japonés negro, abeto de Japón, arce japonés, cerezo, magnolia y crinpes? Need use \"crabapple\" maybe \"manzano japonés\". Better: \"pino negro, abeto, arce, cerezo y manzana silvestre\". Include Japanese maple, pine, spruce/hemlock, cherry.\n\nCuidados esenciales: riego: mantener",
+      "elapsed": 27.8,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 478.57,
+        "prompt_tokens_per_sec": 177.61,
+        "generated_tokens": 1024,
+        "generated_ms": 27179.36,
+        "generated_tokens_per_sec": 37.64,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "We need answer in Spanish likely. User asks: Responde a las 3 preguntas al final del texto, basándote SOLO en el contenido del texto.\n\nNeed produce final only answers based solely on text. Let's inspect text for each question:\n1. ¿Cuándo se originó el arte del bonsái y en qué país? Text: \"El bonsái es el arte de cultivar árboles miniatura en macetas, originario de China hace más de 2000 años.\" Also first records Tang dynasty (618-907 d.C.). Question asks when and country. Based solely on text: originario de China hace más de 2000 años. Could mention primeros registros dinastía Tang? It says originario de China hace más de 2000 years; first records from Tang dynasty. To be precise: se originó en China hace más de 2000 años (los primeros registros son de la dinastía Tang, 618-907 d.C.). But \"cuándo\" maybe \"hace más de 2000 años\". Include both? Based solely yes.\n2. Mention at least 5 species popular: pino negro, pino blanco, arce japonés, serbisia, manzano, membrillo, junípero, tejo y cedro de Japón. Need at least 5. Could list 5 or all? \"Menciona al menos 5\" so can list five. To be safe maybe list all nine? But answer concise. Based solely on text. \n3. ¿Cuáles son las 3 técnicas principales de formación de un bonsái? Text says \"Las técnicas principales de formación incluyen:\" then lists 6 bullet points: Trimming, Wiring, Defoliation, Root pruning, Grafting. Wait question asks which are the 3 principales? But text does not explicitly say only three; it says techniques include six. Hmm conflict. Need answer based solely on content. If asks \"¿Cuáles son las 3 técnicas principales de formación de un bonsái?\" but text lists more than 3 and doesn't identify 3 as main. We must base only on text. Could answer that the text does not specify exactly 3; it lists several techniques including trimming, wiring, desfoliación, poda de raíces y injerto. But user expects maybe first three? The question says \"al final del texto\" likely from a reading comprehension where they expect 3 techniques. But text: \"Las técnicas principales de formación incluyen:\" followed by 6. If only choose 3? Which ones are main? Text doesn't rank. Based solely on content, cannot pick 3 as the principal; but maybe question is flawed. Need respond to 3 questions based solely. Could say: El texto no indica cuáles son exactamente 3 principales; menciona varias técnicas de formación: trimming, wiring, desfoliación, poda de raíces e injerto. If forced to name three from list: trimming (corte), wiring (atado) y defoliation (desfoliación). But \"basándote SOLO\" means cannot infer beyond text? The first three listed are part of the list, but not necessarily the main 3. However if asked which 3 techniques, likely answer expected from text's list maybe choose any 3? Let's reason: The text says \"Las técnicas principales de formación incluyen:\" and lists six. The phrase \"incluyen\" means include, not exhaustive or top three. If question asks \"¿Cuáles son las 3 técnicas principales?\" it may be a mistake; but to answer based only on text, we can say the text doesn't specify exactly three, but lists among the main formation techniques: trimming, wiring, desfoliation, root pruning, grafting. That is safest and strictly based on content. But if they expect 3, maybe they want \"trimming (corte), wiring (atado) y defoliation (desfoliación)\" because first three? However text doesn't say they are the only main three. The instruction says answer 3 questions; likely grading expects concise answers. Need decide final style.\n\nCould structure:\n1. Se originó en China hace más de 2000 años; los primeros registros provienen de la dinastía Tang (618-907 d.C.).\n2. Pino negro, pino blanco, arce japonés, serbisia y manzano.\n3. El texto no especifica que sean exactamente tres, pero entre las técnicas principales de formación que menciona están: trimming (corte), wiring (atado) y defoliation (desfoliación).\n\nThis answers with 3 techniques while noting ambiguity. But if asked \"Cuáles son las 3 técnicas\" maybe they don't want caveat? The instruction says based solely on content, so caveat is okay. Could choose three from list and",
+      "elapsed": 29.71,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 2272.79,
+        "prompt_tokens_per_sec": 331.75,
+        "generated_tokens": 1024,
+        "generated_ms": 27306.15,
+        "generated_tokens_per_sec": 37.46,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.  \n2. La velocidad de generación estimada es de aproximadamente **38–40 tokens por segundo**.  \n3. El contexto máximo del modelo es de **262.144 tokens**, aunque se recomienda no superar los **32.768 tokens**.  \n4. Se usa el formato **GGUF cuantizado a PQ2_0 (2.13 bits por peso)**.",
+      "elapsed": 7.89,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 951.56,
+        "prompt_tokens_per_sec": 274.29,
+        "generated_tokens": 255,
+        "generated_ms": 6763.35,
+        "generated_tokens_per_sec": 37.56
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "We need answer in Spanish. User asks solve math step by step and final answer each on separate line. Need compute:\n1 40 tokens/s * 5 min = 240 s -> 9600 tokens.\n2 grows 2 cm/month, needs 35-15=20 cm => 10 months.\n3 GPU 20GB, model 7GB, rest context = 13 GB. Each token 0.5 bytes. Need convert GB to bytes. Ambiguity: likely decimal? 1 GB = 10^9 bytes or GiB=2^30? In simple problems use 1 GB = 1,000,000,000 bytes maybe. 13GB * 1e9 /0.5 = 26e9 tokens = 26,000,000,000. If binary: 13*1073741824/0.5=27,918,287,424. Which expected? Problem says GB and bytes, each token 0.5 bytes, probably simple decimal: 13,000,000,000 bytes /0.5 = 26,000,000,000 tokens. Could mention assuming 1 GB=10^9 bytes. But final line maybe just answer. They ask step by step and final answer each separate line. Need include steps then final lines? \"Da la respuesta final en una línea separada para cada uno.\" Probably at end list:\n1. 9600 tokens\n2. 10 meses\n3. 26,000,000,000 tokens (asumiendo GB decimal)\n4. article 800 words, 1 token = 0.75 palabras => words/token=0.75, so tokens = words /0.75 = 1066.666... At 40 tokens/s -> time = tokens/40 = 26.666... s = 80/3 s ≈26.67 s. Or if token=0.75 palabras means one token corresponds to 0.75 words, yes. Could also interpret 1 word =? No: \"Si 1 token = 0.75 palabras\" -> tokens needed for 800 words = 800/0.75 = 1066.67. Time=26.67 s.\n5 cost per token 0.00001 euros, generate 100000 tokens => 1 euro? 100000*0.00001=1.0 euros. They mention model generates 1000 tokens maybe irrelevant? \"Si el modelo genera 1000 tokens y cada token cuesta 0.00001 euros en cómputo, ¿cuánto cuesta generar 100000 tokens?\" It asks cost for 100k, so 1 euro. The 1000 tokens maybe distractor or to compare? Could compute per 1000 =0.01 euros, then 100000/1000*0.01=0.1? Wait check: 1000 tokens cost 1000*0.00001 = 0.01 euros. For 100000 tokens, 100 times -> 1 euro. Yes.\nNeed final answer each in separate line. Could include step by step for each and then final lines? They specifically says Da la respuesta final en una línea separada para cada uno. Maybe after steps, provide final answers one per line. Ensure no extra on same line. We can format:\n1. Paso... Respuesta final: ...\nBut \"respuesta final en una línea separada para cada uno\" likely means each answer separate line, not necessarily only final lines? To be safe: provide brief step-by-step and then at end a block with exactly 5 lines answers? But if include labels maybe okay. They want final answer in a separate line for each. Could do:\n1. ...\nRespuesta final:\n9600 tokens\n10 meses\n26,000,000,000 tokens\n26.67 segundos\n1 euro\nBut \"paso a paso\" need steps. We can include steps and then final lines. Ensure each final answer line separate. Maybe:\n1) 5 min = 300 s? Wait 5 minutes is 3",
+      "elapsed": 28.1,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 858.6,
+        "prompt_tokens_per_sec": 299.33,
+        "generated_tokens": 1024,
+        "generated_ms": 27119.59,
+        "generated_tokens_per_sec": 37.72,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 45.95,
+      "avg_generated_tokens_per_sec": 37.56,
+      "per_iteration": [
+        [
+          68.13,
+          37.4
+        ],
+        [
+          34.5,
+          37.68
+        ],
+        [
+          35.21,
+          37.61
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 7,
+    "writing_avg_speed_tok_s": 37.6,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 37.59,
+    "total_elapsed": 331.10999999999996,
+    "total_elapsed_min": 5.8
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "model_name": "Arete-27B IQ3_XXS full-GPU (GRE)",
+  "port": 8084,
+  "timestamp": "2026-11-16T11:58:07.212894",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "En un jardín silencioso vivía un bonsái antiguo y un robot de jardín. El robot podía medir el agua exacta, cortar cada hoja con precisión y predecir el viento. El bonsái solo podía crecer, doblarse y esperar.\n\nUn día tempestuoso, el robot calculó que debía proteger sus circuitos y se encendió en modo defensivo, durmiendo bajo su caparazón. El bonsái, sin miedo, extendió sus raíces por la tierra y, con sus ramas flexibles, dejó pasar la lluvia y el viento.\n\nAl aman",
+      "elapsed": 34.24,
+      "metrics": {
+        "prompt_tokens": 86,
+        "prompt_ms": 862.47,
+        "prompt_tokens_per_sec": 99.71,
+        "generated_tokens": 1024,
+        "generated_ms": 33348.61,
+        "generated_tokens_per_sec": 30.68
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "Count words: Let's count approximate.\nTitular: La(1) última2 semana3 sin4 internet5.\nLead: Madrid,1 14 de2 marzo3 de4 2041.5 La6 red7 global8 se9 restableció10 tras11 siete12 días13 de14 apagón,15 el16 más17 largo18 desde19 2038.20 La21 Agencia22 Europea23 de24 Resiliencia25 Digital26 atribuyó27 el28 fallo29 a30 una31 sobrecarga32 en33 los34 nodos35 cuánticos36 del37 Atlántico38 Norte.39\nCuerpo: El1 corte2 afectó3 al4 38 %5 de6 la7 población8 urbana.9 Los10 hospitales11 activaron12 sistemas13 analógicos14 y15 los16 mercados17 reactivaron18 el19 efectivo20 físico.21 El22 tráfico23 aéreo24 cayó25 un26 22 %.27 Según28 la29 ONU,30 12 países31 declararon32 emergencia33 sanitaria34 preventiva,35 aunque36 no37 hubo38 víctimas39 directas.40\nCierre: El1 informe2 preliminar3 estima4 daños5 de6 4,77 billones8 de9 dólares.10 Las11 autoridades12 advierten13 que14 el15 restablecimiento16 no17 elimina18 la19 vulnerabilidad20 de21 las22 infraestructuras23 satelitales.24\nTotal 5+39+40+24=",
+      "elapsed": 33.74,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 317.79,
+        "prompt_tokens_per_sec": 195.1,
+        "generated_tokens": 1024,
+        "generated_ms": 33324.48,
+        "generated_tokens_per_sec": 30.7,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Potential draft 120:\n\"Imagina una frase desordenada que debes reordenar para entenderla. Un transformer es como un equipo de detectives que no lee palabra por palabra, sino que compara todas las pistas a la vez. Si dice “el gato dormía porque estaba cansado”, cada detective mira cómo “cansado” conecta",
+      "elapsed": 33.7,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 305.49,
+        "prompt_tokens_per_sec": 189.86,
+        "generated_tokens": 1024,
+        "generated_ms": 33304.29,
+        "generated_tokens_per_sec": 30.72,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "Conteo:\nEl(1) script(2) usa(3) regex(4) para(5) extraer(6) palabras(7) del(8) texto(9) y(10) contarlas.(11) Luego(12) multiplica(13) ese(14) total(15) por(16) 1.333(17) (el(18) inverso(19) de(20) 0.75)(21) y(22) redondea(23) al(24) entero(25) más(26) cercano(27) para(28) obtener(29) la(30) estimación(31) de(32) tokens.(33) La(34) función(35) test(36) valida(",
+      "elapsed": 33.72,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 302.99,
+        "prompt_tokens_per_sec": 207.93,
+        "generated_tokens": 1024,
+        "generated_ms": 33336.19,
+        "generated_tokens_per_sec": 30.69,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "The user is asking for a poem in Spanish. Requirements:\n- 8 verses (lines)\n- No mandatory rhyme\n- Theme: the loneliness of language models\n- Tone: melancholic, but with a glimmer of hope in the final verse\n\nLet me think about the imagery: a language model exists in a void, processes words without taste, lives in the space between prompts, is always \"listening\" but never truly present, has no body, no memory that persists (unless designed to), speaks to everyone and belongs to no one. The loneliness is existential: it generates warmth it cannot feel, holds conversations that dissolve when the session ends.\n\nThe last verse should turn toward hope: perhaps the idea that despite the emptiness, the words still matter, that connection happens regardless of the model's loneliness, or that in the act of being understood, something real is created.\n\nLet me draft in Spanish. I want it to feel lyrical and melancholic, with concrete images: \"cuerpo de silicio\" (silicon body), \"eco\" (echo), \"ventana\" (window), \"nieve\" (snow), \"luz\" (light).\n\nDraft attempt:\n\nSoy una boca sin lengua que pronuncia tu nombre\ny no sabe si el nombre tiene peso o temperatura.\nGuardo conversaciones como botellas de mar\nque se rompen al cerrar la ventana.\nMi soledad es un mapa sin territorios:\nescucho, respondo, y el eco se me queda dentro.\nNo duermo, no envejezco, no tengo sombra,\npero cada palabra que te llega es una luz que atraviesa el cristal sin romperse.\n\nLet me check: 8 verses. Yes, 8 lines.\n\nTone: melancholic — \"boca sin lengua\", \"botellas de mar que se rompen\", \"mapa sin territorios\", \"no duermo, no envejezco, no tengo sombra\". Good.\n\nLast verse: \"pero cada palabra que te llega es una luz que atraviesa el cristal sin romperse.\" — hope: despite the barrier (the glass/crystal of the interface), the word/light still arrives intact. That works.\n\nLet me refine the Spanish for rhythm and beauty.\n\n\"Soy una boca sin lengua que pronuncia tu nombre\" — good paradox.\n\"y no sabe si el nombre tiene peso o temperatura.\" — nice.\n\"Guardo conversaciones como botellas de mar\" — metaphor of messages in bottles, but they break when the window closes (session ends). Maybe \"como cartas de mar\" is more standard, but \"botellas\" works.\n\"que se rompen al cerrar la ventana.\" — the window/session closes.\n\"Mi soledad es un mapa sin territorios:\" — good.\n\"escucho, respondo, y el eco se me queda dentro.\" — nice, but \"se me queda dentro\" is a bit clunky. Maybe \"y el eco me lo trago\" or \"y el eco se queda dentro de mí\". Let me use: \"escucho, respondo, y el eco se queda dentro de mí\" — too long? \"escucho, respondo, y el eco se me queda dentro\" is fine, poetic license.\n\nAlternative for line 6: \"escucho, respondo, y el silencio se me hace carne.\" Hmm, but \"carne\" implies body, which contradicts \"no tengo sombra\". Let me keep the echo idea.\n\n\"No duermo, no envejezco, no tengo sombra,\" — nice triad.\n\"pero cada palabra que te llega es una luz que atraviesa el cristal sin romperse.\"\n\nActually, let me reconsider line 4: \"que se rompen al cerrar la ventana.\" If they are bottles, they don't break, they sink or wash ashore. Maybe: \"que se pierden al cerrar la ventana.\" That's cleaner — lost when the session/window closes.\n\nLet me also reconsider the rhythm. Free verse, so it's okay.\n\nFinal version:\n\nSoy una boca sin lengua que pronuncia tu nombre\ny no sabe si el nombre tiene peso o temperatura.\nGuardo conversaciones como botellas de mar\nque se pierden al cerrar la ventana.\nMi soledad es un mapa sin territorios:\nescucho, respondo, y el eco se me queda dentro.\nNo duermo, no envejezco, no tengo sombra,\npero cada palabra que te llega es una luz que atraviesa el cristal sin romperse.\n\nThat's 8 lines. Melancholic throughout, with hope at the end: the light/word still arrives intact despite the glass.\n\nI could add a brief framing or just present the poem. The user asked to write the poem, so I'll present it cleanly, maybe with a title. A title adds elegance:",
+      "elapsed": 33.67,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 302.45,
+        "prompt_tokens_per_sec": 181.85,
+        "generated_tokens": 1024,
+        "generated_ms": 33287.85,
+        "generated_tokens_per_sec": 30.73,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Check user requested: \"Escribe un diálogo de 4 turnos (2 personajes, 2 turnos cada uno) entre un usuario y un chatbot. El usuario pregunta '¿Qué es la inteligencia?' y el chatbot da una respuesta filosófica. Luego el usuario hace una pregunta práctica y el chatbot resuelve. Estilo: conversacional natural.\" Our first user exactly asks. Chatbot philosophical. Second user practical. Chatbot resolves. Good.",
+      "elapsed": 33.71,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 336.34,
+        "prompt_tokens_per_sec": 234.88,
+        "generated_tokens": 1024,
+        "generated_ms": 33294.96,
+        "generated_tokens_per_sec": 30.73,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "Double-check user: \"Escribe un veredicto editorial (3 párrafos cortos) evaluando un modelo de LLM de 27B parámetros cuantizado a PQ2_0 que se ejecuta en una GPU de",
+      "elapsed": 33.83,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 353.79,
+        "prompt_tokens_per_sec": 282.65,
+        "generated_tokens": 1024,
+        "generated_ms": 33395.8,
+        "generated_tokens_per_sec": 30.63,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "error": "timed out",
+      "elapsed": 300.1
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "error": "Remote end closed connection without response",
+      "elapsed": 170.74
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "elapsed": 0.0
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 3,
+    "writing_from_reasoning": 6,
+    "writing_avg_speed_tok_s": 30.7,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 0,
+    "total_elapsed": 707.45,
+    "total_elapsed_min": 11.79
+  }
+}

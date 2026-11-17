@@ -1,0 +1,62 @@
+[
+ {
+  "file": "LiquidAI_LFM3-1.7B-GGUF_LFM3-1.7B-Q8_0.gguf",
+  "mib": 1761,
+  "cards": {
+   "GRE": {
+    "f16": {
+     "ctx": 262144,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 146.6
+    },
+    "q8_0": {
+     "ctx": 262144,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 143.3
+    }
+   }
+  }
+ },
+ {
+  "file": "DeepSeek-V4-Pro-Qwen3.5-9B-MTP-Q8_0.gguf",
+  "mib": 9333,
+  "cards": {
+   "GRE": {
+    "f16": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 6.8
+    },
+    "q8_0": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 7.2
+    }
+   }
+  }
+ },
+ {
+  "file": "LiquidAI_LFM2.5-24B-A2B-GGUF_LFM2.5-24B-A2B-QAD-Q4_0.gguf",
+  "mib": 12949,
+  "cards": {
+   "GRE": {
+    "f16": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 122.5
+    },
+    "q8_0": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 90.4
+    }
+   }
+  }
+ }
+]

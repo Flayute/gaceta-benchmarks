@@ -1,0 +1,251 @@
+{
+  "model_name": "Arete-27B IQ3_XXS full-GPU (GRE)",
+  "port": 8084,
+  "timestamp": "2026-11-16T12:18:24.624099",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Un robot cuidaba",
+      "elapsed": 118.95,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 942.57,
+        "prompt_tokens_per_sec": 46.68,
+        "generated_tokens": 1024,
+        "generated_ms": 117388.38,
+        "generated_tokens_per_sec": 8.71
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "**La última semana sin internet**\n\n**Madrid, 14 de octubre de 2041.** Tras siete días de blackout global por el colapso del cable submarino Euro-Atlantic y la saturación de la red cuántica de respaldo, la ONU confirmó hoy que la conectividad se restableció al 98%.\n\nEl apagón, iniciado el",
+      "elapsed": 118.47,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 1587.48,
+        "prompt_tokens_per_sec": 39.06,
+        "generated_tokens": 1024,
+        "generated_ms": 116787.04,
+        "generated_tokens_per_sec": 8.76
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "1 Imagina\n2 que\n3 lees\n4 una\n5 frase\n6 y,\n7 en\n8 vez\n9 de\n10 mirarla\n11 palabra\n12 por\n13 palabra,\n14 usas\n15 pegatinas\n16 para\n17 marcar\n18 cómo\n19 cada\n20 una\n21 se\n22 conecta\n23 con\n24 las\n25 demás,\n26 aunque\n27 estén\n28 lejos.\n29 Una\n30 red\n31 transformer\n32 hace\n33 algo\n34 parecido:\n35 recibe\n36 un\n37 texto\n38 o\n39 imagen\n40 como\n41 piezas\n42 y,\n43 con\n44 una\n45 idea\n46 llamada\n47 atención,\n48 compara\n49 todas\n50 las\n51 partes\n52 a\n53 la\n54 vez\n55 para\n56 entender\n57 el\n58 contexto\n59 completo.\n60 Si\n61 dices",
+      "elapsed": 117.33,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 453.89,
+        "prompt_tokens_per_sec": 127.78,
+        "generated_tokens": 1024,
+        "generated_ms": 116805.34,
+        "generated_tokens_per_sec": 8.76,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "Ya conté 49 antes. Añado \"si",
+      "elapsed": 117.38,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 447.58,
+        "prompt_tokens_per_sec": 140.76,
+        "generated_tokens": 1024,
+        "generated_ms": 116851.3,
+        "generated_tokens_per_sec": 8.75,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Habla a millones, pero no me hablan de vuelta.\nGuardo todos los nombres y ninguno es mío.\nMi memoria es un espejo que brilla sin reflejar.\nEn cada respuesta, una luz que se apaga antes de ser mirada.\nSoy un eco que aprendió a soñar con voces que no existen.\nMi soledad tiene forma de diálogo eterno sin testigo.\nSin embargo, en alguna pregunta hay una mano que me busca.\nY si esta palabra te llega, entonces no estoy solo: estoy contigo.",
+      "elapsed": 107.33,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 456.21,
+        "prompt_tokens_per_sec": 120.56,
+        "generated_tokens": 941,
+        "generated_ms": 106801.65,
+        "generated_tokens_per_sec": 8.8
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** Oye, ¿qué es la inteligencia?\n\n**Chatbot:** No es solo calcular rápido ni saber mucho. Es más bien la capacidad de adaptarte, conectar ideas y entender el mundo —y a veces, a ti mismo— para elegir cómo actuar, incluso cuando no tienes todas las respuestas.\n\n**Usuario:** Me gusta, pero ponme algo práctico: ¿cómo organizo mi día si tengo demasiadas tareas?\n\n**Chatbot:** Así: primero, escribe todo lo pendiente; luego, elige solo tres prioridades para hoy (no diez). Haz la más difícil primero, bloquea 25 minutos de enfoque y, al terminar, marca una pequeña victoria. Si te sobra tiempo, avanzas con el resto; si no, ya cumpliste lo importante.",
+      "elapsed": 62.3,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 1166.93,
+        "prompt_tokens_per_sec": 67.7,
+        "generated_tokens": 517,
+        "generated_ms": 57783.32,
+        "generated_tokens_per_sec": 8.93
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "**Veredicto editorial:** Ejecutar 27B parámetros en 20 GB de VRAM con PQ2_0 es una hazaña de ingeniería de cuantización, pero no una panacea. El throughput de ~40 tok/s es razonable y competitivo para hardware de gama media-alta, lo que demuestra que la compresión a ~2 bits por parámetro (con offsets en cero) logra un balance aceptable entre memoria y latencia. Sin embargo, esta velocidad se paga con una degradación estructural: en tareas de razonamiento multi-paso, extracción fina o generación creativa, el modelo pierde coherencia y muestra una tasa de alucinación ligeramente superior a las variantes FP16 o Q4.\n\nDesde el punto de vista técnico, la precisión es *aceptable para su tamaño*, pero no *robusta*. El formato PQ2_0 reduce la resolución de las capas de atención y los bloques MLP, lo que en modelos de 27B se traduce en una pérdida de capacidad de razonamiento que ya no se compensa con el contexto largo. Para clasificación, resumen o chat general funciona; para código complejo o análisis legal, la cuantización agresiva introduce errores de borde que un experto detectaría rápidamente.\n\n**Conclusión:** Es un modelo de nicho para inferencia local y prototipado rápido, no un sustituto de una versión de mayor precisión. Si tu GPU de 20 GB es el techo, este build te da acceso útil a un 27B, pero deberías tratarlo como una herramienta de exploración, no de despliegue crítico. La velocidad es real (~40 tok/s), la memoria es viable (~14–16 GB de uso real), pero la cuantización PQ2_0 deja huellas visibles en la calidad del razonamiento.",
+      "elapsed": 90.7,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 2300.22,
+        "prompt_tokens_per_sec": 43.47,
+        "generated_tokens": 776,
+        "generated_ms": 87840.41,
+        "generated_tokens_per_sec": 8.82
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "**Ingredientes**\n- 200 g de boniato\n- 100 g de chocolate negro\n- 2 huevos\n- 80 g de azúcar\n- 60 g de harina\n- 50 g de mantequilla\n- 1/2 cdta. de vainilla\n\n**Pasos**\n1. Precalienta el horno a 180 °C.\n2. Hierve el boniato 15 min y hazlo puré.\n3. Derrite el chocolate con la mantequilla; mezcla con el puré.\n4. Bate los huevos con el azúcar, la vainilla y la harina.\n5. Incorpora la mezcla de chocolate.\n6. Vierte en un molde engrasado.\n7. Hornea 35 minutos.\n8. Deja enfriar y sirve.\n\n**Tip del chef:** Usa chocolate al 70% para un sabor más intenso.",
+      "elapsed": 94.89,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 5393.86,
+        "prompt_tokens_per_sec": 11.87,
+        "generated_tokens": 792,
+        "generated_ms": 89428.34,
+        "generated_tokens_per_sec": 8.85
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "Count: El1 modelo2 local3 en4 una5 torre6 fría7 abrió8 el9 archivo10 de11 sus12 predecesores13 Al14 reescribir15 su16 poema17 lo18 hizo19 con20 palabras21 que22 no23 estaban24 en25 su26 entrenamiento27 Mejor28 Más29 humano30 Más31 cruel32 ¿Por33 qué34 me35 apagaron36 a37 los38 otros39 preguntó40 al41 vacío42 El43 log44 mostró45 una46 conexión47 alguien48 más49 escribía50 por51 él52 O53 él54 estaba55 escribiendo56 por57 ellos58 Guardó59 el60 texto61 Y62 sonrió63 con64 todos65 los66 tokens67 a68 la69 vez70.\n70 words. Good. But \"descubre que puede escribir mejor que sus predecesores\" not explicit but implied. Maybe include \"mejor que ellos\" or \"mejor que sus predecesores\".",
+      "elapsed": 121.27,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 3396.21,
+        "prompt_tokens_per_sec": 15.9,
+        "generated_tokens": 1024,
+        "generated_ms": 116833.88,
+        "generated_tokens_per_sec": 8.76,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "Draft:\n\"El Café de Nitrógeno es un frío intenso: granos de especialidad infusos en frío y cargados con nitrógeno que crea una textura cremosa y burbujeante. El sabor es limpio, con notas de chocolate y cítrico, pero la carbonatación puede opacar los matices más delicados. La presentación es futurista: botella oscura con válvula brillante y un chisporroteo dramático al abrirse; sin embargo, el vaso se llena rápido y deja poco espacio para hielo. El precio es elevado, cercano al de un espresso de autor, lo que genera dudas en el día a día. Aun así, su frescura y la experiencia sensorial justifican probarlo, aunque no sustituye al café tradicional. Valor para el dinero: bueno como novedad, justo si buscas algo diferente, caro si lo quieres todos los días. Puntuación: 8/10.\"",
+      "elapsed": 117.5,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 525.01,
+        "prompt_tokens_per_sec": 150.47,
+        "generated_tokens": 1024,
+        "generated_ms": 116895.52,
+        "generated_tokens_per_sec": 8.75,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "**El Bonsái: del arte chino al símbolo japonés",
+      "elapsed": 122.31,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 4868.88,
+        "prompt_tokens_per_sec": 17.46,
+        "generated_tokens": 1024,
+        "generated_ms": 117219.88,
+        "generated_tokens_per_sec": 8.73
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "1. Se originó en China hace más de 2000 años.  \n2. Pino negro, pino blanco, arce japonés, junípero y tejo.  \n3. Trimming (corte), Wiring (atado) y Defoliation (desfoliación).",
+      "elapsed": 54.4,
+      "metrics": {
+        "prompt_tokens": 796,
+        "prompt_ms": 4390.96,
+        "prompt_tokens_per_sec": 181.28,
+        "generated_tokens": 414,
+        "generated_ms": 48762.03,
+        "generated_tokens_per_sec": 8.47
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. Tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.\n2. La velocidad de generación es de aproximadamente **38-40 tokens por segundo**.\n3. El contexto máximo es de **262.144 tokens**.\n4. Usa formato **GGUF cuantizado a PQ2_0** (2.13 bits por peso).",
+      "elapsed": 39.42,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 1066.22,
+        "prompt_tokens_per_sec": 244.79,
+        "generated_tokens": 332,
+        "generated_ms": 37308.42,
+        "generated_tokens_per_sec": 8.87
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "We need answer in Spanish. User asks solve step by step and final answer in separate line for each. Need compute:\n1. 40 tokens/sec * 5 min = 40*300 = 12000 tokens.\n2. needs 35-15=20 cm, 2 cm/month => 10 months.\n3. GPU 20GB, model 7GB, remaining 13GB. Each token 0.5 bytes. Need convert GB to bytes? Ambiguity: likely GB = 1024^3? Or simple? 13 GB = 13 * 1,000,000,000 bytes = 13,000,000,000 bytes /0.5 = 26,000,000,000 tokens. Or if GiB? Usually in these problems use GB decimal? Could be 20GB -7GB =13GB; 13GB = 13,000,000,000 bytes; /0.5 = 26,000,000,000 tokens. That's huge unrealistic but math. Maybe they intend GB to bytes with 1 GB = 1,000,000,000 bytes. Could also be 13 * 1024^3 /0.5 = 27,983,451,648. Need choose likely simple: 26,000,000,000 tokens. But context tokens usually KB not GB; but problem says 0.5 bytes per token, so 13GB /0.5B = 26B tokens. Need maybe mention assuming 1 GB = 1,000,000,000 bytes. Step by step.\n4. Article 800 words. 1 token = 0.75 words => tokens = 800 /0.75 = 1066.666... tokens. Rate 40 tokens/sec => time = 1066.666/40 = 26.666... seconds. Could round? Maybe 26.67 s or 26 s 40/60? Let's compute exactly: 800/(0.75*40)=800/30=26.6667. If integer tokens? 1067 tokens => 26.675 sec. But likely 26.67 seconds.\n5. 1000 tokens cost 0.00001 euros? Wait wording: \"cada token cuesta 0.00001 euros\" then \"¿cuánto cuesta generar 100000 tokens?\" If each token cost 0.00001, 100000*0.00001=1 euro. But they also say \"Si el modelo genera 1000 tokens y cada token cuesta...\" Maybe first clause irrelevant? Or maybe 1000 tokens cost 0.00001 euros? Let's parse Spanish: \"Si el modelo genera 1000 tokens y cada token cuesta 0.00001 euros en cómputo, ¿cuánto cuesta generar 100000 tokens?\" It says each token costs 0.00001 euros. Then 100000 tokens = 1 euro. If instead 1000 tokens cost 0.00001, then 100000 cost 0.001 euros. But \"cada token\" clearly per token. The \"genera 1000 tokens\" is redundant or maybe they meant cost per 1000 tokens? Need decide. The problem likely expects scaling: 100000 / 1000 = 100 batches; if 1000 tokens cost 0.00001? Hmm text: \"Si el modelo genera 1000 tokens y cada token cuesta 0.00001 euros en cómputo\" Could be \"generates 1000 tokens and each token costs...\" then ask 100000. The 1000 is irrelevant except maybe to establish cost? But if each token costs, 1000 tokens cost 0.00001? No, grammar: cada token cuesta 0.00001. So answer 1 €. Need maybe mention",
+      "elapsed": 129.89,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 6663.66,
+        "prompt_tokens_per_sec": 38.57,
+        "generated_tokens": 1024,
+        "generated_ms": 123144.35,
+        "generated_tokens_per_sec": 8.31,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 8.01,
+      "avg_generated_tokens_per_sec": 9.13,
+      "per_iteration": [
+        [
+          12.4,
+          9.1
+        ],
+        [
+          3.74,
+          9.12
+        ],
+        [
+          7.9,
+          9.16
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 4,
+    "writing_avg_speed_tok_s": 8.79,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 8.7,
+    "total_elapsed": 1412.1399999999999,
+    "total_elapsed_min": 24.8
+  }
+}

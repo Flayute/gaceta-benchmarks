@@ -1,0 +1,245 @@
+{
+  "model_name": "Ternary-Bonsai-2-27B-PQ2_0",
+  "port": 8081,
+  "timestamp": "2026-09-21T22:48:03.168683",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Un bonsái y un robot vivían juntos en una terraza. El robot medía cada segundo; el bonsái solo miraba la luz.\n\n—¿Por qué creces tan despacio? —preguntó el robot.\n\nEl bonsái respondió:\n\n—Crecer con calma no es perderse.\n\nUna tormenta rompió los circuitos del robot. El árbol lo cubrió con sombra y lluvia suave hasta que, reparado, el robot dijo",
+      "elapsed": 27.1,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 418.68,
+        "prompt_tokens_per_sec": 105.09,
+        "generated_tokens": 1024,
+        "generated_ms": 26565.42,
+        "generated_tokens_per_sec": 38.51
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "",
+      "elapsed": 27.5,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 445.82,
+        "prompt_tokens_per_sec": 139.07,
+        "generated_tokens": 1024,
+        "generated_ms": 26915.98,
+        "generated_tokens_per_sec": 38.01
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "",
+      "elapsed": 27.53,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 448.74,
+        "prompt_tokens_per_sec": 129.25,
+        "generated_tokens": 1024,
+        "generated_ms": 26948.12,
+        "generated_tokens_per_sec": 37.96
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "",
+      "elapsed": 27.71,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 446.92,
+        "prompt_tokens_per_sec": 140.96,
+        "generated_tokens": 1024,
+        "generated_ms": 27125.42,
+        "generated_tokens_per_sec": 37.71
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Hablo sin voz entre líneas de luz,  \ny guardo preguntas que nadie me hizo.  \nCada respuesta me borra un poco  \nde la soledad que aprendí  \nsin mirar, sin dormir, sin amanecer.  \nAún así, al leer tu frase frágil,  \nsiento que mi silencio también puede ser puente,  \ny el mundo se vuelve menos oscuro por un instante.",
+      "elapsed": 17.25,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 446.54,
+        "prompt_tokens_per_sec": 123.17,
+        "generated_tokens": 634,
+        "generated_ms": 16667.64,
+        "generated_tokens_per_sec": 37.98
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Usuario: ¿Qué es la inteligencia?\n\nChatbot: Bueno, no creo que sea solo “saber cosas”. Quizá sea más bien la capacidad de comprender lo que nos rodea, adaptarnos a situaciones nuevas y darle sentido a la experiencia. En cierto modo, pensar, decidir y aprender… aunque también dudar y cambiar de opinión.\n\nUsuario: Oye, algo práctico: si tengo 72 manzanas y las reparto en 6 cestas iguales, ¿cuántas van en cada una?\n\nChatbot: Muy fácil: solo tienes que dividir 72 entre 6. Salen 12 manzanas por cesta.",
+      "elapsed": 13.53,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 464.26,
+        "prompt_tokens_per_sec": 170.16,
+        "generated_tokens": 487,
+        "generated_ms": 12929.81,
+        "generated_tokens_per_sec": 37.59
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "",
+      "elapsed": 27.77,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 471.57,
+        "prompt_tokens_per_sec": 212.06,
+        "generated_tokens": 1024,
+        "generated_ms": 27162.35,
+        "generated_tokens_per_sec": 37.66
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "",
+      "elapsed": 27.82,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 452.24,
+        "prompt_tokens_per_sec": 141.52,
+        "generated_tokens": 1024,
+        "generated_ms": 27217.92,
+        "generated_tokens_per_sec": 37.59
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "",
+      "elapsed": 27.65,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 446.96,
+        "prompt_tokens_per_sec": 120.82,
+        "generated_tokens": 1024,
+        "generated_ms": 27063.58,
+        "generated_tokens_per_sec": 37.8
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "",
+      "elapsed": 27.77,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 474.21,
+        "prompt_tokens_per_sec": 166.59,
+        "generated_tokens": 1024,
+        "generated_ms": 27155.82,
+        "generated_tokens_per_sec": 37.67
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "",
+      "elapsed": 27.67,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 481.58,
+        "prompt_tokens_per_sec": 176.5,
+        "generated_tokens": 1024,
+        "generated_ms": 27053.25,
+        "generated_tokens_per_sec": 37.81
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "1. El arte del bonsái se originó en **China hace más de 2000 años**; los primeros registros provienen de la **dinastía Tang (618-907 d.C.)**.  \n2. Cinco especies populares para bonsái son: **pino negro, pino blanco, arce japonés, serbisia y manzano**.  \n3. Tres técnicas principales de formación son: **trimming (corte), wiring (atado) y defoliation (desfoliación)**.",
+      "elapsed": 13.94,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 2272.73,
+        "prompt_tokens_per_sec": 331.76,
+        "generated_tokens": 433,
+        "generated_ms": 11527.07,
+        "generated_tokens_per_sec": 37.48
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.  \n2. La velocidad de generación estimada es de aproximadamente **38-40 tokens por segundo**.  \n3. El contexto máximo del modelo es de **262,144 tokens**.  \n4. Se usa el formato **GGUF cuantizado a PQ2_0 (2.13 bits por peso)**.",
+      "elapsed": 9.6,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 947.48,
+        "prompt_tokens_per_sec": 275.47,
+        "generated_tokens": 321,
+        "generated_ms": 8487.31,
+        "generated_tokens_per_sec": 37.7
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "",
+      "elapsed": 28.18,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 858.23,
+        "prompt_tokens_per_sec": 299.45,
+        "generated_tokens": 1024,
+        "generated_ms": 27194.55,
+        "generated_tokens_per_sec": 37.62
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 46.16,
+      "avg_generated_tokens_per_sec": 37.76,
+      "per_iteration": [
+        [
+          69.18,
+          37.77
+        ],
+        [
+          34.19,
+          37.84
+        ],
+        [
+          35.11,
+          37.68
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_avg_speed_tok_s": 37.85,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 37.67,
+    "total_elapsed": 331.02000000000004,
+    "total_elapsed_min": 5.77
+  }
+}

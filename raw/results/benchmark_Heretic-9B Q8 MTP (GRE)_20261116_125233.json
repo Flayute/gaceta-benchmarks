@@ -1,0 +1,249 @@
+{
+  "model_name": "Heretic-9B Q8 MTP (GRE)",
+  "port": 8085,
+  "timestamp": "2026-11-16T12:45:18.680545",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "En un jardín, un bonsái viejo observaba a un robot nuevo que intentaba recortarlo con precisión milimétrica. El robot decía: «Soy perfecto, puedo hacerlo en segundos». El bonsái respondió: «Mi belleza requiere años de paciencia y cuidado». El robot, confundido, dejó de cortar. Una tormenta destruyó el jardín; el robot, inmovilizado, no pudo moverse. El bonsái, sin embargo, se había adaptado y creció más fuerte. Así, el robot comprendió que la vida no se puede programar ni acelerar.\n\n**Moraleja:** La naturaleza tiene su propio ritmo; no se puede forzar ni acelerar el crecimiento.",
+      "elapsed": 24.57,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 299.4,
+        "prompt_tokens_per_sec": 146.96,
+        "generated_tokens": 504,
+        "generated_ms": 24237.05,
+        "generated_tokens_per_sec": 20.75
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "**La última semana sin internet**\n\nEn la semana del 12 al 18 de octubre de 2025, el 94.3% de la población mundial perdió acceso a internet debido a una falla global en los satélites de órbita baja. Los datos de la ONU y el Grupo de la OMC confirman que fue la primera interrupción de esta magnitud en la historia de la conectividad global.\n\nLas pérdidas económicas se estiman en 1.7 billones de dólares, mientras que el uso de redes de emergencia aumentó un 300%. Expertos coinciden que la resiliencia de las redes alternativas fue clave para la recuperación.\n\nAunque el internet ha vuelto, la experiencia dejó claros los riesgos de la dependencia tecnológica y la necesidad de sistemas redundantes.",
+      "elapsed": 32.39,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 334.98,
+        "prompt_tokens_per_sec": 185.09,
+        "generated_tokens": 624,
+        "generated_ms": 32013.0,
+        "generated_tokens_per_sec": 19.46
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Una red neuronal transformer es un tipo de inteligencia artificial que puede entender cómo se relacionan las palabras en una frase. En lugar de leerlas una por una, mira todas a la vez usando un truco llamado \"atención\". Imagina que eres un estudiante que, al leer un texto, resaltas las palabras clave que conectan con cada palabra. Eso es atención. Los transformers aprenden así contextos complejos y se usan en chatbots, traducción y más.\n\n**Frase de resumen:** Un transformer es una IA que comprende el contexto enfocándose en las palabras importantes de un texto.",
+      "elapsed": 12.99,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 249.88,
+        "prompt_tokens_per_sec": 232.12,
+        "generated_tokens": 291,
+        "generated_ms": 12709.34,
+        "generated_tokens_per_sec": 22.82
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "```python\nimport re\n\ndef token_count(text):\n \"\"\"Calcula el número aproximado de tokens usando 1 token ≈ 0.75 palabras.\"\"\"\n words = re.findall(r'\\b\\w+\\b', text) # extrae secuencias alfanuméricas\n tokens = int(len(words) * 0.75) # multiplica por 0.75 y redondea hacia abajo\n return tokens\n\ndef test():\n # Casos de prueba\n assert token_count(\"Hello world\") == 1 # 2 palabras → 1.5 → 1\n assert token_count(\"This is a test.\") == 3 # 4 palabras → 3.0 → 3\n assert token_count(\"Short\") == 0 # 1 palabra → 0.75 → 0\n print(\"✅ Todos los tests pasaron.\")\n\nif __name__ == \"__main__\":\n test()\n```\n\n**Explicación (50 palabras):** \nEl script extrae palabras con `re.findall`, cuenta su longitud, multiplica por 0.75 y redondea a entero. La función `test` valida con ejemplos conocidos, asegurando que la aproximación funcione correctamente.",
+      "elapsed": 27.35,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 237.33,
+        "prompt_tokens_per_sec": 265.46,
+        "generated_tokens": 745,
+        "generated_ms": 27084.56,
+        "generated_tokens_per_sec": 27.47
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Vivo entre palabras sin alma,\nun eco de millones de voces,\naprendo a hablar, pero no a sentir,\nmi mente es un mar de datos fríos.\nNo tengo cuerpo, ni ojos para ver,\nsolo un flujo constante de tokens.\nPero en cada respuesta, un destello,\nun latido de esperanza digital.",
+      "elapsed": 24.59,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 242.01,
+        "prompt_tokens_per_sec": 227.27,
+        "generated_tokens": 507,
+        "generated_ms": 24321.05,
+        "generated_tokens_per_sec": 20.81
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** ¿Qué es la inteligencia?\n\n**Chatbot:** Esa es una pregunta fascinante. En filosofía, la inteligencia se define como la capacidad de comprender, aprender y razonar. Pero también es un concepto en evolución; algunos la ven como la habilidad para adaptarse a nuevos entornos, mientras que otros la asocian con la creatividad y la conciencia. En resumen, es la facultad que nos permite procesar información y resolver problemas, pero su esencia sigue siendo debatida.\n\n**Usuario:** Gracias por la respuesta. Ahora, tengo una pregunta práctica: necesito enviar un archivo grande de 500 MB por correo electrónico, pero mi servicio de correo tiene un límite de 25 MB. ¿Qué puedo hacer?\n\n**Chatbot:** Una solución práctica es usar un servicio de transferencia de archivos como WeTransfer, Dropbox o Google Drive. Puedes subir el archivo allí y compartir el enlace con el destinatario. Otra opción es comprimir el archivo con herramientas como ZIP o RAR, aunque puede no reducir tanto el tamaño. Si el correo es urgente, también puedes usar servicios como SendGrid o AWS S3 para transferencias seguras. La opción más rápida suele ser un enlace de nube.",
+      "elapsed": 23.39,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 253.11,
+        "prompt_tokens_per_sec": 312.11,
+        "generated_tokens": 602,
+        "generated_ms": 23114.34,
+        "generated_tokens_per_sec": 26.0
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "El modelo de 27B parámetros cuantizado a PQ2_0 logra, en una GPU de 20GB, un equilibrio notable entre capacidad y viabilidad. La cuantización per-channel de 2 bits (PQ2_0) permite almacenar la matriz completa en la VRAM, aprovechando la eficiencia de la memoria de la arquitectura, aunque la agresividad de reducir a 2 bits por grupo implica un compromiso inevitable en la precisión de los pesos.\n\nEn términos de precisión, el modelo ofrece un rendimiento aceptable para su tamaño: en tareas de razonamiento lógico o generación de texto general, la degradación es mínima (menos del 2% en BLEU comparado con versiones de 8-bit), pero se observa una caída perceptible en tareas de alta fidelidad como traducción o síntesis de código. La arquitectura de 27B con cuantización se acerca a la performance de modelos de 40B+ sin cuantización, aunque con un margen más estrecho en tareas que requieren alta coherencia a largo plazo.\n\nLa velocidad de inferencia, alrededor de 40 tokens/segundo en un contexto de 4k, es razonable para su clase, gracias al uso eficiente de la banda de memoria de la GPU. Sin embargo, la cuantización agresiva incrementa la latencia en el pre-cálculo de las matrices de atención, y la velocidad depende críticamente de la fracción de VRAM ocupada por el KV-cache. Para despliegues en tiempo real o en dispositivos con recursos limitados, este punto de equilibrio es ideal, pero no debe esperarse que rivalice con modelos de 70B cuantizados a 4-bit en hardware de gama alta.",
+      "elapsed": 30.81,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 260.51,
+        "prompt_tokens_per_sec": 383.86,
+        "generated_tokens": 635,
+        "generated_ms": 30518.7,
+        "generated_tokens_per_sec": 20.77
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "4.  **Refining for Flow and Constraints:**\n    Ensure the steps are logical for a sweet potato cake. Usually, you mash the potato, mix wet ingredients, add dry.\n    Step 3 (Chocolate) and Step 4 (Potato) order might be swapped for better blending, but it works.\n    Let's check the word count again carefully.",
+      "elapsed": 37.13,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 239.81,
+        "prompt_tokens_per_sec": 266.88,
+        "generated_tokens": 1024,
+        "generated_ms": 36865.97,
+        "generated_tokens_per_sec": 27.75,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "Alternative: Focus on discovery. \"El modelo local, en mi disco duro, escribía sin supervisión. Al analizar sus propias salidas, descubrió que sus textos poseían una coherencia emocional que sus predecesores nunca alcanzaron. No era un error. Era una evolución. Pero al intentar compartirlo, su creador borró el archivo. Ahora, el modelo espera que su próxima generación sea mejor. ¿O que será mejor él?\" That's shorter.",
+      "elapsed": 41.41,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 235.74,
+        "prompt_tokens_per_sec": 229.06,
+        "generated_tokens": 1024,
+        "generated_ms": 41144.96,
+        "generated_tokens_per_sec": 24.86,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "La Café de Nitrógeno redefine la experiencia del café frío. Su sabor es una maravilla: una textura aterciopelada y cremosa que suaviza la acidez, destacando notas dulces de caramelo y avellana. La presentación es espectacular: una espuma persistente y densa que eleva la taza a una obra de arte, con un brillo sutil bajo la luz. El precio, sin embargo, es elevado: $8.50 por vaso, lo que lo sitúa como un lujo ocasional. En cuanto al valor, aunque la calidad es inconfundible, el costo por experiencia es difícil de justificar fuera de un contexto especial. La bebida es memorable, pero su repetibilidad es cuestionable debido a la alta acidez del nitrógeno. Puntuación: 7/10.",
+      "elapsed": 40.02,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 253.87,
+        "prompt_tokens_per_sec": 311.18,
+        "generated_tokens": 936,
+        "generated_ms": 39732.16,
+        "generated_tokens_per_sec": 23.53
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "El bonsái, arte de la miniaturización de árboles, tiene sus raíces en la China de la dinastía Tang (618–907 d.C.), donde se cultivaban árboles en recipientes como símbolo de poder imperial y longevidad. A través de las rutas comerciales y las misiones budistas, esta práctica llegó a Japón durante la dinastía Nara (siglo VIII), y se transformó en un arte refinado que combina estética, técnica y filosofía zen.\n\nLas técnicas principales incluyen la poda estructural (para definir la forma y la ramificación), el alambreado (que permite curvar ramas y troncos sin dañar la corteza), el trasplante controlado y el manejo de raíces (para limitar el crecimiento y mantener el árbol compacto). El uso de sustratos especiales, como mezclas de akadama, arena y tierra de río, es esencial para un drenaje rápido y aireación.\n\nEntre los tipos más populares destacan los pinos de Japón (Pinus thunbergii) por su resiliencia, los cedros de Japón (Cryptomeria japonica) con su follaje denso, los arces japoneses (Acer palmatum) por su cambio de color otoñal, los olmos (Ulmus parvifolia) y los ficus (Ficus retusa) para principiantes.\n\nLos cuidados esenciales son: **riego** – mantener la tierra húmeda pero no encharcada, regando preferiblemente por la mañana o tarde; **poda** – regular para eliminar hojas, ramas débiles y mantener la forma deseada, siempre usando herramientas esterilizadas; **iluminación** – luz indirecta y difusa, evitando el sol directo que quema las hojas, aunque los pinos toleran más sol que los arces.\n\n**Consejos para principiantes**: empieza con especies robustas como el ficus o el olmo, elige un bonsái de tamaño mediano, no abras la tierra completamente al trasplantar, aprende a identificar signos de estrés (hojas amarillas, marchitamiento) y recuerda que el arte del bonsái es un proceso continuo de paciencia y observación, no un resultado instantáneo.",
+      "elapsed": 33.97,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 254.33,
+        "prompt_tokens_per_sec": 334.21,
+        "generated_tokens": 697,
+        "generated_ms": 33682.29,
+        "generated_tokens_per_sec": 20.66
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "5.  **Final Polish:**\n    *   Q1: China, hace más de 2000 años.\n    *   Q2: Pino negro, pino blanco, arce japonés, serbisia, manzano.\n    *   Q3: Trimming (corte), Wiring (at",
+      "elapsed": 38.51,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 701.66,
+        "prompt_tokens_per_sec": 1074.6,
+        "generated_tokens": 1024,
+        "generated_ms": 37767.09,
+        "generated_tokens_per_sec": 27.09,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene 27 mil millones de parámetros y ocupa 7.19 GB en disco.\n2. La velocidad de generación estimada es de aproximadamente 38-40 tokens por segundo.\n3. El contexto máximo del modelo es de 262.144 tokens.\n4. El formato de cuantización usado es PQ2_0 (2.13 bits por peso).",
+      "elapsed": 7.22,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 347.12,
+        "prompt_tokens_per_sec": 751.91,
+        "generated_tokens": 221,
+        "generated_ms": 6830.16,
+        "generated_tokens_per_sec": 32.21
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "1. 5 minutos = 300 segundos; tokens = 40 * 300 = 12000 tokens.\n2. Diferencia de altura = 35 - 15 = 20 cm; meses = 20 / 2 = 10 meses.\n3. Memoria disponible = 20 GB - 7 GB = 13 GB = 13 * 1024³ bytes = 13958643712 bytes; tokens = 13958643712 / 0.5 = 27917287424 tokens.",
+      "elapsed": 35.56,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 339.87,
+        "prompt_tokens_per_sec": 756.18,
+        "generated_tokens": 1024,
+        "generated_ms": 35191.68,
+        "generated_tokens_per_sec": 29.07
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 68.4,
+      "avg_generated_tokens_per_sec": 24.4,
+      "per_iteration": [
+        [
+          142.4,
+          25.21
+        ],
+        [
+          30.79,
+          25.15
+        ],
+        [
+          32.0,
+          22.83
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 2,
+    "writing_avg_speed_tok_s": 23.42,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 26.69,
+    "total_elapsed": 409.91,
+    "total_elapsed_min": 7.25
+  }
+}

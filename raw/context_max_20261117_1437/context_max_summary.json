@@ -1,0 +1,50 @@
+[
+ {
+  "file": "LiquidAI_LFM2.5-24B-A2B-GGUF_LFM2.5-24B-A2B-QAD-Q4_0.gguf",
+  "mib": 12949,
+  "cards": {
+   "GRE": {
+    "kv_mib_per_token": {
+     "f16": 0.0205,
+     "q8_0": 0.0113
+    },
+    "f16": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 118.3
+    },
+    "q8_0": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 91.2
+    }
+   }
+  }
+ },
+ {
+  "file": "DeepSeek-V4-Pro-Qwen3.5-9B-MTP-Q8_0.gguf",
+  "mib": 9333,
+  "cards": {
+   "GRE": {
+    "kv_mib_per_token": {
+     "f16": 0.0322,
+     "q8_0": 0.0212
+    },
+    "f16": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 6.8
+    },
+    "q8_0": {
+     "ctx": 131072,
+     "weights_mib": null,
+     "kv_mib": null,
+     "tg_at_max": 6.5
+    }
+   }
+  }
+ }
+]

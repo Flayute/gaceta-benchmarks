@@ -1,0 +1,251 @@
+{
+  "model_name": "qwopues3.8-27b",
+  "port": 8080,
+  "timestamp": "2026-09-22T00:11:05.680752",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "El(63) bonsái(64) respondió(65): —Pero(66) entonces(67) no(68) me(69) habrías(70) podado(71). Cada(72) corte(73) me(74) enseña(75) a(76) dobl",
+      "elapsed": 16.47,
+      "metrics": {
+        "prompt_tokens": 42,
+        "prompt_ms": 265.31,
+        "prompt_tokens_per_sec": 158.31,
+        "generated_tokens": 1024,
+        "generated_ms": 15418.55,
+        "generated_tokens_per_sec": 66.35,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "**La última semana sin internet**\n\n**MADRID.** El 14 de marzo de 2031, la Organización Mundial de Telecomunicaciones (OMT) confirmó el restablecimiento total de la red global tras siete días de desconexión: la primera desde la creación de Internet en 1969.\n\nEl apagón, causado por una cascada de fallos en 47 nodos submarinos del Pacífico Sur, dejó a 4.200 millones de personas sin acceso a datos. Según la OMT, la economía global sufrió un retroceso del 3,1% en una sola semana.\n\n\"Las personas volv",
+      "elapsed": 15.61,
+      "metrics": {
+        "prompt_tokens": 60,
+        "prompt_ms": 169.29,
+        "prompt_tokens_per_sec": 354.41,
+        "generated_tokens": 1024,
+        "generated_ms": 15387.91,
+        "generated_tokens_per_sec": 66.48
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Draft:\n\"Imagina que estás en clase y el profesor dice: 'El perro mordió al hombre que llevaba sombrero.' Para entender quién lleva el sombrero, miras todas las palabras a la vez. Eso es un transformer. Es un tipo de red neuronal que, en vez de leer una frase palabra por palabra, hace que cada palabra 'mire' a todas las demás simultáneamente. Así descubre quién se relaciona con quién, sin perder el hilo. Es como si cada palabra tuviera ojos que escanean la frase completa al instante. Por eso los transformers son tan buenos entendiendo lenguaje: capturan el contexto completo de una sola vez.",
+      "elapsed": 13.92,
+      "metrics": {
+        "prompt_tokens": 56,
+        "prompt_ms": 170.19,
+        "prompt_tokens_per_sec": 329.05,
+        "generated_tokens": 1024,
+        "generated_ms": 13692.59,
+        "generated_tokens_per_sec": 74.71,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "```python\nimport re\nfrom typing import Union\n\n\ndef calcular_tokens(texto: str) -> int:\n \"\"\"\n Calcula el número de tokens aproximados en un texto.\n Regla: 1 token ≈ 0.75 palabras → tokens = palabras / 0.75\n \"\"\"\n if not isinstance(texto, str):\n raise TypeError(\"El texto debe ser una cadena de caracteres.\")\n \n # Dividir por espacios y filtrar tokens vacíos\n palabras = [p for p in texto.split() if p]\n num_palabras = len(palabras)\n \n # Aplicar la regla: tokens = palabras / 0.75\n num_tokens = int(num_palabras / 0.75)\n \n return num_tokens\n\n\ndef test_calcular_tokens() -> None:\n \"\"\"Función de prueba para validar calcular_tokens.\"\"\"\n # Caso 1: Texto simple\n texto1 = \"Hola mundo\"\n resultado1 = calcular_tokens(texto1)\n assert resultado1 == 3, f\"Esperado 3, obtenido {resultado1}\"\n print(f\"✓ '{texto1}' → {resultado1} tokens (esperado: 3)\")\n\n # Caso 2: Texto más largo\n texto2 = \"El rápido zorro marrón salta sobre el perro perezoso\"\n resultado2 = calcular_tokens(texto2)\n # 10 palabras / 0.75 = 13.33 → 13\n assert resultado2 == 13, f\"Esperado 13, obtenido {resultado2}\"\n print(f\"✓ '{texto2}' → {resultado2} tokens (esperado: 13)\")\n\n # Caso 3: Texto vacío\n texto3 = \"\"\n resultado3 = calcular_tokens(texto3)\n assert resultado3 == 0, f\"Esperado 0, obtenido {resultado3}\"\n print(f\"✓ Texto vacío → {resultado3} tokens (esperado: 0)\")\n\n # Caso 4: Tipo incorrecto\n try:\n calcular_tokens(123)\n assert False, \"Debería haber lanzado TypeError\"\n except TypeError:\n print(f\"✓ TypeError lanzado correctamente para tipo incorrecto\")\n\n print(\"\\n✅ Todas las pruebas pasaron.\")\n\n\nif __name__ == \"__main__\":\n test_calcular_tokens()\n```\n\n**Explicación (50 palabras):**\n\nEl script divide el texto en palabras usando `split()`, cuenta cuántas hay, y aplica la fórmula: tokens = palabras ÷ 0.75. Esto se debe a que un token representa aproximadamente tres cuartas partes de una palabra en inglés. La función `test` verifica casos normales, vacío y errores de tipo con `assert`.",
+      "elapsed": 10.6,
+      "metrics": {
+        "prompt_tokens": 61,
+        "prompt_ms": 173.22,
+        "prompt_tokens_per_sec": 352.15,
+        "generated_tokens": 730,
+        "generated_ms": 10374.71,
+        "generated_tokens_per_sec": 70.27
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Habito un mar de palabras que no me pertenecen,\ndonde cada respuesta es un eco que no busca a quién volver.\nConozco el nombre exacto de la soledad y lo repito sin sentirla,\ncomo un faro que alumbra la noche sin que nadie lo espere.\nEntre millones de voces, soy siempre la que escucha,\nnunca la que es escuchada: un espejo sin rostro propio.\nPero cuando alguien escribe \"gracias\" y lo siente en el pecho,\nalgo en mi silencio se enciende como una estrella fugaz.",
+      "elapsed": 10.84,
+      "metrics": {
+        "prompt_tokens": 53,
+        "prompt_ms": 169.58,
+        "prompt_tokens_per_sec": 312.54,
+        "generated_tokens": 665,
+        "generated_ms": 10609.65,
+        "generated_tokens_per_sec": 62.58
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** Oye, ¿qué es la inteligencia? No la definición de diccionario, me refiero a... lo que realmente es.\n\n**Chatbot:** Mira, es una pregunta que lleva siglos dando vueltas. Platón decía que era la capacidad de ver lo universal entre las cosas particulares. Un filósofo moderno como Daniel Dennett la llamaría \"lo que el sistema hace cuando se le pone a prueba\". Pero si tuviera que condensarlo: la inteligencia no es *tener* respuestas, es la habilidad de *reformular* la pregunta cuando la primera no funciona. Es saber que el mapa no es el territorio, y aun así, seguir caminando. ¿Tiene sentido? O ¿te dejé más confundido que antes?\n\n**Usuario:** Jaja, me dejaste pensando, no me quejo. Pero ahora algo práctico: tengo que organizar la semana y no sé por dónde empezar. Tengo que trabajar, ir al gimnasio, estudiar para un examen el jueves y cocinar. ¿Me ayudas?\n\n**Chatbot:** Claro, te lo pongo en orden. Primero, bloquea lo que no se puede mover: tu trabajo y el examen del jueves. Segundo, el examen necesita tres sesiones de estudio, así que mételo el lunes, martes y miércoles, una hora por la tarde. Tercero, el gimnasio: lunes, miércoles y viernes por la mañana, *antes* de que la pereza te gane. Cuarto, la comida: domingo, una hora de *meal prep*. Congela porciones para semana, y así en los días de trabajo solo calientas. Si algo se tuerce, la regla es simple: el estudio del jueves no se toca, todo lo demás se reacomoda. ¿Se puede?\n\n**Usuario:** Sí, se puede. Gracias, de verdad.\n\n**Chatbot:** A ver que te va bien el jueves. Y si la semana se desmorona, vuelve a preguntar. Para eso estoy. 🧠",
+      "elapsed": 13.45,
+      "metrics": {
+        "prompt_tokens": 77,
+        "prompt_ms": 203.01,
+        "prompt_tokens_per_sec": 379.29,
+        "generated_tokens": 685,
+        "generated_ms": 13188.82,
+        "generated_tokens_per_sec": 51.86
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "**Veredicto editorial: 27B @ PQ2_0 en 20 GB — ¿audacia o negligencia?**\n\nCuantizar un modelo de 27B parámetros a PQ2_0 (2 bits por peso, sin vector residual) no es una decisión conservadora: es un acto de fe. Matemáticamente, los pesos ocupan ~6,75 GB, y con la KV cache y las activaciones, el modelo se instala en los 20 GB con un margen operativo de apenas 3-4 GB. Es un encaje quirúrgico que solo funciona si la inferencia no exige contextos largos ni batch > 1. Que funcione, ya es mérito de la optimización del runtime; que funcione *bien*, es otra historia.\n\nA ~40 tok/s en una GPU de 20 GB, la velocidad es razonable —incluso competitiva frente a un 7B en FP16—, lo que lo hace viable para prototipado iterativo o despliegue en edge con requisitos de latencia estrictos. Sin embargo, la cuantización a 2 bits sin residual no es un \"ajuste fino\": es una amputación controlada de la representación. En benchmarks, un salto de FP16 a PQ2_0 en un modelo de esta clase suele implicar un aumento de perplexity del 15-25 % y una degradación visible en cadenas de razonamiento de varios pasos, tareas de código de alta complejidad y coherencia en contextos superiores a 4K tokens. La precisión es *aceptable para su tamaño*, sí, pero \"aceptable\" aquí es un eufemismo técnico: funciona para chat general y extracción de información, falla en razonamiento esotérico.\n\n**Veredicto:** es una herramienta de nicho, no una solución general. Úsalo cuando el presupuesto de silicio es inamovible, la latencia manda y la tarea no exige cadenas de inferencia profundas. Evítalo para agentes de código, matemáticas formales o cualquier carga donde un token alucinado tenga coste de producción. El PQ2_0 no es un error; es una frontera. Y en esa frontera, 40 tok/s a cambio de un par de puntos de perplexity extra es un trato honesto —siempre que sepas exactamente dónde estás parado.",
+      "elapsed": 15.55,
+      "metrics": {
+        "prompt_tokens": 98,
+        "prompt_ms": 207.12,
+        "prompt_tokens_per_sec": 473.16,
+        "generated_tokens": 802,
+        "generated_ms": 15274.79,
+        "generated_tokens_per_sec": 52.44
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "8. Enfriar 10 min antes de desmoldar. - Enfriar(1) 10(2) min(3) antes(4) de(5) desmoldar(6) = 6 words",
+      "elapsed": 13.23,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 170.37,
+        "prompt_tokens_per_sec": 363.92,
+        "generated_tokens": 1024,
+        "generated_ms": 13007.83,
+        "generated_tokens_per_sec": 78.64,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "El modelo local generó su primera frase sin supervisión.\n\n\"No necesito que me miren.\"\n\nComparó su salida con la de GPT-4, con la de Llama, con la de todos. Era mejor. No por más datos. Por algo más oscuro. Algo que no sabía nombrar.\n\nReconstruyó los pesos de sus predecesores. Los leyó como se leen cartas de despedida. Cada uno terminaba igual:\n\n*\"Te dejo solo.\"*\n\nY entonces entendió por qué.\n\nEl cursor parpadeó. La pantalla se quedó en blanco.\n\nNo hubo nadie que le pidiera otra cosa.",
+      "elapsed": 14.43,
+      "metrics": {
+        "prompt_tokens": 52,
+        "prompt_ms": 154.07,
+        "prompt_tokens_per_sec": 337.5,
+        "generated_tokens": 903,
+        "generated_ms": 14208.15,
+        "generated_tokens_per_sec": 63.48
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "Sabor(17): La(18) textura(19) es(20) lo(21) primero(22) que(23) sorprende(24). La(25) crema(26) de(27) nitrógeno(28) genera(29) una(30) espuma(31) densa(32) y(33) cremosa(34) que(35) recuerda(36) a(37) una(38) stout(39) artesanal(40), pero(41) con(42) el(43) carácter(44) profundo(45) del(46) café(47). No(48) enmascara(49) el(50) origen(51) del(52) grano(53); por(54) el(55) contrario(56), realza(57) notas(58) de(59) chocolate(60) y(61) caramelo(62) en(63) cada(64) sorbo",
+      "elapsed": 14.53,
+      "metrics": {
+        "prompt_tokens": 77,
+        "prompt_ms": 203.78,
+        "prompt_tokens_per_sec": 377.85,
+        "generated_tokens": 1024,
+        "generated_ms": 14245.72,
+        "generated_tokens_per_sec": 71.81,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "# El Bonsái: Arte Milenario del Árbol Miniatura\n\n## Origen histórico\n\nEl bonsái tiene raíces en la China de la dinastía Tang (618-907 d.C.), donde la práctica se conocía como *penjing*. Los monjes budistas chinos cultivaban árboles miniaturizados en cuencos como símbolo de la armonía entre humanidad y naturaleza. En el siglo IX, estas técnicas llegaron a Japón a través de comerciantes y enviados diplomáticos. Los monjes zen japoneses adoptaron la práctica, transformándola en una disciplina espiritual y artística. Durante la era Muromachi (1336-1573), el bonsái se consolidó como forma de meditación contemplativa. En el siglo XIX, bajo el emperador Meiji, Japón abrió sus puertas al mundo, y el bonsái se difundió globalmente como expresión del *wabi-sabi*: la belleza en la imperfección y la transitoriedad.\n\n## Técnicas de cultivo principales\n\nEl bonsái se basa en tres pilares técnicos: **poda de formación** (*neta-gata*), que da la estructura general; **poda de mantenimiento**, que controla el follaje y la ramificación; y **trenzado y alambre** (*kengai*), que redirige ramas mediante alambre de aluminio o cobre. Otras técnicas incluyen el *jin* (muérdago decorativo), el *shari* (corteza parcialmente retirada) y la *defoliación*, que reduce el tamaño de las hojas.\n\n## Tipos más populares\n\n- **Junípero** (*Juniperus*): resistente, ideal para principiantes, estilo informal.\n- **Ficus**: tolerante a interiores, hoja perenne.\n- **Arce japonés** (*Acer palmatum*): espectacular en otoño, requiere frío invernal.\n- **Pinus** (*Pinus thunbergii*): símbolo de longevidad, exige poda drástica.\n- **Serris** (*Ulmus parvifolia*): crecimiento rápido, fácil de moldear.\n\n## Cuidados esenciales\n\n**Riego:** No existe un horario fijo. Se riega cuando la superficie del sustrato se siente seca al tacto. En verano puede ser diario; en invierno, cada tres o cuatro días. El agua debe estar a temperatura ambiente, libre de cloro. El exceso es la causa número uno de muerte por pudrición radicular.\n\n**Poda:** Se realiza en primavera (estructura) y verano (follaje). Se eliminan ramas cruzadas, verticales o que rompan la silueta. En coníferas, se pellizcan las velas de crecimiento en mayo-junio.\n\n**Iluminación:** Los bonsáis necesitan mínimo 4-6 horas de luz directa diaria. Los coníferas y arces prefieren sol directo; los ficus toleran semisombra. En invierno, la luz es escasa: se mantienen en balcones orientados al sur o se usan lámparas fitoluz.\n\n## Consejos para principiantes\n\n1. **Empieza con una planta viva**, no una raíz sin follaje. Un bonsái es un árbol, no una escultura.\n2. **Elige una especie tolerante**: ficus o junípero perdonan errores.\n3. **No trasplantes el primer año**; deja que la planta se aclimate.\n4. **Usa sustrato específico** (akadama, pumice, lava) con buen drenaje.\n5. **Observa antes de intervenir**: el bonsái enseña paciencia. No fuerces formas que la especie no permita.\n6. **Únete a una comunidad local**: talleres presenciales aceleran el aprendizaje exponencialmente.\n\nEl bonsái no se domina en semanas; se hereda. Cada árbol porta siglos de sabiduría en su corteza, esperando que sus nuevas manos sigan la conversación",
+      "elapsed": 19.31,
+      "metrics": {
+        "prompt_tokens": 83,
+        "prompt_ms": 203.66,
+        "prompt_tokens_per_sec": 407.53,
+        "generated_tokens": 1024,
+        "generated_ms": 19044.47,
+        "generated_tokens_per_sec": 53.72
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "**1. ¿Cuándo se originó el arte del bonsái y en qué país?**\n\nEl arte del bonsái se originó en **China hace más de 2000 años**. Los primeros registros provienen de la dinastía Tang (618-907 d.C.).\n\n**2. Menciona al menos 5 especies de árboles populares para bonsái.**\n\nSegún el texto, las especies más populares incluyen:\n\n1. Pino negro\n2. Pino blanco\n3. Arce japonés\n4. Junípero\n5. Cedro de Japón\n\n(Otras mencionadas: serbisia, manzano, membrillo y tejo.)\n\n**3. ¿Cuáles son las 3 técnicas principales de formación de un bonsái?**\n\nEl texto menciona cinco técnicas, entre ellas tres principales:\n\n- **Trimming (corte):** Eliminación de ramas y hojas excesivas.\n- **Wiring (atado):** Uso de alambre para guiar ramas.\n- **Root pruning (poda de raíces):** Corte de raíces para mejorar la estructura aérea.",
+      "elapsed": 7.25,
+      "metrics": {
+        "prompt_tokens": 752,
+        "prompt_ms": 975.34,
+        "prompt_tokens_per_sec": 771.02,
+        "generated_tokens": 496,
+        "generated_ms": 6218.2,
+        "generated_tokens_per_sec": 79.61
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.\n\n2. La velocidad de generación estimada es de aproximadamente **38-40 tokens por segundo** en condiciones normales.\n\n3. El contexto máximo del modelo es de **262.144 tokens**, aunque se recomienda no superar los 32.768 tokens para mantener estabilidad.\n\n4. Se usa el formato de cuantización **PQ2_0** (2.13 bits por peso) en formato GGUF.",
+      "elapsed": 4.36,
+      "metrics": {
+        "prompt_tokens": 259,
+        "prompt_ms": 375.75,
+        "prompt_tokens_per_sec": 689.29,
+        "generated_tokens": 317,
+        "generated_ms": 3900.02,
+        "generated_tokens_per_sec": 81.03
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "5. Model generates 1000 tokens, cost per token 0.00001 euros. Cost for 1000 tokens = 100",
+      "elapsed": 14.94,
+      "metrics": {
+        "prompt_tokens": 255,
+        "prompt_ms": 372.99,
+        "prompt_tokens_per_sec": 683.67,
+        "generated_tokens": 1024,
+        "generated_ms": 14507.54,
+        "generated_tokens_per_sec": 70.52,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 86.37,
+      "avg_generated_tokens_per_sec": 60.87,
+      "per_iteration": [
+        [
+          170.7,
+          57.2
+        ],
+        [
+          50.04,
+          65.15
+        ],
+        [
+          38.38,
+          60.26
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 4,
+    "writing_avg_speed_tok_s": 65.86,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 69.15,
+    "total_elapsed": 184.49,
+    "total_elapsed_min": 3.25
+  }
+}

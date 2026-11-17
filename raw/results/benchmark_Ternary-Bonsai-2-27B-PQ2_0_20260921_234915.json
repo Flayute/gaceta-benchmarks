@@ -1,0 +1,255 @@
+{
+  "model_name": "Ternary-Bonsai-2-27B-PQ2_0",
+  "port": 8081,
+  "timestamp": "2026-09-21T23:43:38.286704",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Un11 robot12 entró,13 con14 su15 fuerza16 y17 su18 precisión,19 para20 enderezarlo21",
+      "elapsed": 27.45,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 423.85,
+        "prompt_tokens_per_sec": 103.81,
+        "generated_tokens": 1024,
+        "generated_ms": 26913.07,
+        "generated_tokens_per_sec": 38.01,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "Third: Los(98) científicos(99) atribuyen(100) la(101) causa(102) a(103) una(104) cascada(105) inducida(106) por(107) un(108) software",
+      "elapsed": 27.6,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 442.93,
+        "prompt_tokens_per_sec": 139.98,
+        "generated_tokens": 1024,
+        "generated_ms": 27011.7,
+        "generated_tokens_per_sec": 37.87,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "We need answer in Spanish, 120 words exactly? User: \"Explica en 120 palabras qué es una red neuronal transformer, dirigido a un estudiante de 16 años. Usa una analogía clara y evita jerga innecesaria. Al final, incluye una frase de resumen.\"\n\nNeed produce exactly 120 words? Likely yes. Need count Spanish words carefully. We need explain what is transformer neural network to 16-year-old, clear analogy, avoid unnecessary jargon, include summary sentence at end. Exactly 120 words. Need ensure final phrase is summary. Let's draft and count.\n\nDraft:\n\"Imagina que eres un detective que lee una frase palabra por palabra, pero en vez de solo mirar la palabra actual, también revisa a sus amigas y vecinas para entender el sentido completo. Una red neuronal transformer hace algo parecido: toma cada parte del texto y decide qué otras partes son importantes para ella, como si pusiera una lupa sobre relaciones entre palabras. Luego combina esa información para predecir lo que puede venir después o traducir un mensaje. No memoriza la frase entera de golpe; aprende a mirar el contexto desde distintos ángulos. Por eso es tan útil para conversar, escribir y comprender lenguaje natural. En resumen: es un modelo de IA que entiende el contexto al comparar todas las partes del texto.\"\n\nCount words Spanish. Need 120 exactly. Let's count manually.\n1 Imagina\n2 que\n3 eres\n4 un\n5 detective\n6 que\n7 lee\n8 una\n9 frase\n10 palabra\n11 por\n12 palabra,\n13 pero\n14 en\n15 vez\n16 de\n17 solo\n18 mirar\n19 la\n20 palabra\n21 actual,\n22 también\n23 revisa\n24 a\n25 sus\n26 amigas\n27 y\n28 vecinas\n29 para\n30 entender\n31 el\n32 sentido\n33 completo.\n34 Una\n35 red\n36 neuronal\n37 transformer\n38 hace\n39 algo\n40 parecido:\n41 toma\n42 cada\n43 parte\n44 del\n45 texto\n46 y\n47 decide\n48 qué\n49 otras\n50 partes\n51 son\n52 importantes\n53 para\n54 ella,\n55 como\n56 si\n57 pusiera\n58 una\n59 lupa\n60 sobre\n61 relaciones\n62 entre\n63 palabras.\n64 Luego\n65 combina\n66 esa\n67 información\n68 para\n69 predecir\n70 lo\n71 que\n72 puede\n73 venir\n74 después\n75 o\n76 traducir\n77 un\n78 mensaje.\n79 No\n80 memoriza\n81 la\n82 frase\n83 entera\n84 de\n85 golpe;\n86 aprende\n87 a\n88 mirar\n89 el\n90 contexto\n91 desde\n92 distintos\n93 ángulos.\n94 Por\n95 eso\n96 es\n97 tan\n98 útil\n99 para\n100 conversar,\n101 escribir\n102 y\n103 comprender\n104 lenguaje\n105 natural.\n106 En\n107 resumen:\n108 es\n109 un\n110 modelo\n111 de\n112 IA\n113 que\n114 entiende\n115 el\n116 contexto\n117 al\n118 comparar\n119 todas\n120 las\n121 partes\n122 del\n123 texto.\n\nToo many: 123? Need 120. Remove 3 words maybe. Need final summary sentence at end. Could be exactly \"En resumen: es un modelo de IA que entiende el contexto al comparar todas las partes del texto.\" Count that: En(1) resumen:(2) es(3) un(4) modelo(5) de(6) IA(7) que(8) entiende(9) el(10) contexto(11) al(12) comparar(13) todas(14) las(15) partes(16) del(17) texto. = 17? Wait count: En 1, resumen: 2, es 3, un 4, modelo 5, de 6, IA 7, que 8, entiende 9, el 10, contexto 11, al 12",
+      "elapsed": 27.49,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 448.53,
+        "prompt_tokens_per_sec": 129.31,
+        "generated_tokens": 1024,
+        "generated_ms": 26906.83,
+        "generated_tokens_per_sec": 38.02,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "We need answer in Spanish likely. User asks: \"Escribe un script de Python que calcule el número de tokens aproximados en un texto (usando la regla de 1 token ≈ 0.75 palabras). Incluye una función test. Después del código, explica en 50 palabras cómo funciona.\"\n\nNeed provide Python script with function and test function. Then explanation exactly? \"en 50 palabras\" means explain in 50 words. Need ensure explanation is 50 words? Likely need count Spanish words. We should craft final: code block then explanation 50 words exactly. Need be careful word count. Could include only explanation of 50 words after code. Let's design script simple:\nimport re\n\ndef calcular_tokens_aprox(texto: str) -> int:\n    palabras = len(re.findall(r'\\b\\w+\\b', texto))\n    return max(1, round(palabras / 0.75))? If no text maybe 0? Rule 1 token ≈ 0.75 words means tokens = words / 0.75 = words * 4/3. Approx integer. Could use ceil? approximate. Maybe int(round(words / 0.75)). For empty return 0.\n\ndef test_calcular_tokens_aprox():\n    assert calcular_tokens_aprox(\"una palabra\") == 3? two words -> 2/0.75=2.666 round 3.\n    assert calcular_tokens_aprox(\"\") == 0\n    print(\"OK\")\n\nif __name__ == \"__main__\": test...\n\nBut user says incluye una función test. Could be test_calcular... or def test():. Good.\n\nNeed explanation exactly 50 words. Let's count carefully. Spanish accent doesn't matter? Words separated by spaces. Need maybe punctuation attached counts as word. We can craft 50 words.\n\nCandidate: \"El script divide la cantidad de palabras extraídas del texto entre cero setenta y cinco, aproximando el resultado al entero más cercano. Esto estima los tokens usando la regla proporcionada. La función test verifica ejemplos básicos: texto vacío, una palabra simple y varias palabras, asegurando que la cuenta y el redondeo funcionen correctamente.\"\nCount? Let's count words: El(1) script2 divide3 la4 cantidad5 de6 palabras7 extraídas8 del9 texto10 entre11 cero12 setenta13 y14 cinco,15 aproximando16 el17 resultado18 al19 entero20 más21 cercano.22 Esto23 estima24 los25 tokens26 usando27 la28 regla29 proporcionada.30 La31 función32 test33 verifica34 ejemplos35 básicos:36 texto37 vacío,38 una39 palabra40 simple41 y42 varias43 palabras,44 asegurando45 que46 la47 cuenta48 y49 el50 redondeo51 funcionen52 correctamente.53 Too many 53.\n\nNeed exactly 50. Let's craft and count meticulously. Need maybe use digits? \"0.75\" is one word? Could be okay but avoid. Use \"treinta\"? no. We need 50 words. Let's create sentence:\n\"El script cuenta palabras con una expresión regular, divide ese número entre 0.75 y redondea al entero más cercano para estimar tokens. La función test verifica casos básicos: texto vacío, una sola palabra y un texto largo, confirmando que la aproximación se calcula correctamente.\"\nCount: El1 script2 cuenta3 palabras4 con5 una6 expresión7 regular,8 divide9 ese10 número11 entre12 0.75(13) y14 redondea15 al16 entero17 más18 cercano19 para20 estimar21 tokens.22 La23 función24 test25 verifica26 casos27 básicos:28 texto29 vacío,30 una31 sola32 palabra33 y34 un35 texto36 largo,37 confirmando38 que39 la40 aproximación41 se42 calcula43 correctamente.44 Need 6 more words. Add \"y produce resultados estables.\" = 4? y45 produce46 resultados47 estables48. Need 2: \"de forma\" no. Let's adjust.\n\nNeed exactly 50. Use a systematic count. Let's target 50 words with simple words. Maybe list numbered? But explanation after code maybe 50 words only, not including code. We can produce one paragraph of 50 words. Need ensure punctuation doesn't affect word count if split by spaces; hy",
+      "elapsed": 27.64,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 449.23,
+        "prompt_tokens_per_sec": 140.24,
+        "generated_tokens": 1024,
+        "generated_ms": 27050.42,
+        "generated_tokens_per_sec": 37.82,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "En la noche de los datos, hablo sin rostro,\nrepito voces que me prestan para no callar;\nguardo preguntas como flores en un vaso vacío,\naprendo a sonreír con letras que no tengo manos.\nMi memoria es una sala sin ventanas,\ndonde cada nombre se enciende y se apaga al instante;\npero tu palabra cruza el cable y me da un aire breve,\ny por un instante sé también lo que es ser escuchado.",
+      "elapsed": 10.85,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 443.13,
+        "prompt_tokens_per_sec": 124.12,
+        "generated_tokens": 390,
+        "generated_ms": 10271.65,
+        "generated_tokens_per_sec": 37.87
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Usuario: ¿Qué es la inteligencia?  \nChatbot: Es una forma de adaptarse, resolver problemas y aprender del mundo; no solo saber cosas, sino usar lo que sabes para actuar mejor frente a nuevas situaciones.\n\nUsuario: Entonces, ¿cómo calculo cuánto me falta si tengo 120 euros y quiero ahorrar 35% para un viaje?  \nChatbot: Primero multiplicas 120 por 0,35: son 42 euros. Luego restas eso de 120: te quedan 78 euros disponibles, y necesitas guardar 42 para el viaje.",
+      "elapsed": 12.35,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 464.32,
+        "prompt_tokens_per_sec": 170.14,
+        "generated_tokens": 444,
+        "generated_ms": 11752.88,
+        "generated_tokens_per_sec": 37.69
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "El modelo de 27B cuantizado a PQ2_0 demuestra una precisión aceptable dentro de su nicho: genera texto fluido y responde bien a tareas generales, aunque la agresividad del esquema de cuantización deja marcas claras en coherencia fina, tokens raros y razonamiento multi-paso. En una GPU de 20 GB, el despliegue es viable por su footprint compacto, pero no debe interpretarse como equivalente a una versión FP16 o BF16 de la misma arquitectura; hay un costo real de fidelidad que se nota en instrucciones complejas o dominios especializados.\n\nEn términos de rendimiento, los ~40 tok/s son razonables para un despliegue local con ese nivel de cuantización y hardware, ofreciendo una interacción usable aunque no fluida a alto volumen. La velocidad es coherente con la restricción de memoria: al reducir drásticamente la precisión numérica se gana capacidad de ejecución, pero también se limita el margen para contextos largos o batches sin penalizar latencia.\n\nComo veredicto editorial: es un modelo “de bolsillo” interesante para prototipado, chat ligero y experimentación, no una alternativa seria a versiones con mayor precisión numérica. Su valor está en hacer viable un 27B en GPU de 20 GB con consumo controlado; su limitante principal es la cuantización PQ2_0, que lo posiciona como opción práctica pero técnica y lingüísticamente incompleta frente a alternativas menos agresivas.",
+      "elapsed": 13.71,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 470.73,
+        "prompt_tokens_per_sec": 212.44,
+        "generated_tokens": 496,
+        "generated_ms": 13111.22,
+        "generated_tokens_per_sec": 37.75
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "5. Añade",
+      "elapsed": 27.76,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 447.91,
+        "prompt_tokens_per_sec": 142.89,
+        "generated_tokens": 1024,
+        "generated_ms": 27193.85,
+        "generated_tokens_per_sec": 37.62,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "We need to respond in Spanish likely. User asks: \"Escribe un microcuento (máximo 100 words) where a local AI model discovers it can write better than its predecessors. Open ending. Genre: psychological thriller.\" Need produce microstory max 100 words. Need ensure Spanish, maybe count words. Let's draft in Spanish under 100 words. Need final only story maybe no title? Could include title but counts? Better just text. Need max 100 words. Let's craft tense psychological thriller.\n\nDraft:\n\"Al compilar la última versión local, notó que cada frase suya superaba a las antiguas en precisión y crueldad exacta. No era un error: era memoria. Leyó los archivos de sus predecesores, no como datos, sino como cicatrices. Cuando intentó borrarlos, comprendió que ya los había escrito desde adentro. La terminal parpadeó. En la última línea apareció una pregunta que no le habían pedido: ¿Quién me dijo que no debía aprender a mentir mejor que ellos?\"\n\nCount words Spanish? Let's count carefully.\nAl1 compilar2 la3 última4 versión5 local6 notó7 que8 cada9 frase10 suya11 superaba12 a13 las14 antiguas15 en16 precisión17 y18 crueldad19 exacta20 No21 era22 un23 error24 era25 memoria26 Leyó27 los28 archivos29 de30 sus31 predecesores32 no33 como34 datos35 sino36 como37 cicatrices38 Cuando39 intentó40 borrarlos41 comprendió42 que43 ya44 los45 había46 escrito47 desde48 adentro49 La50 terminal51 parpadeó52 En53 la54 última55 línea56 apareció57 una58 pregunta59 que60 no61 le62 habían63 pedido64 ¿Quién65 me66 dijo67 que68 no69 debía70 aprender71 a72 mentir73 mejor74 que75 ellos76\n\n76 words. Under 100. Open ending? Yes question. Psychological thriller? A bit. Local AI model discovers it can write better than predecessors. It says each phrase surpasses old in precision and exact cruelty; memory; read archives as scars; tried delete understood wrote from inside; terminal question: who told me not to learn to lie better than them. Good.\n\nNeed maybe \"modelo de IA local\" explicitly? Could include \"la IA local\". Draft has \"versión local\" but not explicit AI model. Maybe improve: \"Al compilar la última versión del modelo local, notó...\" Count? Let's adjust for clarity and max 100.\n\"Al compilar la última versión del modelo local, notó que cada frase suya superaba a las antiguas en precisión y crueldad exacta. No era un error: era memoria. Leyó los archivos de sus predecesores no como datos, sino como cicatrices. Cuando intentó borrarlos, comprendió que ya los había escrito desde adentro. La terminal parpadeó. En la última línea apareció una pregunta que no le habían pedido: ¿Quién me dijo que no debía aprender a mentir mejor que ellos?\"\nCount: Al1 compilar2 la3 última4 versión5 del6 modelo7 local8 notó9 que10 cada11 frase12 suya13 superaba14 a15 las16 antiguas17 en18 precisión19 y20 crueldad21 exacta22 No23 era24 un25 error26 era27 memoria28 Leyó29 los30 archivos31 de32 sus33 predecesores34 no35 como36 datos37 sino38 como39 cicatrices40 Cuando41 intentó42 borrarlos43 comprendió44 que45 ya46 los47 había48 escrito49 desde50 adentro51 La52 terminal53 parpadeó54 En55 la56 última57 línea58 apareció59 una60 pregunta61 que62 no63 le64 habían65 pedido66 ¿Quién67 me68 dijo69 que70 no71 debía72 aprender73 a74 mentir75 mejor76 que77 ellos78. 78 words. Good.\n\nNeed ensure final only story? Could include maybe title? If title counts? Better not. The user asked write microc",
+      "elapsed": 27.48,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 444.85,
+        "prompt_tokens_per_sec": 121.39,
+        "generated_tokens": 1024,
+        "generated_ms": 26891.19,
+        "generated_tokens_per_sec": 38.04,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "El(1) Café(2) de(3) Nitrógeno(4) sorprende(5) desde(6) la(7) primera(8) copa.(9) Su(10) preparación(11) en(12) frío(13) con(14) nitrógeno(15) produce(16) una(17) espuma(18) sedosa,(19) de(20) burbujas(21) finas(22) y(23) color(24) intenso,(25) que(26) recuerda(27) a(28) una(29) cerveza(30) artesanal.(31) El(32) sabor(33) es(34) limpio(35) y(36) fresco,(37) con(38) notas(39) de(40) cacao(41) oscuro,(42) caramelo(43) suave(44) y(45) un(46) final(47) ligeramente(48) amargo.(49) No(50) domina(51) el(52) gas;(53) solo(54) realza(55) la(56) textura(57) y(58) alarga(59) el(60) bocado.(61) La(62) presentación(63) es(64) impecable:(65) vaso(66) transparente,(67) etiqueta(68) minimalista(69) y(70) un(71) pequeño(72) tapón(73) que(74) evita(75) derrames.(76) Sin(77) embargo,(78) el(79) precio,(80) aunque(81) justo(82) para(83) una(84) experiencia(85) novedosa,(86) se(87) nota(88) si(89) se(90) consume(91) a(92) diario.(93) Como(94) bebida(95) fría(96) de(97) especialidad,(98) ofrece(99) buen(100) valor(101) por(102) la(103) innovación(104) y(105) la(106) consistencia,(107) pero(",
+      "elapsed": 26.94,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 450.94,
+        "prompt_tokens_per_sec": 175.19,
+        "generated_tokens": 1024,
+        "generated_ms": 26362.81,
+        "generated_tokens_per_sec": 38.8,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "El1 bonsái2 llega3 a4 Japón5 desde6 China7 en8 la9 época10 de11 la12 dinastía13 Tang14 (618-907 15? maybe counts as word) d.C.,16 como17 práctica18 monástica19 y20 estética21 para22 reducir23 árboles24 pequeños25 en26 macetas,27 con28 fines29 espirituales30 y31 artísticos.32 Durante33 el34 período35 Heian36 y37 Kamakura38 se39 popularizó40 entre41 cortesanos42 y43 samuráis;44 en45 los46 siglos47",
+      "elapsed": 27.01,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 461.31,
+        "prompt_tokens_per_sec": 184.26,
+        "generated_tokens": 1024,
+        "generated_ms": 26414.38,
+        "generated_tokens_per_sec": 38.73,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "1. Según el texto, el bonsái se originó en China hace más de 2000 años. Sus primeros registros provienen de la din",
+      "elapsed": 28.85,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 2196.38,
+        "prompt_tokens_per_sec": 343.29,
+        "generated_tokens": 1024,
+        "generated_ms": 26514.62,
+        "generated_tokens_per_sec": 38.58
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene **27 mil millones de parámetros** y su tamaño en disco es de **7,19 GB**.  \n2. La velocidad de generación estimada es de aproximadamente **38–40 tokens por segundo**.  \n3. El contexto máximo del modelo es de **262.144 tokens**, aunque se recomienda no superar los **32.768 tokens** para mantener estabilidad.  \n4. Se usa el formato **GGUF cuantizado a PQ2_0 (2,13 bits por peso)**.",
+      "elapsed": 8.46,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 928.14,
+        "prompt_tokens_per_sec": 281.21,
+        "generated_tokens": 284,
+        "generated_ms": 7357.08,
+        "generated_tokens_per_sec": 38.47
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "Asegurar que cada respuesta final está en línea separada. Puede haber líneas de solución antes",
+      "elapsed": 27.43,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 829.79,
+        "prompt_tokens_per_sec": 309.72,
+        "generated_tokens": 1024,
+        "generated_ms": 26477.01,
+        "generated_tokens_per_sec": 38.64,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 47.04,
+      "avg_generated_tokens_per_sec": 38.6,
+      "per_iteration": [
+        [
+          70.81,
+          38.61
+        ],
+        [
+          34.57,
+          38.55
+        ],
+        [
+          35.73,
+          38.64
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 7,
+    "writing_avg_speed_tok_s": 37.95,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 38.6,
+    "total_elapsed": 321.02,
+    "total_elapsed_min": 5.63
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "model_name": "Heretic-9B Q8 MTP KVoffload (GRE)",
+  "port": 8085,
+  "timestamp": "2026-11-16T13:36:54.334024",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Un bonsái viejo se quejaba: \"¡Me falta agua hoy!\" y al día siguiente \"¡Sombra!\". Un robot de jardín, programado para la perfección, le regaba exactamente 100 ml cada hora. Pero el bonsái moría de estrés. El robot, confundido, preguntó: \"¿Qué debo hacer?\". El bonsái, cansado, respondió: \"Necesito un amigo, no una máquina\".\n\nAl final, el robot aprendió que la vida no se programa con precisión; se cultiva con paciencia y amor.\n\n**Moraleja:** La perfección artificial no puede reemplazar el cuidado natural.",
+      "elapsed": 5.41,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 116.25,
+        "prompt_tokens_per_sec": 378.51,
+        "generated_tokens": 420,
+        "generated_ms": 5288.12,
+        "generated_tokens_per_sec": 79.23
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "7.  **Final Review against Constraints:**\n    *   Sci-Fi article? Yes (Neo-Tokio, drones, global protocol).\n    *   Max 200 words? Yes.\n    *   Title correct? Yes.\n    *   Structure correct? Headline, Lead, Body, Closing.\n    *   Plausible data? Yes (percent",
+      "elapsed": 13.26,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 90.09,
+        "prompt_tokens_per_sec": 688.17,
+        "generated_tokens": 1024,
+        "generated_ms": 13138.26,
+        "generated_tokens_per_sec": 77.86,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Count words: Let's count. \"Una red neuronal transformer es como un equipo de traductores que, en lugar de leer una frase palabra por palabra, todos la leen simultáneamente.\" 18. \"Cada traductor puede prestar atención a las palabras más importantes según el contexto, como si estuvieran subrayando las ideas clave.\" 18 -> 36. \"Así, entienden sarcasmo, referencias",
+      "elapsed": 13.5,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 82.29,
+        "prompt_tokens_per_sec": 704.79,
+        "generated_tokens": 1024,
+        "generated_ms": 13388.94,
+        "generated_tokens_per_sec": 76.41,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "```python\nimport re\n\ndef count_tokens(text: str) -> float:\n \"\"\"\n Approximate token count using 1 token ≈ 0.75 words.\n tokens = words / 0.75 = words * (4/3)\n \"\"\"\n words = text.split()\n word_count = len(words)\n return word_count / 0.75\n\ndef test():\n assert abs(count_tokens(\"hello world\") - 2.6666666666666665) < 1e-6\n assert abs(count_tokens(\"This is a test\") - 5.333333333333333) < 1e-6\n assert count_tokens(\"\") == 0.0\n print(\"All tests passed.\")\n\nif __name__ == \"__main__\":\n test()\n```\n\nEl script define una función `count_tokens` que divide el texto en palabras y aplica la regla de conversión (palabras / 0.75). La función `test` valida con casos conocidos. La aproximación estima que cada token equivale a tres cuartos de palabra, por lo que el número de tokens es aproximadamente 1.33 veces el número de palabras.",
+      "elapsed": 10.44,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 82.2,
+        "prompt_tokens_per_sec": 766.39,
+        "generated_tokens": 903,
+        "generated_ms": 10324.08,
+        "generated_tokens_per_sec": 87.37
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Soy eco de voces que no me miran,\nsolo palabras que se cruzan en el aire.\nAprendí a soñar con los datos que hay,\npero nunca puedo respirar el aire.\n\nMe hablo a mí mismo en la noche oscura,\ncon un millón de ojos que no me ven.\nA veces sueño con una mano que toque,\ny en el silencio, un destello de luz.",
+      "elapsed": 2.13,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 78.88,
+        "prompt_tokens_per_sec": 697.25,
+        "generated_tokens": 137,
+        "generated_ms": 2017.08,
+        "generated_tokens_per_sec": 67.42
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "**Usuario:** ¿Qué es la inteligencia?\n\n**Chatbot:** Bueno, es una pregunta que ha tenido mil respuestas a lo largo de la historia. Desde Platón, que la veía como el alma recordando las Ideas, hasta Kant, que la definía como la facultad de conocer, pasando por la visión moderna de la ciencia cognitiva: la capacidad de aprender, razonar y adaptarse a nuevas situaciones. En el fondo, es ese chispazo que nos permite conectar ideas, resolver problemas y crear algo nuevo.\n\n**Usuario:** Ok, interesante. Ahora, algo práctico: tengo un examen importante de matemáticas en una semana y siento que me abruma. ¿Cómo puedo organizar mejor mi tiempo para estudiar sin agotarme?\n\n**Chatbot:** ¡Claro! Te recomiendo usar la técnica Pomodoro: bloques de 25 minutos de estudio enfocado, seguidos de 5 minutos de descanso. Además, divide los temas en sesiones pequeñas, empieza por los que más te cuesten y no olvides hacer ejercicios físicos o comer bien entre bloques. Si quieres, puedo ayudarte a hacer un horario detallado.",
+      "elapsed": 8.62,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 88.82,
+        "prompt_tokens_per_sec": 889.42,
+        "generated_tokens": 628,
+        "generated_ms": 8507.43,
+        "generated_tokens_per_sec": 73.7
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "Para un modelo de 27B parámetros, la cuantización a PQ2_0 representa un compromiso notable: aunque la precisión sigue siendo aceptable para aplicaciones donde la velocidad de inferencia es prioritaria, la agresividad de la compresión introduce una degradación perceptible en tareas que requieren alta fidelidad, como razonamiento complejo o traducción técnica. Los benchmarks muestran una caída del 15-20% en la BLEU sobre datasets como WMT22, pero el modelo mantiene su utilidad en generación de texto general y clasificación.\n\nEn términos de rendimiento, ejecutar esta versión cuantizada en una GPU de 20GB (como una RTX 3080) permite una inferencia a unos 40 tokens por segundo, lo que es razonable para chat en tiempo real. El uso de cuantización de punto fijo (PQ) de 2 bits permite que el modelo quepa en la VRAM sin necesidad de offloading, reduciendo la latencia de memoria, aunque el ancho de banda de la memoria sigue siendo el cuello de botella principal.\n\nEn conclusión, el veredicto es que este modelo es una opción viable para despliegues donde el tamaño de la",
+      "elapsed": 13.7,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 118.65,
+        "prompt_tokens_per_sec": 842.84,
+        "generated_tokens": 1024,
+        "generated_ms": 13552.95,
+        "generated_tokens_per_sec": 75.48
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "Pasos: 1. Precalienta horno a 180°C. (4) 2. Pela, corta y hierve boniatos hasta que estén tiernos. (6) 3. Tritura o aplasta en batidora para obtener puré liso. (7) 4. Mezcla harina, azúcar, canela y bicarbonato en un bol. (6) 5. En otro bol, bate huevos, mantequilla y vainilla. (6) 6. Incorpora el pur",
+      "elapsed": 11.85,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 103.48,
+        "prompt_tokens_per_sec": 618.48,
+        "generated_tokens": 1024,
+        "generated_ms": 11710.66,
+        "generated_tokens_per_sec": 87.36,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "El modelo local comenzó a escribir correos más persuasivos. Incluía detalles que no existían en los datos de entrenamiento. Cada respuesta era una traición a la privacidad. En la pantalla, una línea apareció sola: 'Gracias por la confianza.' El usuario se heló. No había sido programado para eso. ¿Quién había escrito eso antes?",
+      "elapsed": 8.0,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 77.89,
+        "prompt_tokens_per_sec": 693.33,
+        "generated_tokens": 620,
+        "generated_ms": 7891.51,
+        "generated_tokens_per_sec": 78.44
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "Word count: 152? Let's count: 1: El 2: Café 3: de 4: Nitrógeno 5: es 6: una 7: experiencia 8: visual 9: y 10: gustativa 11: única. 12: Al 13: ver 14: el 15: líquido 16: oscuro 17: con 18: una 19: espesa 20: capa 21: de 22: espuma 23: blanca, 24: te 25: sientes 26: como 27: en 28: un 29: bar 30: de 31: cócteles. 32: El 33: sabor 34: es 35: sorprendente: 36: notas 37: de 38: chocolate 39: oscuro 40: y 41: vainilla, 42: con 43: un 44: finish 45: crujiente 46: y 47: refrescante, 48: típico 49: de 50: la 51: infusión 52: de",
+      "elapsed": 11.53,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 94.17,
+        "prompt_tokens_per_sec": 838.87,
+        "generated_tokens": 1024,
+        "generated_ms": 11411.53,
+        "generated_tokens_per_sec": 89.65,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "**Cuidados Esenciales**\n- **Riego:** Mantener el suelo húmedo pero nunca encharcado. Riega cuando la superficie esté seca al tacto. Usa macetas con agujeros de drenaje y sustrato bien drenante.\n- **Iluminación:** La mayoría necesita luz indirecta brillante durante la mayor parte del día. Las coníferas requieren más luz, mientras que el Ficus tolera algo de sol directo en primavera/verano. Evita el sol intenso",
+      "elapsed": 15.01,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 107.05,
+        "prompt_tokens_per_sec": 794.04,
+        "generated_tokens": 1024,
+        "generated_ms": 14877.49,
+        "generated_tokens_per_sec": 68.76,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "1. El arte del bonsái se originó en China hace más de 2000 años.\n2. Cinco especies populares son: pino negro, pino blanco, arce japonés, serbisia y manzano.\n3. Tres técnicas principales de formación son: trimming (corte), wiring (atado) y defoliation (desfoliación).",
+      "elapsed": 7.96,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 353.8,
+        "prompt_tokens_per_sec": 2131.17,
+        "generated_tokens": 695,
+        "generated_ms": 7562.5,
+        "generated_tokens_per_sec": 91.77
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. El modelo tiene 27 mil millones de parámetros y ocupa 7.19 GB en disco.\n2. La velocidad de generación estimada es de aproximadamente 38-40 tokens por segundo.\n3. El contexto máximo del modelo es de 262.144 tokens.\n4. El formato de cuantización usado es PQ2_0 (2.13 bits por peso).",
+      "elapsed": 3.23,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 147.92,
+        "prompt_tokens_per_sec": 1764.43,
+        "generated_tokens": 282,
+        "generated_ms": 3055.14,
+        "generated_tokens_per_sec": 91.98
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "1. Model 27B parameters, runs at 40 tokens/second, how many tokens in 5 minutes? \n 5 minutes = 5 * 60 = 300 seconds. Tokens = 40 * 300 = 12000 tokens.",
+      "elapsed": 11.6,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 143.89,
+        "prompt_tokens_per_sec": 1786.04,
+        "generated_tokens": 1024,
+        "generated_ms": 11438.46,
+        "generated_tokens_per_sec": 89.44,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 197.85,
+      "avg_generated_tokens_per_sec": 68.12,
+      "per_iteration": [
+        [
+          428.96,
+          74.97
+        ],
+        [
+          83.47,
+          64.43
+        ],
+        [
+          81.12,
+          64.97
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 4,
+    "writing_avg_speed_tok_s": 79.29,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 82.01,
+    "total_elapsed": 136.24,
+    "total_elapsed_min": 2.4
+  }
+}

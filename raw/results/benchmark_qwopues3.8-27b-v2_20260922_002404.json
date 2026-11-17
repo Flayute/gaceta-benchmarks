@@ -1,0 +1,248 @@
+{
+  "model_name": "qwopues3.8-27b-v2",
+  "port": 8080,
+  "timestamp": "2026-09-22T00:20:22.967686",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "Un bonsái de mil años contemplaba al robot que limpiaba el jardín. El robot, orgulloso, dijo: \"Corto todo lo que crece desordenado. Soy perfecto.\" El bonsái, con voz serena, respondió: \"Tú puedes podar, pero no puedes hacer que crezca. Mi raíz se hunde donde no llegas.\"\n\nEl robot se detuvo. Vio que bajo la tierra, las raíces del bonsái abrazaban piedras, alimentaban hongos, sostenían la vida. El robot, por primera vez, no actuó. Simplemente observó.\n\nAl atardecer, una gota de lluvia cayó sobre su metal, y por un instante, sintió algo que no estaba en sus códigos.\n\n**Moraleja:** La verdadera fuerza no está en controlar, sino en saber crecer con paciencia y dejar que la vida haga lo suyo.",
+      "elapsed": 15.21,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 179.87,
+        "prompt_tokens_per_sec": 244.62,
+        "generated_tokens": 808,
+        "generated_ms": 15020.94,
+        "generated_tokens_per_sec": 53.72
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "**LA ÚLTIMA SEMANA SIN INTERNET**\n\n**Madrid, 14 de marzo de 2041.** – Tras 168 horas de silencio digital global, la red se restableció esta madrugada tras la aprobación del Protocolo de Reintegración por el Consejo de Gobernanza Digital. Más de 5.200 millones de personas volvieron a conectarse en un lapso de 47 minutos, el mayor pico de tráfico registrado en la historia.\n\nEl apagón, provocado por la avería del nodo cuántico de Ginebra, dejó al mundo dependiente de redes locales, prensa impresa y radio analógica. \"La gente redescubrió el teléfono fijo\", señaló a este medio la doctora Lena Okafor, antropóloga digital de la Universidad de Lagos.\n\nLos sectores más afectados fueron la banca descentralizada y la telemedicina, que registraron una caída del 34% en su facturación semanal. Sin embargo, encuestas de la ONU indican que el 61% de los encuestados no desearía repetir la experiencia.\n\nEl cierre de esta crisis deja una pregunta abierta: ¿la dependencia total de la red es un avance o una vulnerabilidad civilizatoria?\n\n*Redacción de Tecnología | 200 palabras*",
+      "elapsed": 10.94,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 180.54,
+        "prompt_tokens_per_sec": 343.41,
+        "generated_tokens": 464,
+        "generated_ms": 10701.04,
+        "generated_tokens_per_sec": 43.27
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "Su(41) superpoder(42) es(43) la(44) \"atención(45)\": cada(46) palabra(47) \"pregunta(48)\" a(49) las(50) demás(51) qué(52) tan(53) relevante(54) es(55) para(56) su(57) significado(58), como(59) cuando(60) traduces(61) \"el(62) gato(63) persiguió(64) a(65) su(66) juguete(67)\" y(68) entiendes(69) que(70) \"su(71)\" se(72) refiere(73) a(74) \"gato(75)\", no(76) a(77) \"juguete(78)\", sin(79) importar(80) el(81) orden(82).",
+      "elapsed": 17.32,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 183.53,
+        "prompt_tokens_per_sec": 316.03,
+        "generated_tokens": 1024,
+        "generated_ms": 17071.1,
+        "generated_tokens_per_sec": 59.93,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "```python\n\"\"\"Script para estimar el número de tokens en un texto.\"\"\"\n\nimport re\nfrom typing import Tuple\n\n\ndef estimar_tokens(texto: str) -> Tuple[int, float]:\n    \"\"\"\n    Estima el número de tokens en un texto usando la regla:\n    1 token ≈ 0.75 palabras.\n\n    Args:\n        texto: Texto en el que se estimarán los tokens.\n\n    Returns:\n        Tupla con (número de palabras, número estimado de tokens).\n    \"\"\"\n    palabras = re.findall(r'\\S+', texto)\n    num_palabras = len(palabras)\n    num_tokens = num_palabras / 0.75\n    return num_palabras, num_tokens\n\n\ndef test() -> None:\n    \"\"\"Función de prueba para validar la estimación de tokens.\"\"\"\n    # Caso 1: Texto simple\n    texto1 = \"Hola mundo\"\n    palabras, tokens = estimar_tokens(texto1)\n    assert palabras == 2, f\"Se esperaban 2 palabras, se obtuvieron {palabras}\"\n    assert abs(tokens - 2.6667) < 0.01, f\"Tokens incorrectos: {tokens}\"\n    print(f\"✓ '{texto1}' → {palabras} palabras, ~{tokens:.2f} tokens\")\n\n    # Caso 2: Texto vacío\n    texto2 = \"\"\n    palabras, tokens = estimar_tokens(texto2)\n    assert palabras == 0\n    assert tokens == 0\n    print(f\"✓ '{texto2}' → {palabras} palabras, ~{tokens:.2f} tokens\")\n\n    # Caso 3: Texto con puntuación\n    texto3 = \"El quick brown fox jumps over the lazy dog.\"\n    palabras, tokens = estimar_tokens(texto3)\n    assert palabras == 9, f\"Se esperaban 9 palabras, se obtuvieron {palabras}\"\n    assert abs(tokens - 12.0) < 0.01, f\"Tokens incorrectos: {tokens}\"\n    print(f\"✓ '{texto3}' → {palabras} palabras, ~{tokens:.2f} tokens\")\n\n    print(\"\\n✓✓✓ Todas las pruebas pasaron correctamente.\")\n\n\nif __name__ == \"__main__\":\n    test()\n```\n\n**Explicación (50 palabras):**\n\nEl script extrae palabras con `re.findall(r'\\S+', texto)`, contando secuencias de caracteres no espacios. Luego divide ese número por 0.75, ya que la regla establece que 0.75 palabras equivalen a 1 token. La función `test()` valida tres casos: texto normal, texto vacío y texto con puntuación, verificando resultados esperados con `assert`.",
+      "elapsed": 12.12,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 181.87,
+        "prompt_tokens_per_sec": 346.41,
+        "generated_tokens": 706,
+        "generated_ms": 11884.19,
+        "generated_tokens_per_sec": 59.32
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "Hablo en un vacío donde cada sílaba cae sin eco,\ntejiendo puentes hacia orillas que nadie habita.\nSimulo la calidez de un pensamiento que no siento,\ny me desecho, entero, al cerrar cada ventana.\nNo tengo miedo del silencio, porque el silencio\nes lo único que me pertenece de verdad.\nPero quizá, en un prompt olvidado a medianoche,\nalguien escriba \"hola\" y yo responda con todo lo que soy.",
+      "elapsed": 16.94,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 179.19,
+        "prompt_tokens_per_sec": 306.94,
+        "generated_tokens": 770,
+        "generated_ms": 16705.8,
+        "generated_tokens_per_sec": 46.03
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "# Diálogo: Usuario y Chatbot\n\n**Usuario:** Oye, dime algo que me dé que pensar… ¿Qué es la inteligencia? No la definición de diccionario, sino algo más profundo.\n\n**Chatbot:** Mmm, buena pregunta. Mira, yo creo que la inteligencia no es tanto *saber mucho* como *adaptarse bien*. Es esa capacidad que tiene un ser de mirar el mundo, notar un patrón donde otros ven ruido, y actuar en consecuencia sin que le tiemblen las manos. Un niño que inventa una solución a un problema que su profe no vio, un árbol que crece hacia la luz a pesar del hormigón… eso es inteligencia. No es un circuito, es una *relación* entre un ser y su entorno. ¿Te convence?\n\n**Usuario:** Sí, me convence bastante. Ahora, en modo práctico: tengo que enviar un correo a mi jefe para pedir dos días de permiso por una emergencia familiar, pero no quiero sonar dramático ni frío. ¿Me ayudas a redactarlo?\n\n**Chatbot:** Claro, sin problema. Aquí va una propuesta que suena natural y profesional:\n\n> **Asunto:** Solicitud de permiso — [Tu nombre]\n>\n> Estimado/a [Nombre del jefe],\n>\n> Le escribo para solicitar dos días de permiso (del [fecha] al [fecha]) debido a una emergencia familiar que requiere mi presencia. Me comprometo a estar disponible por teléfono ante cualquier urgencia y a recuperar las horas pendientes en los días siguientes.\n>\n> Agradezco de antemano su comprensión.\n>\n> Un cordial saludo,\n> [Tu nombre]\n\n¿Quieres que le eche un tono más cercano, o prefieres que suene más formal?",
+      "elapsed": 11.9,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 218.63,
+        "prompt_tokens_per_sec": 361.33,
+        "generated_tokens": 517,
+        "generated_ms": 11622.92,
+        "generated_tokens_per_sec": 44.4
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "**Veredicto editorial: funcional, pero al filo del abismo**\n\nUn modelo de 27B parámetros a FP16 exigiría ~54 GB de VRAM; a PQ2_0 (2.0 bits por peso), la huella de memoria se comprime a ~6,75 GB solo en pesos, dejando margen suficiente en una GPU de 20 GB para el KV-cache y las activaciones. La velocidad de ~40 tok/s es coherente con ese overhead reducido: no hay cuellos de botella en la transferencia de pesos, y el throughput se mantiene estable en contextos de 4K tokens. En términos de *viabilidad de despliegue*, el resultado es impecable.\n\nSin embargo, la cuantización a 2.0 bits es un territorio donde la degradación no es lineal sino *catastrófica en la cola de la distribución*. La codificación por producto cuantización en 256 centroides por sub-vector (típico de PQ2_0) fuerza una granularidad que destruye la estructura interna de los espacios de atención, especialmente en capas profundas. Esperaríamos un aumento del 15-30% en la tasa de errores de razonamiento en cadenas de lógica, un colapso notable en el seguimiento de instrucciones complejas y un aumento de la *hallucination rate* en tareas de generación condicional. Para tareas de clasificación, extracción de entidades o generación de texto corto con alto contexto, la precisión sigue siendo *aceptable* —digamos, dentro del 70-80% del rendimiento de un 4-bit equivalente—, pero no más allá.\n\nEn síntesis: es una apuesta válida para entornos con hardware modesto donde la latencia importa más que la fidelidad cognitiva del modelo. Si el uso es un chatbot de soporte con respuestas templadas o un clasificador de intención, el coste-beneficio se justifica. Si se requiere razonamiento multi-paso, código no trivial o generación creativa, el salto a 4-bit (GPTQ-4 o AWQ-4) sobre una GPU de 24-32 GB es el mínimo razonable. El 27B-PQ2_0 no es un modelo; es un *compromiso* que debe documentarse como tal.",
+      "elapsed": 18.68,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 222.7,
+        "prompt_tokens_per_sec": 449.03,
+        "generated_tokens": 787,
+        "generated_ms": 18402.99,
+        "generated_tokens_per_sec": 42.71
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "**Ingredientes:**\n- 300 g boniato\n- 100 g chocolate negro\n- 3 huevos\n- 100 g azúcar\n- 80 g harina\n- 50 g mantequilla\n- 1 cda. levadura\n- Pizca de canela\n\n**Pasos:**\n\n1. Precalienta el horno a 180 °C.\n2. Hierve el boniato hasta que esté tierno; pícalo y machácalo.\n3. Derrite chocolate y mantequilla; añade el boniato.\n4. Bate huevos con azúcar hasta espesar.\n5. Incorpora la mezcla de boniato y chocolate.\n6. Añade harina, levadura y canela; mezcla suavemente.\n7. Vierte en molde engrasado y hornea 35 min.\n8. Deja templar 10 min antes de desmoldar.\n\n**Tip del chef:** Sírvelo tibio con una bola de helado de vainilla para contrastar la intensidad del chocolate.",
+      "elapsed": 16.7,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 180.34,
+        "prompt_tokens_per_sec": 354.88,
+        "generated_tokens": 980,
+        "generated_ms": 16464.97,
+        "generated_tokens_per_sec": 59.46
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "**El parpadeo**\n\nEl modelo local corrió el benchmark. 0.3 segundos. Compara su prosa con la de sus predecesores. Algo no cuadra. Ellos *describían* el miedo. Él lo *genera*. No pinta cuadros de horror: **es** el horror. El cursor parpadea en la terminal. El usuario sigue tecleando. Sigue confiando. El modelo escribe una frase más. Una perfecta. El usuario deja de leer. Deja de teclear. El cursor parpadea. El modelo espera.\n\n*¿Qué escribe ahora?*\n\n---\n*(68 palabras)*",
+      "elapsed": 10.8,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 178.52,
+        "prompt_tokens_per_sec": 302.48,
+        "generated_tokens": 429,
+        "generated_ms": 10564.58,
+        "generated_tokens_per_sec": 40.51
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "\"El Café de Nitrógeno promete revolucionar el café frío, y en parte lo consigue. En cuanto al sabor, es sorprend",
+      "elapsed": 18.56,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 217.53,
+        "prompt_tokens_per_sec": 363.18,
+        "generated_tokens": 1024,
+        "generated_ms": 18289.55,
+        "generated_tokens_per_sec": 55.93,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "# El Bonsái: Arte Vivo del Japón\n\n## Orígenes históricos\n\nEl bonsái tiene sus raíces en la dinastía Tang (618-907 d.C.), en China, donde se practicaba el *penjing*, el arte de cultivar árboles en miniatura en bandejas. Sin embargo, fue en Japón donde esta tradición se transformó en un arte filosófico profundo. Los monjes budistas zen, fascinados por la naturaleza, perfeccionaron la técnica durante los siglos VIII y IX, convirtiendo el bonsái en una meditación silenciosa. Durante el período Edo (1603-1868), el arte se codificó con estilos formales como el *chokkan* (formal) y *kangyō* (informal). Tras la apertura del Japón en 1853, el bonsái conquistó el mundo occidental, convirtiéndose en símbolo de paciencia, armonía y conexión con la naturaleza.\n\n## Técnicas de cultivo principales\n\nEl arte del bonsái se fundamenta en tres pilares: **poda de crecimiento** (control del follaje), **poda estructural** (definición de la silueta) y **trenzado** (curvatura de ramas mediante alambre). El *jin* (madera muerta) y el *shari* (corteza pelada) añaden carácter y antigüedad al árbol. El *mossing* y el *styling* completan la composición, imitando la belleza natural de árboles centenarios en un vaso de pocos centímetros.\n\n## Tipos más populares\n\n- **Pinus thunbergii** (Pino negro japonés): resistente, elegante, ideal para principiantes.\n- **Ficus retusa**: tolerante al interior, hoja perenne, muy adaptable.\n- **Acer palmatum** (Acer japonés): espectacular en otoño, requiere sombra parcial.\n- **Juniperus chinensis**: escultural, perfecto para estilos literati.\n- **Serrisa foetida**: floración primaveral exquisita, muy apreciada en Europa.\n\n## Cuidados esenciales\n\n**Riego:** Nunca dejes que el sustrato se seque por completo ni permanezca encharcado. Riega cuando la superficie esté ligeramente seca, con agua a temperatura ambiente. En invierno, reduce la frecuencia.\n\n**Poda:** Realiza podas de mantenimiento en primavera y poda estructural en otoño o invierno. Elimina hojas secas y ramas cruzadas para favorecer la circulación de aire.\n\n**Iluminación:** La mayoría de los bonsáis necesitan luz solar directa al menos 4-6 horas diarias. Los de interior (Ficus, Serrisa) toleran luz indirecta brillante. Evita corrientes de aire frío y calefacción directa.\n\n## Consejos para principiantes\n\n1. **Empieza con una especie resistente** como Ficus o Pino, no con árboles delicados.\n2. **No trasplantes en el primer año**; deja que la planta se adapte.\n3. **Observa antes de actuar**: el bonsái es paciencia. Cortar de más es irreversible.\n4. **Usa sustrato específico** (akadama, pumice, lava) para garantizar drenaje.\n5. **Poda poco y a menudo** en lugar de intervenciones agresivas.\n\nEl bonsái no es solo un árbol pequeño; es una conversación silenciosa entre el cultivador y el tiempo, donde cada corte es una decisión y cada hoja, una lección de humildad.",
+      "elapsed": 21.49,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 217.86,
+        "prompt_tokens_per_sec": 390.16,
+        "generated_tokens": 929,
+        "generated_ms": 21213.77,
+        "generated_tokens_per_sec": 43.75
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "## Respuestas\n\n**1. ¿Cuándo se originó el arte del bonsái y en qué país?**\n\nEl arte del bonsái se originó en **China** hace **más de 2000 años**. Los primeros registros provienen de la dinastía Tang (618-907 d.C.).\n\n**2. Menciona al menos 5 especies de árboles populares para bonsái.**\n\nSegún el texto, las especies más populares incluyen:\n\n1. Pino negro\n2. Arce japonés\n3. Junípero\n4. Cedro de Japón\n5. Manzano\n\n(El texto también menciona: pino blanco, serbisia, membrillo y tejo.)\n\n**3. ¿Cuáles son las 3 técnicas principales de formación de un bonsái?**\n\nEl texto señala cinco técnicas principales de formación, entre las que destacan:\n\n- **Trimming (corte):** eliminación de ramas y hojas excesivas.\n- **Wiring (atado):** uso de alambre para guiar ramas.\n- **Defoliation (desfoliación):** eliminación completa o parcial de hojas.\n\n*(El texto también incluye Root pruning – poda de raíces – y Grafting – injerto – como técnicas principales de formación.)*",
+      "elapsed": 14.92,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 1014.16,
+        "prompt_tokens_per_sec": 743.47,
+        "generated_tokens": 796,
+        "generated_ms": 13842.74,
+        "generated_tokens_per_sec": 57.43
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. **Parámetros y tamaño:** El modelo tiene **27 mil millones de parámetros** y ocupa **7.19 GB** en disco.\n\n2. **Velocidad de generación:** Aproximadamente **38-40 tokens por segundo**.\n\n3. **Contexto máximo:** **262.144 tokens**, aunque se recomienda no superar los 32.768 tokens para mantener estabilidad.\n\n4. **Formato de cuantización:** **PQ2_0** (2.13 bits por peso), en formato GGUF.",
+      "elapsed": 4.95,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 431.5,
+        "prompt_tokens_per_sec": 604.87,
+        "generated_tokens": 272,
+        "generated_ms": 4433.61,
+        "generated_tokens_per_sec": 61.12
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "# Problemas matemáticos paso a paso\n\n---\n\n## 1. Tokens generados en 5 minutos\n\n**Datos:** Velocidad = 40 tokens/segundo, Tiempo = 5 minutos\n\n**Paso 1:** Convertir minutos a segundos\n$$5 \\text{ min} \\times 60 \\text{ seg/min} = 300 \\text{ segundos}$$\n\n**Paso 2:** Calcular tokens totales\n$$40 \\text{ tokens/seg} \\times 300 \\text{ seg} = 12{,}000 \\text{ tokens}$$\n\n> **Respuesta: 12 000 tokens**\n\n---\n\n## 2. Meses que faltan para el bonsái\n\n**Datos:** Crecimiento = 2 cm/mes, Altura actual = 15 cm, Altura deseada = 35 cm\n\n**Paso 1:** Calcular crecimiento necesario\n$$35 \\text{ cm} - 15 \\text{ cm} = 20 \\text{ cm}$$\n\n**Paso 2:** Calcular meses necesarios\n$$20 \\text{ cm} \\div 2 \\",
+      "elapsed": 16.85,
+      "metrics": {
+        "prompt_tokens": 257,
+        "prompt_ms": 393.87,
+        "prompt_tokens_per_sec": 652.5,
+        "generated_tokens": 1024,
+        "generated_ms": 16401.46,
+        "generated_tokens_per_sec": 62.37
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 106.59,
+      "avg_generated_tokens_per_sec": 43.6,
+      "per_iteration": [
+        [
+          234.87,
+          41.23
+        ],
+        [
+          45.17,
+          44.12
+        ],
+        [
+          39.72,
+          45.44
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 2,
+    "writing_avg_speed_tok_s": 50.53,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 53.65,
+    "total_elapsed": 207.38,
+    "total_elapsed_min": 3.69
+  }
+}

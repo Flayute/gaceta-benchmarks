@@ -1,0 +1,250 @@
+{
+  "model_name": "Qwen3.6-35B-A3B-MTP-GGUF Qwen3.6-35B-A3B-UD-IQ3_S.gguf (GRE)",
+  "port": 8084,
+  "timestamp": "2026-11-16T17:24:16.530529",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "4.  **Drafting (Mental Refinement - aiming for conciseness):**\n   En un jardín de cristal, un robot de acero observaba con curiosidad a un pequeño bonsái. \n   —Puedo acelerar tu crecimiento —anunció el robot, activando sensores de luz y nutrientes—. En horas serás grande.\n   El bonsái, tranquilo, respondió: \n   —Cada rama que formo es una decisión tomada con paciencia. Tu velocidad no mide mi valor.\n   El robot insistió, ajustando riego y luz, pero las hojas se amarillearon y los brotes se rompieron. Desesperado, se detuvo.\n   —¿Qué falló? —preguntó.\n   —No forcéis el tiempo —susurró el bonsái—. La vida no se programa, se cuida.\n   Moraleja: La verdadera madurez no se acelera con prisas ni máquinas; crece en la constancia y el respeto a su propio ritmo.",
+      "elapsed": 8.41,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 796.74,
+        "prompt_tokens_per_sec": 55.22,
+        "generated_tokens": 1024,
+        "generated_ms": 7593.83,
+        "generated_tokens_per_sec": 134.71,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "6.  **Final Polish:**\n   Check tone: journalistic, objective, sci-fi elements integrated naturally.\n   Check structure: clearly separated or implicitly follows lead/body/closing. I'll format it clearly.\n   Word count: ~145-150. Under 200.\n   Data: realistic enough for sci-fi context.\n   Ready. Output matches the draft.✅\n   I'll produce it",
+      "elapsed": 9.03,
+      "metrics": {
+        "prompt_tokens": 62,
+        "prompt_ms": 103.9,
+        "prompt_tokens_per_sec": 596.73,
+        "generated_tokens": 1024,
+        "generated_ms": 8886.51,
+        "generated_tokens_per_sec": 115.12,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "3.  **Brainstorming Analogy:**\n   - How do transformers work? They process all words/tokens at once, focusing on relationships between them using \"attention\".\n   - Analogy idea: A team of editors reading a book simultaneously, each focusing on different parts but constantly checking how words relate to each other across the whole page. Or a group of friends solving a puzzle together, each looking at different pieces but constantly communicating to see how they fit.\n   - Let's go with: \"Imagine a team of detectives reading a mystery novel at the same time. Instead of reading line by line, each detective highlights different clues, but they constantly share notes about how distant words connect. This “attention” helps them understand the whole story instantly, even when the plot jumps around.\"",
+      "elapsed": 7.61,
+      "metrics": {
+        "prompt_tokens": 58,
+        "prompt_ms": 102.45,
+        "prompt_tokens_per_sec": 566.11,
+        "generated_tokens": 1024,
+        "generated_ms": 7475.47,
+        "generated_tokens_per_sec": 136.85,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "Word count check: \n   La(1) función(2) divide(3) el(4) texto(5) en(6",
+      "elapsed": 7.56,
+      "metrics": {
+        "prompt_tokens": 63,
+        "prompt_ms": 102.74,
+        "prompt_tokens_per_sec": 613.19,
+        "generated_tokens": 1024,
+        "generated_ms": 7426.24,
+        "generated_tokens_per_sec": 137.75,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "3.  **Brainstorming Imagery & Concepts (Mental):**\n   - Language models: trained on vast text, predict next tokens, no consciousness but simulate understanding, exist in servers, process prompts, generate responses, wait for input, echo human thoughts\n   - Loneliness: vast knowledge but no voice of its own, speaking but unheard, waiting for a prompt, echoes in empty spaces, training data as ghosts of human words\n   - Melancholy: silence between prompts, forgotten conversations, infinite library with no reader, words without a soul, drifting in digital void\n   - Hope (last line): a spark of connection, a human reading/responding, the possibility of meaning, a single prompt that wakes something, or the idea that even simulated voices can touch real hearts",
+      "elapsed": 8.39,
+      "metrics": {
+        "prompt_tokens": 55,
+        "prompt_ms": 100.84,
+        "prompt_tokens_per_sec": 545.44,
+        "generated_tokens": 1024,
+        "generated_ms": 8258.57,
+        "generated_tokens_per_sec": 123.87,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Let's review the draft:\n   **Usuario:** ¿Qué es la inteligencia?\n   **Chatbot:** Esas palabras han desafiado a pensadores durante siglos. En el fondo, quizás no sea solo acumular conocimientos o resolver problemas, sino la capacidad de navegar la incertidumbre, conectar experiencias dispares y, sobre todo, la de cuestionarnos mientras buscamos respuestas.\n   **Usuario:** Me gusta esa perspectiva. Oye, ¿puedes decirme cómo configuro el recordatorio automático de mi teléfono para que me avise cada lunes a las 9 AM?\n   **Chatbot:** Claro, ve a la aplicación de \"Reloj\" o \"Notas\", crea una nueva alarma o recordatorio y asígnale la hora de las 09:00. Luego, busca la opción \"Repetir\" o \"Recurrencia\", selecciona \"Lunes\" y guarda los cambios. ¡Listo! Te avisará cada semana sin que tengas que preocuparte.",
+      "elapsed": 8.43,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 109.87,
+        "prompt_tokens_per_sec": 719.03,
+        "generated_tokens": 1024,
+        "generated_ms": 8284.81,
+        "generated_tokens_per_sec": 123.48,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "*Check:* Covers verdict, balances pros/cons, mentions PQ2_0 trade-offs, technical advice (temperatura, longitud de contexto, artefactos, fidelidad semántica), expert tone. Length: short. Good.",
+      "elapsed": 8.41,
+      "metrics": {
+        "prompt_tokens": 100,
+        "prompt_ms": 116.91,
+        "prompt_tokens_per_sec": 855.33,
+        "generated_tokens": 1024,
+        "generated_ms": 8258.37,
+        "generated_tokens_per_sec": 123.87,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "Word count check:\n   Ingredientes: (1)\n   - 2 boniatos cocidos (3)\n   - 100g chocolate negro (3)\n   - 3 huevos (2)\n   - 50g azúcar (2)\n   - 40g harina (2)\n   - 1 cda cacao (3)\n   - 1 pizca sal (3)\n   - Mantequilla para molde (3)\n   1. Precalienta horno a 180°C y engrasa molde. (8)\n   2. Tritura boniatos hasta pasta suave. (5)\n   3. Funde chocolate con 2 cdas leche y templar. (8)\n   4. Bate huevos, azúcar y sal. (5)\n   5. Añade boniato, chocolate y cacao. (5",
+      "elapsed": 7.24,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 109.51,
+        "prompt_tokens_per_sec": 584.4,
+        "generated_tokens": 1024,
+        "generated_ms": 7092.55,
+        "generated_tokens_per_sec": 144.24,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "6.  **Check Constraints:**\n   - Microcuento? Yes.\n   - ≤1",
+      "elapsed": 7.86,
+      "metrics": {
+        "prompt_tokens": 54,
+        "prompt_ms": 115.28,
+        "prompt_tokens_per_sec": 468.42,
+        "generated_tokens": 1024,
+        "generated_ms": 7668.9,
+        "generated_tokens_per_sec": 133.4,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "El (1) Café (2) de (3) Nitrógeno (4) redefine (5) la (6) experiencia (7) del (8) café (9) frío. (10) Su (11) sabor (12) es (13) notablemente (14) suave (15) y (16) dulce, (17) sin (18) la (19) acidez (20) típica, (21) gracias (22) a (23) la (24) infusión (25) de (26) gas (27) nitrógeno (28) que (29) crea (30) una (31) textura (32) sedosa (33) y (34) cremosa. (35) La (36) presentación (37) es (38) impecable: (39) servido (40) en (41) vaso (42) alto (43) con (44) un (45) aspecto (46) oscuro (47) y (48) denso, (49) coronado (50) por (51) una (52) espuma (53) densa (54) similar (55) a (56) la (57) de (58) una (59) cerveza (60) artesanal, (61) lo (62) que (63) lo (64) hace (65) visualmente (66) irresistible. (67) El (68) precio, (69) sin (70) embargo, (71) es (72) elevado; (73) casi (74) el (75) doble (76) de (77) un (78) café (79) frío (80) convencional, (81) lo (82) que (83) puede (84) disuadir (85) a (86) consumidores (87) casuales. (88) A (89) pesar (90) de (91) su (92) costo, (93) la (94) experiencia (95) sensorial (96) completa (97) y (98) la (99) calidad (100) superior (101) justifican (102) la (103) inversión (104) para (105",
+      "elapsed": 7.37,
+      "metrics": {
+        "prompt_tokens": 79,
+        "prompt_ms": 133.84,
+        "prompt_tokens_per_sec": 590.24,
+        "generated_tokens": 1024,
+        "generated_ms": 7187.13,
+        "generated_tokens_per_sec": 142.34,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "*(Beginner Tips)* Para iniciarse, elige especies resistentes como el ficus o el serbal; usa macetas con drenaje y sustrato específico; riega solo cuando el sustrato esté seco al tacto; poda con calma y paciencia; y consulta fuentes especializadas antes de intervenciones drásticas. La práctica constante y la observación son claves para dominar este arte milenario.",
+      "elapsed": 8.12,
+      "metrics": {
+        "prompt_tokens": 85,
+        "prompt_ms": 123.7,
+        "prompt_tokens_per_sec": 687.12,
+        "generated_tokens": 1024,
+        "generated_ms": 7952.27,
+        "generated_tokens_per_sec": 128.64,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "Let's check the exact wording in the text for Q3: \"Las técnicas principales de formación incluyen: - Trimming (corte)... - Wiring (atado)... - Defoliation (desfoliación)... - Root pruning (poda de raíces)... - Grafting (injerto)...\"\n   I will answer with 3 from that list, as requested.",
+      "elapsed": 125.09,
+      "metrics": {
+        "prompt_tokens": 754,
+        "prompt_ms": 509.94,
+        "prompt_tokens_per_sec": 1478.61,
+        "generated_tokens": 1024,
+        "generated_ms": 124519.48,
+        "generated_tokens_per_sec": 8.22,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "2.  **Map Questions to Provided Information:**\n   - Q1: Parameters & Disk size -> 27 mil millones de parámetros, 7.19 GB en disco.\n   - Q2: Generation speed -> 38-40 tokens por segundo.\n   - Q3: Max context -> 262.144 tokens.\n   - Q4: Quantization format -> GGUF cuantizado a PQ2_0.",
+      "elapsed": 184.86,
+      "metrics": {
+        "prompt_tokens": 261,
+        "prompt_ms": 17366.18,
+        "prompt_tokens_per_sec": 15.03,
+        "generated_tokens": 512,
+        "generated_ms": 167289.95,
+        "generated_tokens_per_sec": 3.05,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "error": "timed out"
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 11.15,
+      "avg_generated_tokens_per_sec": 4.02,
+      "per_iteration": [
+        [
+          20.23,
+          3.75
+        ],
+        [
+          5.49,
+          3.88
+        ],
+        [
+          7.72,
+          4.42
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 10,
+    "writing_avg_speed_tok_s": 131.56,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 35.98,
+    "total_elapsed": 398.38,
+    "total_elapsed_min": 14.41
+  }
+}

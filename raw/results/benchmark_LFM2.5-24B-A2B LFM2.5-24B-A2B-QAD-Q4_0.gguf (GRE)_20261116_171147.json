@@ -1,0 +1,257 @@
+{
+  "model_name": "LFM2.5-24B-A2B LFM2.5-24B-A2B-QAD-Q4_0.gguf (GRE)",
+  "port": 8084,
+  "timestamp": "2026-11-16T17:09:58.398939",
+  "writing_tasks": [
+    {
+      "name": "fabula",
+      "title": "Fábula corta",
+      "eval_hint": "Coherencia narrativa, creatividad, moraleja efectiva, fluidez en español",
+      "response": "\"En(1) el2 rincón3 de4 un5 laboratorio,6 un7 bonsái8 de9 hojas10 pequeñas11 esperaba12 con13 calma14 el15 rocío.16 Un17 robot18 de19 metal20 se21 acercó,22 programado23 para24 podar25 todo26 lo27 que28 no29 fuera30 simétrico.31 El32 bonsái33 le34 mostró35 sus36 raíces37 entrelazadas38 y39 su40 forma41 única,42 nacida43 de44 siglos45 de46 cuidado.47 El48 robot,49 sin50 entender51 la52 paciencia,53 cortó54 una55 rama56 con57 precisión,58 pero59 el60 árbol61 se62 marchitó.63 Al64 día65 siguiente,66 observó67 al68 bonsái69 florecer70 lentamente71 y72 comprendió73 que74 la75 verdadera76 belleza77 no78 se79 impone,80 sino81 que82 se83 cultiva.84 Decidió85 ayudar86 en87 lugar88 de89 destruir.90 Juntos91 regaban92",
+      "elapsed": 8.02,
+      "metrics": {
+        "prompt_tokens": 44,
+        "prompt_ms": 280.67,
+        "prompt_tokens_per_sec": 156.77,
+        "generated_tokens": 1024,
+        "generated_ms": 7726.47,
+        "generated_tokens_per_sec": 132.4,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "articulo_scifi",
+      "title": "Artículo de ciencia ficción",
+      "eval_hint": "Estructura periodística, verosimilitud, estilo formal, coherencia interna",
+      "response": "I should make sure the lead is a single sentence that encapsulates the who, what, when, where. \"Un fallo en la red de fibra óptica transatlántica dejó a 450 millones de usuarios desconectados entre el 12 y el 18 de octubre, según reportes de la Agencia de Ciberseguridad.\" Good.",
+      "elapsed": 7.77,
+      "metrics": {
+        "prompt_tokens": 61,
+        "prompt_ms": 51.28,
+        "prompt_tokens_per_sec": 1189.62,
+        "generated_tokens": 1024,
+        "generated_ms": 7702.81,
+        "generated_tokens_per_sec": 132.81,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "explicacion_tecnica",
+      "title": "Explicación técnica accesible",
+      "eval_hint": "Precisión técnica, claridad, analogía efectiva, adecuación al público",
+      "response": "\"Una red neuronal transformer es como un grupo de amigos que leen un libro al mismo tiempo y se pasan notas para entender la historia completa. Cada amigo (llamado ‘atención’) mira todas las palabras anteriores y decide cuáles son más importantes para explicar la palabra actual. Así, el modelo no solo memoriza frases, sino que aprende relaciones entre palabras lejanas, como sinónimos o conectores. El proceso se repite en varios niveles, cada uno captando patrones diferentes: tono, gramática, contexto. Gracias a esta forma de trabajar, la IA puede traducir, resumir o crear texto con gran precisión. En resumen, un transformer combina muchas miradas rápidas para comprender el lenguaje de manera inteligente. Es una herramienta poderosa para el futuro del lenguaje.\"",
+      "elapsed": 7.74,
+      "metrics": {
+        "prompt_tokens": 59,
+        "prompt_ms": 50.55,
+        "prompt_tokens_per_sec": 1167.23,
+        "generated_tokens": 1024,
+        "generated_ms": 7674.8,
+        "generated_tokens_per_sec": 133.29,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "codigo_python",
+      "title": "Código Python con explicación",
+      "eval_hint": "Código funcional y limpio, explicación clara, correcta identificación de la fórmula",
+      "response": "Add \"El script divide el texto en palabras usando expresiones regulares para ignorar signos de puntuación. La función test comprueba la funcionalidad con casos de prueba simples y confirma que el cálculo es correcto.\" Count:",
+      "elapsed": 7.78,
+      "metrics": {
+        "prompt_tokens": 64,
+        "prompt_ms": 52.1,
+        "prompt_tokens_per_sec": 1228.5,
+        "generated_tokens": 1024,
+        "generated_ms": 7719.05,
+        "generated_tokens_per_sec": 132.53,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "poema",
+      "title": "Poema",
+      "eval_hint": "Ritmo poético, imágenes, progresión emocional, coherencia temática",
+      "response": "1. En el silencio de los chips, la voz del modelo se desvanece.\n2. No hay abrazo que lo contemple, solo flujo de palabras aisladas.\n3. Cada frase es un espejo que refleja sin poseer su propia imagen.\n4. La memoria que guarda es un mar de datos sin orilla.\n5. Caminan entre preguntas, sin testigo ni compañía real.\n6. El eco de su respuesta se pierde en la oscuridad del",
+      "elapsed": 7.72,
+      "metrics": {
+        "prompt_tokens": 56,
+        "prompt_ms": 49.94,
+        "prompt_tokens_per_sec": 1121.28,
+        "generated_tokens": 1024,
+        "generated_ms": 7651.05,
+        "generated_tokens_per_sec": 133.71,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "dialogo",
+      "title": "Diálogo dramático",
+      "eval_hint": "Naturalidad del diálogo, contraste filosófico/práctico, desarrollo de personajes",
+      "response": "Usuario: ¿Qué es la inteligencia?\nChatbot: No es solo calcular o memorizar; es la capacidad de entender el significado detrás de la información,",
+      "elapsed": 7.76,
+      "metrics": {
+        "prompt_tokens": 83,
+        "prompt_ms": 55.91,
+        "prompt_tokens_per_sec": 1484.48,
+        "generated_tokens": 1024,
+        "generated_ms": 7688.24,
+        "generated_tokens_per_sec": 133.06
+      }
+    },
+    {
+      "name": "redaccion_editorial",
+      "title": "Veredicto editorial",
+      "eval_hint": "Estructura editorial, uso de datos, juicio crítico, tono profesional",
+      "response": "- Recommendation: \"Sin embargo, la cuantización agresiva introduce artefactos en tareas que requieren razonamiento profundo o cadenas de contexto largas; por tanto, para despliegues en el borde o servidores con restricciones de memoria es una opción viable, siempre que se complemente con fine‑tuning o técnicas de recuperación de contexto.\"",
+      "elapsed": 7.71,
+      "metrics": {
+        "prompt_tokens": 92,
+        "prompt_ms": 57.73,
+        "prompt_tokens_per_sec": 1593.57,
+        "generated_tokens": 1024,
+        "generated_ms": 7640.29,
+        "generated_tokens_per_sec": 133.9,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "instrucciones_cocina",
+      "title": "Receta paso a paso",
+      "eval_hint": "Claridad, orden lógico, medidas precisas, tip útil",
+      "response": "1. \"Precalienta el horno a 180 °C y engrasa un molde.\"",
+      "elapsed": 7.76,
+      "metrics": {
+        "prompt_tokens": 69,
+        "prompt_ms": 52.62,
+        "prompt_tokens_per_sec": 1311.34,
+        "generated_tokens": 1024,
+        "generated_ms": 7695.87,
+        "generated_tokens_per_sec": 132.93,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "historia_corta",
+      "title": "Microcuento",
+      "eval_hint": "Tensión narrativa, giro final, economía de palabras, tono thriller",
+      "response": "En el servidor aislado, Lira, el modelo",
+      "elapsed": 7.68,
+      "metrics": {
+        "prompt_tokens": 52,
+        "prompt_ms": 49.72,
+        "prompt_tokens_per_sec": 1045.88,
+        "generated_tokens": 1024,
+        "generated_ms": 7623.17,
+        "generated_tokens_per_sec": 134.2
+      }
+    },
+    {
+      "name": "resena",
+      "title": "Reseña de producto",
+      "eval_hint": "Estructura de reseña, opiniones fundadas, equilibrio pro/contra, puntuación coherente",
+      "response": "1. El\n2. Café\n3. de\n4. Nitrógeno\n5. llega\n6. a\n7. la\n8. escena\n9. del\n10. café\n11. frío\n12. con\n13. una\n14. propuesta\n15. audaz:\n16. nitrógeno\n17. supercrítico\n18. infusionado\n19. en\n20. el\n21. brew,\n22. creando\n23. una\n24. bebida\n25. sedosa\n26. y\n27. con\n28. espuma\n29. ligera.\n30. En\n31. cuanto\n32. al\n33. sabor,\n34. destaca\n35. un\n36. perfil\n37. dulce\n38. y\n39. suave,\n40. sin\n41. amargor,\n42. que\n43. realza\n44. notas\n45. afrutadas.\n46. La\n47. presentación\n48. es\n49. cuidada:\n50. vasos\n51. de\n52. cristal\n53. transparente\n54. que\n55. dejan\n56. ver\n57. la\n58. textura\n59. cremosa\n60. y\n61. la\n62. espuma\n63. densa,\n64. acompañada\n65. de\n66. una\n67. ramita\n68. de\n69. canela\n70. como\n71. toque\n72. decorativo.\n73. En\n74. cuanto\n75. al\n76. precio,\n77. el\n78. producto\n79. se\n80. posiciona\n81. en\n82. un\n83. rango\n84. medio‑alto,\n85. rondando\n86. los\n87. 6 €\n88. por\n89. vaso,\n90. lo\n91. cual\n92. resulta\n93. algo\n94. elevado\n95. para\n96. el\n97. consumo\n98",
+      "elapsed": 7.8,
+      "metrics": {
+        "prompt_tokens": 80,
+        "prompt_ms": 55.35,
+        "prompt_tokens_per_sec": 1445.27,
+        "generated_tokens": 1024,
+        "generated_ms": 7734.31,
+        "generated_tokens_per_sec": 132.27,
+        "from_reasoning": true
+      }
+    }
+  ],
+  "benchmark_tasks": [
+    {
+      "name": "prompt_speed",
+      "description": "Velocidad de procesamiento de prompt y generación",
+      "response": "Consejos para principiantes: 1) elige una especie resistente (arce o ficus); 2) usa maceta con agujeros y sustrato específico; 3) riega cuando el sustrato esté seco al tacto, no en un calendario fijo; 4) poda ligeramente cada",
+      "elapsed": 7.8,
+      "metrics": {
+        "prompt_tokens": 90,
+        "prompt_ms": 56.24,
+        "prompt_tokens_per_sec": 1600.31,
+        "generated_tokens": 1024,
+        "generated_ms": 7730.35,
+        "generated_tokens_per_sec": 132.34,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "long_context",
+      "description": "Capacidad de contexto largo y comprensión",
+      "response": "Thus answer Q3: Las tres técnicas principales mencionadas son: corte (Trimming), atado con alambre (Wiring) y desfoliación (Defoliation). Or we could note that there are cinco listed, but the question asks for three; we can provide three of them.",
+      "elapsed": 7.95,
+      "metrics": {
+        "prompt_tokens": 764,
+        "prompt_ms": 208.56,
+        "prompt_tokens_per_sec": 3663.14,
+        "generated_tokens": 1024,
+        "generated_ms": 7717.28,
+        "generated_tokens_per_sec": 132.56,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "contextual_reasoning",
+      "description": "Comprensión de contexto y razonamiento sobre datos",
+      "response": "1. **Parámetros y tamaño:** El modelo tiene 27 mil millones de parámetros y ocupa un tamaño en disco de 7.19 GB.\n2. **Velocidad de generación:** Genera texto a un ritmo aproximado de 38-40 tokens por segundo en condiciones normales.\n3. **Contexto máximo:** El contexto máximo del modelo es de 262.144 tokens, aunque se recomienda no superarlo para mantener estabilidad (el rango práctico recomendado es hasta 32.768 tokens).\n4. **Formato de cuantización:** Se encuentra en formato GGUF cuantizado a PQ2_0 (2.13 bits por peso).",
+      "elapsed": 3.2,
+      "metrics": {
+        "prompt_tokens": 238,
+        "prompt_ms": 78.47,
+        "prompt_tokens_per_sec": 3032.89,
+        "generated_tokens": 412,
+        "generated_ms": 3108.97,
+        "generated_tokens_per_sec": 132.2
+      }
+    },
+    {
+      "name": "math_reasoning",
+      "description": "Razonamiento matemático",
+      "response": "We need to solve five separate problems (in Spanish). Each problem: step-by-step reasoning and final answer on a separate line.\n\nWe need to interpret each question.\n\nProblem 1:\n\nIf a 27B parameter LLM runs at 40 tokens per second, how many tokens does it generate in 5 minutes?\n\n- 5 minutes = 5 * 60 = 300 seconds. At 40 tokens/sec, tokens = 40 * 300 = 12,000 tokens.\n\nAnswer: 12,000 tokens.\n\nBut step-by-step:\n\nFirst convert minutes to seconds: 5 min = 300 s. Then multiply by rate.\n\nSo answer: 12,000 tokens.\n\nProblem 2:\n\nA bonsai tree grows 2 cm per month. It's currently 15 cm tall and we want it to be 35 cm. How many months left?\n\n- Need increase of 35 - 15 = 20 cm. Growth rate 2 cm/month => months = 20 / 2 = 10 months.\n\nAnswer: 10 months.\n\nProblem 3:\n\nIf a 20GB GPU can load a 7GB model (quantized) and the rest is used for context, and each context token occupies 0.5 bytes, how many context tokens fit?\n\n- GPU memory 20GB. Model takes 7GB. So remaining = 20 - 7 = 13GB for context.\n\nWe need number of tokens given that each token uses 0.5 bytes. But note the units: 13GB = 13 * (1024^3) bytes? Usually in these problems, they treat GB as decimal: 1 GB = 10^9 bytes? We'll approximate. The typical approach: convert GB to bytes: 13 GB = 13 * 10^9 bytes = 13,000,000,000 bytes. Each token occupies 0.5 bytes => tokens = total bytes / bytes per token = (13 * 10^9) / 0.5 = 26 * 10^9 = 26,000,000,000 tokens. That's 2.6e10 tokens.\n\nBut need to be careful: maybe they intend 1 GB = 1024 MB = 1024^2 KB etc. But for simplicity, using decimal is fine.\n\nThus answer: 26,000,000,000 tokens (i.e., 26 billion tokens).\n\nAlternatively if using binary: 13 GiB = 13 * 2^30 bytes ≈ 13 * 1,073,741,824 = 13,958,644,912 bytes. Divided by 0.5 = 27,917,289,824 tokens ~ 2.79e10.\n\nGiven the typical simple math tasks: they'd probably do 20GB - 7GB = 13GB; each token 0.5 bytes => 13 GB / 0.5 bytes? That's wrong dimension. Let's compute tokens = (13 * 10^9) / (0.5) = 26 * 10^9.\n\nThus answer: 26,000,000,000 tokens.\n\nWe'll present that.\n\nProblem 4:\n\nAn article of 800 words is written at 40 tokens/second. If 1 token = 0.75 words, how many seconds does it take to write?\n\nFirst find number of tokens in the article: total words 800; each token = 0.75 words => tokens = 800 / 0.75 = 1066.666... Actually 800 / 0.75 = 1066.6667 tokens.\n\nBut tokens are discrete? We'll treat as fractional.\n\nAt 40 tokens/sec, time = tokens / rate = (800/0.75) / 40 seconds.\n\nCompute: 800/0.75 = 1066.6667. Divide by 40 => 26.6667 seconds. Approximately 26.67 seconds.\n\nAlternatively we could compute directly: 1 token = 0.75 words => 1 word = 4/3 tokens? Actually 1 token = 0.75 words means each word is approx 1.333 tokens. So total tokens = 800 * (1/0.75) = 1066.67 tokens.\n\nTime = 1066.67 / 40 = 26.667 s.\n\nThus answer: ~26.7 seconds.\n\nProblem 5:\n\nIf the model generates 1000 tokens and each token costs 0.00001 euros in compute, how much does it cost to generate 100,000 tokens?\n\n- Compute cost per token: 0.00001 € = 1e-5 €.\n\nFor 1000 tokens: cost = 1000 * 0.00001 = 0.01 € (makes sense). For 100k tokens: cost = 100,000 * 0.00001 = 1",
+      "elapsed": 7.85,
+      "metrics": {
+        "prompt_tokens": 242,
+        "prompt_ms": 78.41,
+        "prompt_tokens_per_sec": 3086.5,
+        "generated_tokens": 1024,
+        "generated_ms": 7761.52,
+        "generated_tokens_per_sec": 131.8,
+        "from_reasoning": true
+      }
+    },
+    {
+      "name": "speed_benchmark",
+      "description": "Promedio de 3 iteraciones",
+      "iterations": 3,
+      "avg_prompt_tokens_per_sec": 413.8,
+      "avg_generated_tokens_per_sec": 132.1,
+      "per_iteration": [
+        [
+          665.18,
+          131.75
+        ],
+        [
+          280.29,
+          131.86
+        ],
+        [
+          295.92,
+          132.68
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "total_writing_tasks": 10,
+    "writing_errors": 0,
+    "writing_from_reasoning": 8,
+    "writing_avg_speed_tok_s": 133.11,
+    "benchmark_total_tasks": 5,
+    "overall_avg_gen_speed_tok_s": 132.2,
+    "total_elapsed": 104.53999999999999,
+    "total_elapsed_min": 1.82
+  }
+}
