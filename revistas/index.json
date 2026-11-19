@@ -3,7 +3,7 @@
   {
    "numero": "0",
    "fecha": "2026-11-19",
-   "titular": "La Gaceta <span class='lt'>del</span> LLM Local",
+   "titular": "La Gaceta del LLM Local",
    "articulos": [
     "Edición 0: Strata, el motor que escribe este periódico",
     "El peso manda: cinco cuantías del mismo modelo, 2.777 y 1.167 tok/s en la misma tarjeta"
