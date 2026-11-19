@@ -1,0 +1,102 @@
+{
+ "fecha": "2026-11-19",
+ "tag": "gyro-control",
+ "modelo": "Gyro-M TQ2_0 (control, set PF)",
+ "bpw": "2.0",
+ "motor": "Strata 0.1.62-hip-rx7900 (engine 0.2.16)",
+ "hw": "XT (RX 7900 XT 20 GB)",
+ "config": "set PF (HIPBLASLT_TABLE, WMMA, PF_FUSED/GEMM, HC_UPMIX, PA_FAST, GDN_CHUNKED) + dflash2; prompts unicos reused 0; ctx 262K",
+ "fuente_vault": "~/Documentos/harnesses/strata/benchmarks/2026-11-19-route-tail-skip-rt7/arm-gyro-control.jsonl",
+ "fuente_engine_log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold_ms": {
+  "103001": {
+   "tok_s": 2776.2,
+   "ms": 37101
+  },
+  "148478": {
+   "tok_s": 2648.0,
+   "ms": 56073
+  },
+  "45059": {
+   "tok_s": 2753.0,
+   "ms": 16367
+  },
+  "44483": {
+   "tok_s": 2683.8,
+   "ms": 16574
+  },
+  "4469": {
+   "tok_s": 1348.4,
+   "ms": 3314
+  },
+  "18056": {
+   "tok_s": 1995.9,
+   "ms": 9046
+  },
+  "35780": {
+   "tok_s": 2541.2,
+   "ms": 14080
+  },
+  "4623": {
+   "tok_s": 1897.8,
+   "ms": 2436
+  },
+  "18454": {
+   "tok_s": 2551.3,
+   "ms": 7233
+  },
+  "36223": {
+   "tok_s": 2625.6,
+   "ms": 13796
+  }
+ },
+ "prefill_110k_ms": {
+  "tok_s": 2777.2,
+  "ms": 39359,
+  "read": 109307
+ },
+ "prefill_cold_harness_s": {
+  "4469": 1488.0,
+  "18056": 2005.6666666666667,
+  "35780": 2555.3571428571427,
+  "4623": 2309.0,
+  "18454": 2635.5714285714284,
+  "36223": 2587.0,
+  "109307": 2802.6153846153848
+ },
+ "decode": {
+  "story": {
+   "gen": 256,
+   "ms": 3965,
+   "tok_s": 64.6,
+   "drafts": "118/147",
+   "aceptacion_pct": 80.3
+  },
+  "code": {
+   "gen": 161,
+   "ms": 1903,
+   "tok_s": 84.6,
+   "drafts": "117/139",
+   "aceptacion_pct": 84.2
+  }
+ },
+ "decode_110k_harness": {
+  "gen": 16,
+  "sec": 40,
+  "tps": 68.9,
+  "stop": "length",
+  "expert_hit": 95.9
+ },
+ "expert_hit_pct": {
+  "min": 74.5,
+  "max": 95.9
+ },
+ "gate": {
+  "ok": 6,
+  "total": 7,
+  "fails": [
+   "sumary"
+  ]
+ },
+ "validacion": "story del harness coincide con la ventana del engine (±15 %)"
+}

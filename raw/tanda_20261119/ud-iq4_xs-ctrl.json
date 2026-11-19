@@ -1,0 +1,92 @@
+{
+ "fecha": "2026-11-19",
+ "tag": "ud-iq4_xs-ctrl",
+ "modelo": "Unsloth UD-IQ4_XS",
+ "bpw": "~4.0",
+ "motor": "Strata 0.1.62-hip-rx7900 (engine 0.2.16)",
+ "hw": "XT (RX 7900 XT 20 GB)",
+ "config": "set PF (HIPBLASLT_TABLE, WMMA, PF_FUSED/GEMM, HC_UPMIX, PA_FAST, GDN_CHUNKED) + dflash2; prompts unicos reused 0; ctx 262K",
+ "fuente_vault": "~/Documentos/harnesses/strata/benchmarks/2026-11-19-route-tail-skip-rt7/arm-ud-iq4_xs-ctrl.jsonl",
+ "fuente_engine_log": "~/.local/state/strata/launch/ud-iq4_xs-256k.engine.log",
+ "prefill_cold_ms": {
+  "100415": {
+   "tok_s": 1792.2,
+   "ms": 56030
+  },
+  "4469": {
+   "tok_s": 759.0,
+   "ms": 5888
+  },
+  "18056": {
+   "tok_s": 910.5,
+   "ms": 19830
+  },
+  "35780": {
+   "tok_s": 1328.2,
+   "ms": 26939
+  },
+  "4623": {
+   "tok_s": 551.7,
+   "ms": 8379
+  },
+  "18454": {
+   "tok_s": 1044.3,
+   "ms": 17671
+  },
+  "36223": {
+   "tok_s": 1521.1,
+   "ms": 23813
+  }
+ },
+ "prefill_110k_ms": {
+  "tok_s": 1166.9,
+  "ms": 93670,
+  "read": 109307
+ },
+ "prefill_cold_harness_s": {
+  "4469": 892.8,
+  "18056": 902.75,
+  "35780": 1325.148148148148,
+  "4623": 577.75,
+  "18454": 1025.1666666666667,
+  "36223": 1509.25,
+  "91": 10.75,
+  "85": 40.0,
+  "109307": 1162.8297872340424
+ },
+ "decode": {
+  "story": {
+   "gen": 256,
+   "ms": 8485,
+   "tok_s": 30.2,
+   "drafts": "106/141",
+   "aceptacion_pct": 75.2
+  },
+  "code": {
+   "gen": 223,
+   "ms": 5691,
+   "tok_s": 39.2,
+   "drafts": "151/183",
+   "aceptacion_pct": 82.5
+  }
+ },
+ "decode_110k_harness": {
+  "gen": 16,
+  "sec": 94,
+  "tps": 38.8,
+  "stop": "length",
+  "expert_hit": 83.9
+ },
+ "expert_hit_pct": {
+  "min": 51.2,
+  "max": 86.7
+ },
+ "gate": {
+  "ok": 6,
+  "total": 7,
+  "fails": [
+   "sumary"
+  ]
+ },
+ "validacion": "story del harness coincide con la ventana del engine (±15 %)"
+}

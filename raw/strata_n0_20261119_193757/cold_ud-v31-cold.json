@@ -1,0 +1,66 @@
+{
+ "tag": "ud-v31-cold",
+ "fecha": "2026-11-19T19:44:58+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/ud-iq4_xs-v31-200k.engine.log",
+ "prefill_cold": [
+  {
+   "prompt_tokens": 135082,
+   "reused": 0,
+   "read_tokens": 135082,
+   "read_ms": 91295,
+   "prefill_tok_s": 1479.6,
+   "generated": 2,
+   "gen_ms": 80,
+   "decode_tok_s": 24.9,
+   "drafts_accepted": 0,
+   "drafts_total": 5,
+   "target": 110000,
+   "wall_s": 91.4
+  },
+  {
+   "prompt_tokens": 135091,
+   "reused": 0,
+   "read_tokens": 135091,
+   "read_ms": 73213,
+   "prefill_tok_s": 1845.2,
+   "generated": 2,
+   "gen_ms": 85,
+   "decode_tok_s": 23.4,
+   "drafts_accepted": 0,
+   "drafts_total": 5,
+   "target": 110000,
+   "wall_s": 122.6
+  }
+ ],
+ "decode": [
+  {
+   "prompt_tokens": 52,
+   "reused": 0,
+   "read_tokens": 52,
+   "read_ms": 2065,
+   "prefill_tok_s": 25.2,
+   "generated": 800,
+   "gen_ms": 18216,
+   "decode_tok_s": 43.9,
+   "drafts_accepted": 334,
+   "drafts_total": 479,
+   "target": 800,
+   "wall_s": 20.3
+  },
+  {
+   "prompt_tokens": 53,
+   "reused": 0,
+   "read_tokens": 53,
+   "read_ms": 738,
+   "prefill_tok_s": 71.8,
+   "generated": 1200,
+   "gen_ms": 24243,
+   "decode_tok_s": 49.5,
+   "drafts_accepted": 566,
+   "drafts_total": 770,
+   "target": 1200,
+   "wall_s": 25.0
+  }
+ ]
+}

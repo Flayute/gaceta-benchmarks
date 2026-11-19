@@ -1,0 +1,80 @@
+{
+ "tag": "xt-strata-dual",
+ "fecha": "2026-11-18T10:36:58+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/gyro-m-256k-2-gpu.engine.log",
+ "prefill_cold": [
+  {
+   "prompt_tokens": 18581,
+   "reused": 0,
+   "read_tokens": 18581,
+   "read_ms": 9318,
+   "prefill_tok_s": 1994.1,
+   "generated": 2,
+   "gen_ms": 69,
+   "decode_tok_s": 28.8,
+   "drafts_accepted": 0,
+   "drafts_total": 5,
+   "target": 16000,
+   "wall_s": 12.4
+  },
+  {
+   "prompt_tokens": 72503,
+   "reused": 0,
+   "read_tokens": 72503,
+   "read_ms": 23292,
+   "prefill_tok_s": 3112.8,
+   "generated": 2,
+   "gen_ms": 71,
+   "decode_tok_s": 28.3,
+   "drafts_accepted": 0,
+   "drafts_total": 5,
+   "target": 60000,
+   "wall_s": 25.1
+  },
+  {
+   "prompt_tokens": 121547,
+   "reused": 0,
+   "read_tokens": 121547,
+   "read_ms": 41539,
+   "prefill_tok_s": 2926.1,
+   "generated": 2,
+   "gen_ms": 72,
+   "decode_tok_s": 27.7,
+   "drafts_accepted": 0,
+   "drafts_total": 5,
+   "target": 100000,
+   "wall_s": 44.0
+  }
+ ],
+ "decode": [
+  {
+   "prompt_tokens": 38,
+   "reused": 0,
+   "read_tokens": 38,
+   "read_ms": 1084,
+   "prefill_tok_s": 35.1,
+   "generated": 300,
+   "gen_ms": 4800,
+   "decode_tok_s": 62.5,
+   "drafts_accepted": 157,
+   "drafts_total": 328,
+   "target": 300,
+   "wall_s": 12.8
+  },
+  {
+   "prompt_tokens": 39,
+   "reused": 0,
+   "read_tokens": 39,
+   "read_ms": 1751,
+   "prefill_tok_s": 22.3,
+   "generated": 500,
+   "gen_ms": 8169,
+   "decode_tok_s": 61.2,
+   "drafts_accepted": 249,
+   "drafts_total": 571,
+   "target": 500,
+   "wall_s": 20.3
+  }
+ ]
+}

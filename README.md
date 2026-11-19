@@ -19,5 +19,10 @@ con dirección editorial humana y revisión antes de publicar.
 
 - `experiments/index.jsonl` — registro con ID `EXP-<fecha>-<TIPO>-<nnn>` (CTX, SUITE, BENCH, AGENT, CAL, STAB).
 - `raw/<corrida>/…json` — JSONs originales de cada corrida (saneados).
+- `revistas/` — archivo de números publicados: `numero-N/index.html` es la revista completa
+  (portada, editorial, artículos, laboratorio y comunidad) y `revistas/index.json` el índice del archivo.
+- `raw/x_reactions_*/x_posts.json` — vaciado de posts de X citados en los números, con @handle, fecha y URL
+  de cada status. Los posts citados se reproducen brevemente con atribución; el texto íntegro queda en el JSON.
+  Las cifras de engagement (me gusta, retweets) no están: el buscador usado no las devuelve.
 
 Licencia: CC BY 4.0 — cita "La Gaceta del LLM" si reutilizas los datos.

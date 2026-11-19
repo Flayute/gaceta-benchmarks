@@ -1,0 +1,108 @@
+{
+ "fecha": "2026-11-19",
+ "tag": "concurrencia",
+ "modelo": "Gyro-M TQ2_0 (preset Gyro-M Conc MTP, --parallel 2, MTP --spec 4)",
+ "motor": "Strata 0.1.62-hip-rx7900 (engine 0.2.16)",
+ "hw": "XT",
+ "arms": {
+  "seq-16k": {
+   "n": 2,
+   "wall_total_s": 18.3,
+   "read_tok_s": 1577.5,
+   "gen_tok_s": 2.4,
+   "per_request": [
+    {
+     "wall_s": 9.94,
+     "prompt_tokens": 14431,
+     "completion_tokens": 28,
+     "cached": 0
+    },
+    {
+     "wall_s": 8.38,
+     "prompt_tokens": 14438,
+     "completion_tokens": 16,
+     "cached": 0
+    }
+   ]
+  },
+  "conc2-16k": {
+   "n": 2,
+   "wall_total_s": 17.8,
+   "read_tok_s": 1617.0,
+   "gen_tok_s": 4.9,
+   "per_request": [
+    {
+     "wall_s": 13.28,
+     "prompt_tokens": 14355,
+     "completion_tokens": 36,
+     "cached": 0
+    },
+    {
+     "wall_s": 17.81,
+     "prompt_tokens": 14428,
+     "completion_tokens": 52,
+     "cached": 0
+    }
+   ]
+  },
+  "conc3-4k": {
+   "n": 3,
+   "wall_total_s": 10.5,
+   "read_tok_s": 1042.6,
+   "gen_tok_s": 15.2,
+   "per_request": [
+    {
+     "wall_s": 9.83,
+     "prompt_tokens": 3643,
+     "completion_tokens": 57,
+     "cached": 0
+    },
+    {
+     "wall_s": 10.49,
+     "prompt_tokens": 3661,
+     "completion_tokens": 57,
+     "cached": 0
+    },
+    {
+     "wall_s": 6.73,
+     "prompt_tokens": 3643,
+     "completion_tokens": 46,
+     "cached": 0
+    }
+   ]
+  },
+  "conc4-4k": {
+   "n": 4,
+   "wall_total_s": 13.3,
+   "read_tok_s": 1095.5,
+   "gen_tok_s": 12.8,
+   "per_request": [
+    {
+     "wall_s": 9.05,
+     "prompt_tokens": 3640,
+     "completion_tokens": 41,
+     "cached": 0
+    },
+    {
+     "wall_s": 6.27,
+     "prompt_tokens": 3651,
+     "completion_tokens": 34,
+     "cached": 0
+    },
+    {
+     "wall_s": 13.08,
+     "prompt_tokens": 3653,
+     "completion_tokens": 40,
+     "cached": 0
+    },
+    {
+     "wall_s": 13.28,
+     "prompt_tokens": 3626,
+     "completion_tokens": 55,
+     "cached": 0
+    }
+   ]
+  }
+ },
+ "fuente_vault": "~/Documentos/harnesses/strata/benchmarks/2026-11-19-route-tail-skip-rt7/conc-arm.jsonl"
+}

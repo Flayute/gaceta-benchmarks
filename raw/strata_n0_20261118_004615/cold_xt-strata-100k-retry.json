@@ -1,0 +1,13 @@
+{
+ "tag": "xt-strata-100k-retry",
+ "fecha": "2026-11-18T00:46:27+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold": [
+  {
+   "target": 100000,
+   "error": "HTTP 400: {\"error\": {\"type\": \"invalid_request_error\", \"message\": \"request exceeds the context window: prompt (278842 tokens) leaves no room to answer in the context (262144); requests are never truncated\"}}"
+  }
+ ],
+ "decode": []
+}

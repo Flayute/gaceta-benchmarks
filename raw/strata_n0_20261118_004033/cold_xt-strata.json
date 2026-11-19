@@ -1,0 +1,70 @@
+{
+ "tag": "xt-strata",
+ "fecha": "2026-11-18T00:43:02+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold": [
+  {
+   "prompt_tokens": 42869,
+   "reused": 0,
+   "read_tokens": 42869,
+   "read_ms": 19059,
+   "prefill_tok_s": 2249.3,
+   "generated": 2,
+   "gen_ms": 72,
+   "decode_tok_s": 27.7,
+   "drafts_accepted": 0,
+   "drafts_total": 4,
+   "target": 16000,
+   "wall_s": 58.0
+  },
+  {
+   "prompt_tokens": 163609,
+   "reused": 0,
+   "read_tokens": 163609,
+   "read_ms": 71466,
+   "prefill_tok_s": 2289.3,
+   "generated": 2,
+   "gen_ms": 65,
+   "decode_tok_s": 30.6,
+   "drafts_accepted": 0,
+   "drafts_total": 4,
+   "target": 60000,
+   "wall_s": 77.7
+  },
+  {
+   "target": 100000,
+   "error": "HTTP Error 400: Bad Request"
+  }
+ ],
+ "decode": [
+  {
+   "prompt_tokens": 38,
+   "reused": 0,
+   "read_tokens": 38,
+   "read_ms": 694,
+   "prefill_tok_s": 54.8,
+   "generated": 300,
+   "gen_ms": 4908,
+   "decode_tok_s": 61.1,
+   "drafts_accepted": 114,
+   "drafts_total": 179,
+   "target": 300,
+   "wall_s": 5.6
+  },
+  {
+   "prompt_tokens": 39,
+   "reused": 0,
+   "read_tokens": 39,
+   "read_ms": 274,
+   "prefill_tok_s": 142.4,
+   "generated": 500,
+   "gen_ms": 7380,
+   "decode_tok_s": 67.8,
+   "drafts_accepted": 210,
+   "drafts_total": 320,
+   "target": 500,
+   "wall_s": 7.7
+  }
+ ]
+}

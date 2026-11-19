@@ -1,0 +1,90 @@
+{
+ "fecha": "2026-11-19",
+ "tag": "iq2_xs-ctrl",
+ "modelo": "QFN×GSQ IQ2_XS",
+ "bpw": "2.5",
+ "motor": "Strata 0.1.62-hip-rx7900 (engine 0.2.16)",
+ "hw": "XT (RX 7900 XT 20 GB)",
+ "config": "set PF (HIPBLASLT_TABLE, WMMA, PF_FUSED/GEMM, HC_UPMIX, PA_FAST, GDN_CHUNKED) + dflash2; prompts unicos reused 0; ctx 262K",
+ "fuente_vault": "~/Documentos/harnesses/strata/benchmarks/2026-11-19-route-tail-skip-rt7/arm-iq2_xs-ctrl.jsonl",
+ "fuente_engine_log": "~/.local/state/strata/launch/iq2_xs-gsq-256k.engine.log",
+ "prefill_cold_ms": {
+  "115773": {
+   "tok_s": 2551.1,
+   "ms": 45381
+  },
+  "4469": {
+   "tok_s": 1460.8,
+   "ms": 3059
+  },
+  "18056": {
+   "tok_s": 2247.1,
+   "ms": 8035
+  },
+  "35780": {
+   "tok_s": 2450.1,
+   "ms": 14604
+  },
+  "4623": {
+   "tok_s": 1054.3,
+   "ms": 4385
+  },
+  "18454": {
+   "tok_s": 2214.4,
+   "ms": 8334
+  },
+  "36223": {
+   "tok_s": 2515.4,
+   "ms": 14401
+  }
+ },
+ "prefill_110k_ms": {
+  "tok_s": 2668.7,
+  "ms": 40959,
+  "read": 109307
+ },
+ "prefill_cold_harness_s": {
+  "4469": 1488.0,
+  "18056": 2256.875,
+  "35780": 2555.3571428571427,
+  "4623": 1154.5,
+  "18454": 2306.125,
+  "36223": 2587.0,
+  "109307": 2665.9024390243903
+ },
+ "decode": {
+  "story": {
+   "gen": 256,
+   "ms": 3607,
+   "tok_s": 71.0,
+   "drafts": "113/173",
+   "aceptacion_pct": 65.3
+  },
+  "code": {
+   "gen": 167,
+   "ms": 1804,
+   "tok_s": 92.6,
+   "drafts": "121/134",
+   "aceptacion_pct": 90.3
+  }
+ },
+ "decode_110k_harness": {
+  "gen": 16,
+  "sec": 41,
+  "tps": 77.4,
+  "stop": "length",
+  "expert_hit": 97.9
+ },
+ "expert_hit_pct": {
+  "min": 78.0,
+  "max": 98.9
+ },
+ "gate": {
+  "ok": 6,
+  "total": 7,
+  "fails": [
+   "sumary"
+  ]
+ },
+ "validacion": "story del harness coincide con la ventana del engine (±15 %)"
+}

@@ -1,0 +1,23 @@
+[
+ {
+  "label": "tq2_xt",
+  "device": "ROCm0",
+  "ngl": 12,
+  "pp512": null,
+  "tg128": null
+ },
+ {
+  "label": "tq2_gre",
+  "device": "ROCm1",
+  "ngl": 8,
+  "pp512": null,
+  "tg128": null
+ },
+ {
+  "label": "tq2_dual",
+  "device": "ROCm0,ROCm1",
+  "ngl": 16,
+  "pp512": null,
+  "tg128": null
+ }
+]

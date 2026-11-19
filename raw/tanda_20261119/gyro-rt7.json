@@ -1,0 +1,116 @@
+{
+ "fecha": "2026-11-19",
+ "tag": "gyro-rt7",
+ "modelo": "Gyro-M TQ2_0 + route-tail-skip 7",
+ "bpw": "2.0",
+ "motor": "Strata 0.1.62-hip-rx7900 (engine 0.2.16)",
+ "hw": "XT (RX 7900 XT 20 GB)",
+ "config": "set PF (HIPBLASLT_TABLE, WMMA, PF_FUSED/GEMM, HC_UPMIX, PA_FAST, GDN_CHUNKED) + dflash2; prompts unicos reused 0; ctx 262K",
+ "fuente_vault": "~/Documentos/harnesses/strata/benchmarks/2026-11-19-route-tail-skip-rt7/arm-gyro-rt7.jsonl",
+ "fuente_engine_log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold_ms": {
+  "103001": {
+   "tok_s": 2775.9,
+   "ms": 37105
+  },
+  "8062": {
+   "tok_s": 1475.9,
+   "ms": 5462
+  },
+  "137739": {
+   "tok_s": 2667.1,
+   "ms": 51643
+  },
+  "29725": {
+   "tok_s": 2694.1,
+   "ms": 11033
+  },
+  "14585": {
+   "tok_s": 2191.9,
+   "ms": 6654
+  },
+  "83040": {
+   "tok_s": 2625.7,
+   "ms": 31626
+  },
+  "106045": {
+   "tok_s": 2676.3,
+   "ms": 39623
+  },
+  "4469": {
+   "tok_s": 1622.5,
+   "ms": 2754
+  },
+  "18056": {
+   "tok_s": 2063.2,
+   "ms": 8752
+  },
+  "35780": {
+   "tok_s": 2722.8,
+   "ms": 13141
+  },
+  "4623": {
+   "tok_s": 2019.5,
+   "ms": 2289
+  },
+  "18454": {
+   "tok_s": 2575.6,
+   "ms": 7165
+  },
+  "36223": {
+   "tok_s": 2738.7,
+   "ms": 13226
+  }
+ },
+ "prefill_110k_ms": {
+  "tok_s": 2763.1,
+  "ms": 39560,
+  "read": 109307
+ },
+ "prefill_cold_harness_s": {
+  "4469": 1488.0,
+  "18056": 2005.6666666666667,
+  "35780": 2751.923076923077,
+  "4623": 2309.0,
+  "18454": 2635.5714285714284,
+  "36223": 2786.0,
+  "91": 116088.0,
+  "85": 116356.0,
+  "109307": 2802.6153846153848
+ },
+ "decode": {
+  "story": {
+   "gen": 256,
+   "ms": 4149,
+   "tok_s": 61.7,
+   "drafts": "113/154",
+   "aceptacion_pct": 73.4
+  },
+  "code": {
+   "gen": 173,
+   "ms": 1807,
+   "tok_s": 95.7,
+   "drafts": "131/146",
+   "aceptacion_pct": 89.7
+  }
+ },
+ "decode_110k_harness": {
+  "gen": 16,
+  "sec": 40,
+  "tps": 76.3,
+  "stop": "length",
+  "expert_hit": 94.3
+ },
+ "expert_hit_pct": {
+  "min": 74.0,
+  "max": 94.3
+ },
+ "gate": {
+  "ok": 6,
+  "total": 7,
+  "fails": [
+   "sumary"
+  ]
+ },
+ "validacion": "story del harness coincide con la ventana del engine (±15 %)"
+}

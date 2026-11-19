@@ -1,0 +1,13 @@
+{
+ "tag": "xt-strata-100k",
+ "fecha": "2026-11-18T00:44:42+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold": [
+  {
+   "target": 100000,
+   "error": "HTTP Error 400: Bad Request"
+  }
+ ],
+ "decode": []
+}

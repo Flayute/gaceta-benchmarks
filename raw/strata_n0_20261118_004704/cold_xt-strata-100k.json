@@ -1,0 +1,23 @@
+{
+ "tag": "xt-strata-100k",
+ "fecha": "2026-11-18T00:47:57+0100",
+ "port": 8080,
+ "log": "~/.local/state/strata/launch/gyro-m-256k.engine.log",
+ "prefill_cold": [
+  {
+   "prompt_tokens": 121097,
+   "reused": 0,
+   "read_tokens": 121097,
+   "read_ms": 51646,
+   "prefill_tok_s": 2344.8,
+   "generated": 2,
+   "gen_ms": 65,
+   "decode_tok_s": 30.6,
+   "drafts_accepted": 0,
+   "drafts_total": 4,
+   "target": 100000,
+   "wall_s": 51.8
+  }
+ ],
+ "decode": []
+}
