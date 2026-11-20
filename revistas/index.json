@@ -1,11 +1,31 @@
 {
  "numeros": [
   {
+   "numero": "piloto",
+   "fecha": "2026-11-16",
+   "titular": "La Gaceta del LLM Local",
+   "articulos": [
+    "LFM3: un modelo de 1 GB que quiere ser agente",
+    "Crónica técnica: MiniMax-H3-Image-PE llega con 25,5 GB y exige memoria de GPU superior a 24 GB",
+    "Motor del mes: Strata, el motor que llena la GPU a propósito",
+    "Arete-27B: el 'occidental alineado' de NousResearch que corre a 31 tok/s en una GPU de 16 GB (con bug de servidor)",
+    "NVIDIA Nemotron 3.5 Bolt E4B baja al terreno del escritorio: 5,76 GB y una GPU modesta",
+    "La Gaceta Técnica presenta el modelo Flint: una máquina de 37 gigabytes para equipos de sobremesa exigentes",
+    "Un modelo local de 8 GB en la mesa de trabajo",
+    "Un modelo de ocho mil millones de parámetros, ajustado para equipos de 8 a 16 GB",
+    "Un modelo de 4,23 GB para equipos modestos: DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic gana visibilidad en Hugging Face",
+    "Modelo de la semana: el DeepSeek-V4-Pro 9B que escribe a 79 tok/s en una GPU de 16 GB"
+   ],
+   "posts_x": 0,
+   "coste_x": 0,
+   "html": "/revistas/numero-piloto/"
+  },
+  {
    "numero": "0",
    "fecha": "2026-11-19",
    "titular": "La Gaceta del LLM Local",
    "articulos": [
-    "Edición 0: Strata, el motor que escribe este periódico",
+    "Strata, el motor que escribe este periódico: hype cuantificado y realidad medida",
     "El peso manda: cinco cuantías del mismo modelo, 2.777 y 1.480 tok/s en la misma tarjeta"
    ],
    "posts_x": 100,
